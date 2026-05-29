@@ -1,0 +1,1013 @@
+% 337 statements from problem_set.pdf  (ocr=text)
+
+% ===== #1  (page 1) =====
+If with is such that the subset sums are distinct for all then - $500 𝐴⊆{1, … , 𝑁} |𝐴| = 𝑛 ∑𝑎∈𝑆𝑎 𝑆⊆𝐴 𝑁≫2𝑛.
+
+% ===== #3  (page 3) =====
+If has then must contain arbitrarily long arithmetic progressions? - $5000 𝐴⊆ℕ ∑𝑛∈𝐴 1 𝑛= ∞ 𝐴
+
+% ===== #5  (page 5) =====
+Let . Is there an infinite sequence of such that 𝐶≥0 𝑛𝑖 lim 𝑖→∞ 𝑝𝑛𝑖+1 −𝑝𝑛𝑖 log 𝑛𝑖 = 𝐶?
+
+% ===== #7  (page 6) =====
+Is there a distinct covering system all of whose moduli are odd? - $25 VERIFIABLE
+
+% ===== #9  (page 7) =====
+Let be the set of all odd integers not of the form (where and is prime). Is the upper density of positive? 𝐴 ≥1 𝑝+ 2𝑘+ 2𝑙 𝑘, 𝑙≥0 𝑝 𝐴
+
+% ===== #10  (page 9) =====
+Is there some  such that every large integer is the sum of a prime and at most  powers of 2? 𝑘 𝑘
+
+% ===== #11  (page 10) =====
+Is every large odd integer  the sum of a squarefree number and a power of 2? 𝑛
+
+% ===== #12  (page 11) =====
+number theory Let be an infinite set such that there are no distinct such that and . Is there such an with Does there exist some absolute constant such that there are always infinitely many with Is it true that 𝐴 𝑎, 𝑏, 𝑐∈𝐴 𝑎∣(𝑏+ 𝑐) 𝑏, 𝑐> 𝑎 𝐴 lim inf |𝐴∩{1, … , 𝑁}| 𝑁1/2 > 0? 𝑐> 0 𝑁 |𝐴∩{1, … , 𝑁}| < 𝑁1−𝑐? ∑ 𝑛∈𝐴 1 𝑛< ∞?
+
+% ===== #14  (page 13) =====
+Let . Let be the set of integers which are representable in exactly one way as the sum of two elements from . Is it true that for all and large Is it possible that 𝐴⊆ℕ 𝐵⊆ℕ 𝐴 𝜖> 0 𝑁 |{1, … , 𝑁}\𝐵| ≫𝜖𝑁1/2−𝜖? |{1, … , 𝑁}\𝐵| = 𝑜(𝑁1/2)?
+
+% ===== #15  (page 15) =====
+converges, where is the sequence of primes? ∞ ∑ 𝑛=1 (−1)𝑛𝑛 𝑝𝑛 𝑝𝑛
+
+% ===== #17  (page 16) =====
+Are there infinitely many primes  such that every even number can be written as a difference of primes where ? 𝑝 𝑛≤𝑝−3 𝑛= 𝑞1 −𝑞2 𝑞1, 𝑞2 ≤𝑝
+
+% ===== #18  (page 18) =====
+We call practical if every integer is the sum of distinct divisors of . If is practical then let be such that many divisors always suffice. Are there infinitely many practical such that Is it true that ? Or perhaps even ? - $250 𝑚 1 ≤𝑛< 𝑚 𝑚 𝑚 ℎ(𝑚) ℎ(𝑚) 𝑚 ℎ(𝑚) < (log log 𝑚)𝑂(1)? ℎ(𝑛!) < 𝑛𝑜(1) ℎ(𝑛!) < (log 𝑛)𝑂(1)
+
+% ===== #25  (page 19) =====
+number theory Let be an arbitrary sequence of integers, each with an associated residue class . Let be the set of integers  such that for every  either or . Must the logarithmic density of exist? 1 ≤𝑛1 < 𝑛2 < ⋯ 𝑎𝑖(mod 𝑛𝑖) 𝐴 𝑛 𝑖 𝑛 < 𝑛𝑖 𝑛≢ 𝑎𝑖(mod 𝑛𝑖) 𝐴
+
+% ===== #28  (page 20) =====
+If is such that contains all but finitely many integers then . - $500 𝐴⊆ℕ 𝐴+ 𝐴 lim sup 1𝐴 ∗1𝐴(𝑛) = ∞
+
+% ===== #30  (page 21) =====
+Let be the maximum size of a Sidon set in . Is it true that, for every , - $1000 ℎ(𝑁) {1, … , 𝑁} 𝜖 > 0 ℎ(𝑁) = 𝑁1/2 + 𝑂𝜖(𝑁𝜖)?
+
+% ===== #32  (page 23) =====
+Is there a set such that and such that every large integer can be written as for some prime  and ? Can the bound be achieved? Must such an satisfy $ 𝐴⊂ℕ |𝐴∩{1, … , 𝑁}| = 𝑜((log 𝑁)2) 𝑝+ 𝑎 𝑝 𝑎∈𝐴 𝑂(log 𝑁) 𝐴 lim inf |𝐴∩{1, … , 𝑁}| log 𝑁 > 1?
+
+% ===== #33  (page 24) =====
+Let be such that every large integer can be written as for some and . What is the smallest possible value of Is 𝐴⊂ℕ 𝑛2 + 𝑎 𝑎∈𝐴 𝑛≥0 lim sup |𝐴∩{1, … , 𝑁}| 𝑁1/2 ? lim inf |𝐴∩{1, … , 𝑁}| 𝑁1/2 > 1?
+
+% ===== #36  (page 26) =====
+Find the optimal constant such that the following holds. For all sufficiently large , if is a partition into two equal parts, so that , then there is some  such that the number of solutions to with and is at least . 𝑐> 0 𝑁 𝐴⊔𝐵= {1, … , 2𝑁} |𝐴| = |𝐵| = 𝑁 𝑥 𝑎−𝑏 = 𝑥 𝑎∈𝐴 𝑏∈𝐵 𝑐𝑁
+
+% ===== #39  (page 27) =====
+Is there an infinite Sidon set such that for all ? - $500 𝐴⊂ℕ |𝐴∩{1 … , 𝑁}| ≫𝜖𝑁1/2−𝜖 𝜖> 0
+
+% ===== #40  (page 28) =====
+For what functions is it true that implies ? - $500 𝑔(𝑁) →∞ |𝐴∩{1, … , 𝑁}| ≫𝑁1/2 𝑔(𝑁) lim sup 1𝐴∗1𝐴(𝑛) = ∞
+
+% ===== #41  (page 29) =====
+Let be an infinite set such that the triple sums are all distinct for (aside from the trivial coincidences). Is it true that - $500 𝐴⊂ℕ 𝑎+ 𝑏+ 𝑐 𝑎, 𝑏, 𝑐 ∈𝐴 lim inf |𝐴∩{1, … , 𝑁}| 𝑁1/3 = 0?
+
+% ===== #44  (page 31) =====
+, y , and (which may depend on ) such that is a Sidon set of size at least ? ≥ ⊂{ , , } > 𝑀 𝐵⊂{𝑁+ 1, … , 𝑀} 𝑁, 𝐴, 𝜖 𝐴∪𝐵 ⊂{1, … , 𝑀} (1 −𝜖)𝑀1/2
+
+% ===== #50  (page 32) =====
+number theory Schoenberg proved that for every the density of exists. Let this density be denoted by . Is it true that there are no  such that exists and is positive? $ 𝑐∈[0, 1] {𝑛∈ℕ: 𝜙(𝑛) < 𝑐𝑛} 𝑓(𝑐) 𝑥 𝑓′(𝑥)
+
+% ===== #51  (page 33) =====
+number theory Is there an infinite set such that for every there is an integer  such that , and yet if is the smallest such integer then as ? 𝐴⊂ℕ 𝑎∈𝐴 𝑛 𝜙(𝑛) = 𝑎 𝑛𝑎 𝑛𝑎/𝑎→∞ 𝑎→∞
+
+% ===== #52  (page 34) =====
+Let be a finite set of integers. Is it true that for every - $250 𝐴 𝜖> 0 max(|𝐴+ 𝐴|, |𝐴𝐴|) ≫𝜖|𝐴|2−𝜖?
+
+% ===== #66  (page 36) =====
+Is there such that exists and is ? - $500 𝐴⊆ℕ lim 𝑛→∞ 1𝐴∗1𝐴(𝑛) log 𝑛 ≠0
+
+% ===== #68  (page 37) =====
+Is irrational? ∑ 𝑛≥2 1 𝑛! −1
+
+% ===== #122  (page 38) =====
+number theory For which number theoretic functions  is it true that, for any such that for almost all , there are infinitely many  such that 𝑓 𝐹(𝑛) 𝐹(𝑛)/𝑓(𝑛) →0 𝑛 𝑥 #{𝑛∈ℕ: 𝑛+ 𝑓(𝑛) ∈(𝑥, 𝑥+ 𝐹(𝑥))} 𝐹(𝑥) →∞?
+
+% ===== #123  (page 40) =====
+number theory Let be three integers which are pairwise coprime. Is every large integer the sum of distinct integers of the form ( ), none of which divide any other? - $250 𝑎, 𝑏, 𝑐≥1 𝑎𝑘𝑏𝑙𝑐𝑚𝑘, 𝑙, 𝑚≥0
+
+% ===== #124  (page 41) =====
+For any and let be the set of integers which are the sum of distinct powers with . Let be integers such that Can all sufficiently large integers be written as a sum of the shape where and ? If we further have then, for any , can all sufficiently large integers be written as a sum of the shape where and ? 𝑑≥1 𝑘≥0 𝑃(𝑑, 𝑘) 𝑑𝑖 𝑖≥𝑘 3 ≤𝑑1 < 𝑑2 < ⋯< 𝑑𝑟 ∑ 1≤𝑖≤𝑟 1 𝑑𝑟−1 ≥1. ∑𝑖𝑐𝑖𝑎𝑖 𝑐𝑖 ∈{0, 1} 𝑎𝑖∈𝑃(𝑑𝑖, 0) gcd(𝑑1, … , 𝑑𝑟) = 1 𝑘≥1 ∑𝑖𝑐𝑖𝑎𝑖 𝑐𝑖∈{0, 1} 𝑎𝑖∈𝑃(𝑑𝑖, 𝑘)
+
+% ===== #126  (page 43) =====
+number theory distinct prime factors. Is it true that ? 𝑓( ) ⊆ | | ∏𝑎≠𝑏∈𝐴( + ) 𝑓(𝑛) 𝑓(𝑛)/ log 𝑛→∞
+
+% ===== #131  (page 44) =====
+number theory Let be the maximal size of such that no divides the sum of any distinct elements of . Estimate . In particular, is it true that 𝐹(𝑁) 𝐴⊆{1, … , 𝑁} 𝑎∈𝐴 𝐴\{𝑎} 𝐹(𝑁) 𝐹(𝑁) > 𝑁1/2−𝑜(1)?
+
+% ===== #137  (page 45) =====
+We say that is powerful if whenever we also have . Let . Can the product of any  consecutive positive integers ever be powerful? 𝑁 𝑝∣𝑁 𝑝2 ∣𝑁 𝑘≥3 𝑘
+
+% ===== #145  (page 46) =====
+number theory Let be the sequence of squarefree numbers. Is it true that, for any , exists? 𝑠1 < 𝑠2 < ⋯ 𝛼≥0 lim 𝑥→∞ 1 𝑥∑ 𝑠𝑛≤𝑥 (𝑠𝑛+1 −𝑠𝑛)𝛼
+
+% ===== #148  (page 48) =====
+where are distinct integers. Find good estimates for . 1 = 1 𝑛1 + ⋯+ 1 𝑛𝑘 , 1 ≤𝑛1 < ⋯< 𝑛𝑘 𝐹(𝑘)
+
+% ===== #208  (page 49) =====
+number theory Let be the sequence of squarefree numbers. Is it true that, for any and large , Is it true that 𝑠1 < 𝑠2 < ⋯ 𝜖> 0 𝑛 𝑠𝑛+1 −𝑠𝑛≪𝜖𝑠𝜖 𝑛? 𝑠𝑛+1 −𝑠𝑛≤(1 + 𝑜(1)) 𝜋2 6 log 𝑠𝑛 log log 𝑠𝑛?
+
+% ===== #218  (page 50) =====
+Let . The set of  such that has density , and similarly for . Furthermore, there are infinitely many  such that . 𝑑𝑛= 𝑝𝑛+1 −𝑝𝑛 𝑛 𝑑𝑛+1 ≥𝑑𝑛 𝑑𝑛+1 ≤𝑑𝑛 𝑛 𝑑𝑛+1 = 𝑑𝑛
+
+% ===== #222  (page 51) =====
+Let be the sequence of integers which are the sum of two squares. Explore the behaviour of (i.e. find good upper and lower bounds for) the consecutive differences . 𝑛1 < 𝑛2 < ⋯ 𝑛𝑘+1 −𝑛𝑘
+
+% ===== #233  (page 52-53) =====
+Let , where is the th prime. Prove that 𝑑𝑛= 𝑝𝑛+1 −𝑝𝑛 𝑝𝑛 𝑛 ∑ 1≤𝑛≤𝑁 𝑑𝑛≪𝑁(log 𝑁) .
+
+% ===== #234  (page 54) =====
+For every the density of integers for which exists and is a continuous function of . 𝑐≥0 𝑓(𝑐) 𝑝𝑛+1 −𝑝𝑛 log 𝑛 < 𝑐 𝑐
+
+% ===== #236  (page 55) =====
+Let count the number of solutions to for prime  and . Is it true that ? 𝑓(𝑛) 𝑛= 𝑝+ 2𝑘 𝑝 𝑘≥0 𝑓(𝑛) = 𝑜(log 𝑛)
+
+% ===== #238  (page 56) =====
+Let . Is it true that, for any sufficiently large , there exist more than many consecutive primes such that the difference between any two is ? 𝑐1, 𝑐2 > 0 𝑥 𝑐1 log 𝑥 ≤𝑥 > 𝑐2
+
+% ===== #242  (page 57) =====
+For every there exist distinct integers such that FALSIFIABLE 𝑛> 2 1 ≤𝑥< 𝑦< 𝑧 4 𝑛= 1 𝑥+ 1 𝑦+ 1 𝑧.
+
+% ===== #243  (page 59) =====
+Let be a sequence of integers such that and . Then, for all sufficiently large , 1 ≤𝑎1 < 𝑎2 < ⋯ lim 𝑛→∞ 𝑎𝑛 𝑎2 𝑛−1 = 1 ∑ 1 𝑎𝑛∈ℚ 𝑛≥1 𝑎𝑛= 𝑎2 𝑛−1 −𝑎𝑛−1 + 1.
+
+% ===== #244  (page 61) =====
+Let . Does the set of integers of the form , for some prime  and , have density ? 𝐶> 1 𝑝+ ⌊𝐶𝑘⌋ 𝑝 𝑘≥0 > 0
+
+% ===== #247  (page 62) =====
+Let be a sequence of integers such that Is transcendental? 1 ≤𝑎1 < 𝑎2 < ⋯ lim sup 𝑎𝑛 𝑛= ∞. ∞ ∑ 𝑛=1 1 2𝑎𝑛
+
+% ===== #249  (page 63) =====
+Is irrational? Here  is the Euler totient function. ∑ 𝑛 𝜙(𝑛) 2𝑛 𝜙
+
+% ===== #251  (page 64) =====
+Is irrational? (Here is the th prime.) ∑𝑝𝑛 2𝑛 𝑝𝑛 𝑛
+
+% ===== #252  (page 65) =====
+Let and . Is irrational? 𝑘≥1 𝜎𝑘(𝑛) = ∑𝑑∣𝑛𝑑𝑘 ∑𝜎𝑘(𝑛) 𝑛!
+
+% ===== #254  (page 66-67) =====
+Let be such that and 𝐴⊆ℕ |𝐴∩[1, 2𝑥]| −|𝐴∩[1, 𝑥]| →∞as 𝑥→∞ ∑ 𝑛∈𝐴 {𝜃𝑛} = ∞ number theory y , g y sufficiently large integer is the sum of distinct elements of . ∈( , ) { } 𝐴
+
+% ===== #261  (page 68) =====
+number theory Are there infinitely many  such that there exists some and distinct integers such that Is this true for all ? Is there a rational  such that has at least solutions? 𝑛 𝑡≥2 𝑎1, … , 𝑎𝑡≥1 𝑛 2𝑛= ∑ 1≤𝑘≤𝑡 𝑎𝑘 2𝑎𝑘? 𝑛 𝑥 𝑥= ∞ ∑ 𝑘=1 𝑎𝑘 2𝑎𝑘 2ℵ0
+
+% ===== #273  (page 69) =====
+Is there a covering system all of whose moduli are of the form for some primes ? 𝑝−1 𝑝 ≥5
+
+% ===== #276  (page 70) =====
+Is there an infinite Lucas sequence where for such that all are composite, and yet no integer has a common factor with every term of the sequence? 𝑎0, 𝑎1, … 𝑎𝑛+2 = 𝑎𝑛+1 + 𝑎𝑛 𝑛≥0 𝑎𝑘
+
+% ===== #278  (page 71) =====
+Let be a finite set of positive integers. What is the maximum density of integers covered by a suitable choice of congruences ? Is the minimum density achieved when all the are equal? 𝐴= {𝑛1 < ⋯< 𝑛𝑟} 𝑎𝑖(mod 𝑛𝑖) 𝑎𝑖
+
+% ===== #279  (page 72) =====
+Let . Is there a choice of congruence classes for every prime  such that all sufficiently large integers can be written as for some prime  and integer ? 𝑘≥3 𝑎𝑝(mod 𝑝) 𝑝 𝑎𝑝+ 𝑡𝑝 𝑝 𝑡 ≥𝑘
+
+% ===== #282  (page 74) =====
+Let be an infinite set and consider the following greedy algorithm for a rational : choose the minimal such that and repeat with  replaced by . If this terminates after finitely many steps then this produces a representation of as the sum of distinct unit fractions with denominators from . Does this process always terminate if  has odd denominator and is the set of odd numbers? More generally, for which pairs  and does this process terminate? 𝐴⊆ℕ 𝑥 ∈(0, 1) 𝑛∈𝐴 𝑛≥1/𝑥 𝑥 𝑥 −1 𝑛 𝑥 𝐴 𝑥 𝐴 𝑥 𝐴
+
+% ===== #287  (page 75) =====
+Let . Is it true that, for any distinct integers such that we must have ? FALSIFIABLE 𝑘≥2 1 < 𝑛1 < ⋯< 𝑛𝑘 1 = 1 𝑛1 + ⋯+ 1 𝑛𝑘 max(𝑛𝑖+1 −𝑛𝑖) ≥3
+
+% ===== #288  (page 76) =====
+Is it true that there are only finitely many pairs of intervals such that 𝐼1, 𝐼2 ∑ 𝑛1∈𝐼1 1 𝑛1 + ∑ 𝑛2∈𝐼2 1 𝑛2 ∈ℕ?
+
+% ===== #289  (page 77-78) =====
+Is it true that, for all sufficiently large , there exist finite intervals , distinct, not overlapping or adjacent, with for such that 𝑘 𝐼1, … , 𝐼𝑘⊂ℕ |𝐼𝑖| ≥2 1 ≤𝑖≤𝑘 1 = ∑ 𝑖=1 ∑ 𝑛∈𝐼𝑖 1 𝑛?
+
+% ===== #291  (page 79) =====
+Let and define to be the least common multiple of and by Is it true that and both occur for infinitely many ? 𝑛≥1 𝐿𝑛 {1, … , 𝑛} 𝑎𝑛 ∑ 1≤𝑘≤𝑛 1 𝑘= 𝑎𝑛 𝐿𝑛. (𝑎𝑛, 𝐿𝑛) = 1 (𝑎𝑛, 𝐿𝑛) > 1 𝑛
+
+% ===== #293  (page 80) =====
+Let and let be the minimal integer which does not appear as some in a solution to with . Estimate the growth of . 𝑘≥1 𝑣(𝑘) 𝑛𝑖 1 = 1 𝑛1 + ⋯+ 1 𝑛𝑘 1 ≤𝑛1 < ⋯< 𝑛𝑘 𝑣(𝑘)
+
+% ===== #295  (page 82) =====
+Let and let denote the smallest  such that there exist with Is it true that 𝑁≥1 𝑘(𝑁) 𝑘 𝑁≤𝑛1 < ⋯< 𝑛𝑘 1 = 1 𝑛1 + ⋯+ 1 𝑛𝑘. lim 𝑁→∞𝑘(𝑁) −(𝑒−1)𝑁= ∞?
+
+% ===== #301  (page 83) =====
+Let be the size of the largest such that there are no solutions to with distinct ? Estimate . In particular, is it true that ? 𝑓(𝑁) 𝐴⊆{1, … , 𝑁} 1 𝑎= 1 𝑏1 + ⋯+ 1 𝑏𝑘 𝑎, 𝑏1, … , 𝑏𝑘∈𝐴 𝑓(𝑁) 𝑓(𝑁) = ( 1 2 + 𝑜(1))𝑁
+
+% ===== seq64  (page 84) =====
+Let be the size of the largest such that there are no solutions to with distinct ? Estimate . In particular, is ? 𝑓(𝑁) 𝐴⊆{1, … , 𝑁} 1 𝑎= 1 𝑏+ 1 𝑐 𝑎, 𝑏, 𝑐∈𝐴 𝑓(𝑁) 𝑓(𝑁) = ( 1 2 + 𝑜(1))𝑁
+
+% ===== #304  (page 86) =====
+For integers let denote the minimal  such that there exist integers with Estimate . Is it true that ? 1 ≤𝑎< 𝑏 𝑁(𝑎, 𝑏) 𝑘 1 < 𝑛1 < ⋯< 𝑛𝑘 𝑎 𝑏= 1 𝑛1 + ⋯+ 1 𝑛𝑘 . 𝑁(𝑏) = max1≤𝑎<𝑏𝑁(𝑎, 𝑏) 𝑁(𝑏) ≪log log 𝑏
+
+% ===== #306  (page 87) =====
+Let with  squarefree. Are there integers , each the product of two distinct primes, such that 𝑎/𝑏∈ℚ>0 𝑏 1 < 𝑛1 < ⋯< 𝑛𝑘 𝑎 𝑏= 1 𝑛1 + ⋯+ 1 𝑛𝑘 ?
+
+% ===== #307  (page 88) =====
+Are there two finite sets of primes such that VERIFIABLE 𝑃, 𝑄 1 = (∑ 𝑝∈𝑃 1 𝑝) (∑ 𝑞∈𝑄 1 𝑞)?
+
+% ===== #311  (page 90) =====
+Let be the minimal non-zero value of as ranges over all subsets of . Is it true that for some constant ? 𝛿(𝑁) |1 −∑𝑛∈𝐴 1 𝑛| 𝐴 {1, … , 𝑁} 𝛿(𝑁) = 𝑒−(𝑐+𝑜(1))𝑁 𝑐∈(0, 1)
+
+% ===== #312  (page 91) =====
+Does there exist some such that, for any , whenever is a sufficiently large finite multiset of positive integers with there exists some such that 𝑐> 0 𝐾> 1 𝐴 ∑𝑛∈𝐴 1 𝑛> 𝐾 𝑆⊆𝐴 1 −𝑒−𝑐𝐾< ∑ 𝑛∈𝑆 1 𝑛≤1?
+
+% ===== #313  (page 92) =====
+Are there infinitely many solutions to where is an integer and are distinct primes? 1 𝑝1 + ⋯+ 1 𝑝𝑘 = 1 −1 𝑚, 𝑚≥2 𝑝1 < ⋯< 𝑝𝑘
+
+% ===== #317  (page 93-94) =====
+Is there some constant such that for every there exists some for with Is it true that for sufficiently large , for any , 𝑐> 0 𝑛≥1 𝛿𝑘 ∈{−1, 0, 1} 1 ≤𝑘≤𝑛 0 < ∣∣∣∣∣∣ ∑ 1≤𝑘≤𝑛 𝛿𝑘 𝑘 ∣∣∣∣∣∣ < 𝑐 2𝑛? 𝑛 𝛿𝑘∈{−1, 0, 1} whenever the left-hand side is not zero? ∣∣∣∣∣ ∑ 1≤𝑘≤𝑛 𝛿𝑘 𝑘 ∣∣∣∣∣ > 1 [1, … , 𝑛]
+
+% ===== #319  (page 95) =====
+What is the size of the largest such that there is a function such that and for all non-empty ? 𝐴⊆{1, … , 𝑁} 𝛿: 𝐴 →{−1, 1} ∑ 𝑛∈𝐴 𝛿𝑛 𝑛= 0 ∑ 𝑛∈𝐴′ 𝛿𝑛 𝑛≠0 𝐴′ ⊊𝐴
+
+% ===== #320  (page 96) =====
+Let count the number of distinct sums of the form for . Estimate . 𝑆(𝑁) ∑𝑛∈𝐴 1 𝑛 𝐴⊆{1, … , 𝑁} 𝑆(𝑁)
+
+% ===== #321  (page 98) =====
+What is the size of the largest such that all sums are distinct for ? 𝐴⊆{1, … , 𝑁} ∑𝑛∈𝑆 1 𝑛 𝑆⊆𝐴
+
+% ===== #322  (page 99) =====
+Let and be the set of th powers. What is the order of growth of , i.e. the number of representations of  as the sum of  many th powers? Does there exist some and infinitely many  such that 𝑘≥3 𝐴⊂ℕ 𝑘 1(𝑘) 𝐴(𝑛) 𝑛 𝑘 𝑘 𝑐> 0 𝑛 1(𝑘) 𝐴(𝑛) > 𝑛𝑐?
+
+% ===== #323  (page 100) =====
+Let and denote the number of integers which are the sum of many nonnegative th powers. Is it true that for all ? Is it true that if then for sufficiently large ? 1 ≤𝑚≤𝑘 𝑓𝑘,𝑚(𝑥) ≤𝑥 𝑚 𝑘 𝑓𝑘,𝑘(𝑥) ≫𝜖𝑥1−𝜖 𝜖> 0 𝑚< 𝑘 𝑓𝑘,𝑚(𝑥) ≫𝑥𝑚/𝑘 𝑥
+
+% ===== #324  (page 102) =====
+Does there exist a polynomial such that all the sums with nonnegative integers are distinct? 𝑓(𝑥) ∈ℤ[𝑥] 𝑓(𝑎) + 𝑓(𝑏) 𝑎 < 𝑏
+
+% ===== #325  (page 103) =====
+Let and denote the number of integers which are the sum of three nonnegative th powers. Is it true that or even ? 𝑘≥3 𝑓𝑘,3(𝑥) ≤𝑥 𝑘 𝑓𝑘,3(𝑥) ≫𝑥3/𝑘 ≫𝜖𝑥3/𝑘−𝜖
+
+% ===== #326  (page 104) =====
+Does there exist which is a minimal basis of order  (i.e. every large integer is the sum of  elements from , and no proper subset of has this property), such that for some ? 𝐴= {𝑎1 < 𝑎2 < ⋯} ⊂ℕ 2 2 𝐴 𝐴 lim 𝑘→∞ 𝑎𝑘 𝑘2 = 𝑐 𝑐≠0
+
+% ===== #327  (page 105) =====
+Suppose is such that if and then . Can be 'substantially more' than the odd numbers? What if with implies ? Must ? 𝐴⊆{1, … , 𝑁} 𝑎, 𝑏∈𝐴 𝑎≠𝑏 𝑎+ 𝑏∤𝑎𝑏 𝐴 𝑎, 𝑏∈𝐴 𝑎≠𝑏 𝑎+ 𝑏∤2𝑎𝑏 |𝐴| = 𝑜(𝑁)
+
+% ===== #329  (page 106) =====
+Suppose is a Sidon set. How large can be? 𝐴⊆ℕ lim sup 𝑁→∞ |𝐴∩{1, … , 𝑁}| 𝑁1/2
+
+% ===== #332  (page 108) =====
+number theory y with . What conditions on are sufficient to ensure has bounded gaps? ⊆ ( ) 1 2 𝑎1, 𝑎2 ∈𝐴 𝐴 𝐷(𝐴)
+
+% ===== #334  (page 109) =====
+number theory Find the best function such that every  can be written as where both are -smooth (that is, are not divisible by any prime .) 𝑓(𝑛) 𝑛 𝑛= 𝑎+ 𝑏 𝑎, 𝑏 𝑓(𝑛) 𝑝> 𝑓(𝑛)
+
+% ===== #335  (page 110) =====
+Let denote the density of . Characterise those with positive density such that 𝑑(𝐴) 𝐴⊆ℕ 𝐴, 𝐵⊆ℕ 𝑑(𝐴+ 𝐵) = 𝑑(𝐴) + 𝑑(𝐵).
+
+% ===== #336  (page 111) =====
+For let be the maximal finite  such that there exists a basis of order (so every large integer is the sum of at most  integers from ) and exact order  (so every large integer is the sum of exactly  integers from ). Find the value of 𝑟≥2 ℎ(𝑟) 𝑘 𝐴⊆ℕ 𝑟 𝑟 𝐴 𝑘 𝑘 𝐴 lim 𝑟 ℎ(𝑟) 𝑟2 .
+
+% ===== #338  (page 113) =====
+g ( ) y g integer is the sum of at most  distinct summands from . What are necessary and sufficient conditions that this exists? Can it be bounded (when it exists) in terms of the order of the basis? What are necessary and sufficient conditions that this is equal to the order of the basis? 𝑡 𝐴
+
+% ===== #340  (page 114) =====
+Let be the greedy Sidon sequence: we begin with  and iteratively include the next smallest integer that preserves the Sidon property (i.e. there are no non-trivial solutions to ). What is the order of growth of ? Is it true that for all and large ? 𝐴= {1, 2, 4, 8, 13, 21, 31, 45, 66, 81, 97, …} 1 𝑎+ 𝑏= 𝑐+ 𝑑 𝐴 |𝐴∩{1, … , 𝑁}| ≫𝑁1/2−𝜖 𝜖> 0 𝑁
+
+% ===== #341  (page 115) =====
+number theory Let be a finite set of positive integers and extend it to an infinite sequence by defining for to be the least integer exceeding which is not of the form with . Is it true that the sequence of differences is eventually periodic? 𝐴= {𝑎1 < ⋯< 𝑎𝑘} ––– 𝐴= {𝑎1 < 𝑎2 < ⋯} 𝑎𝑛+1 𝑛≥𝑘 𝑎𝑛 𝑎𝑖+ 𝑎𝑗 𝑖, 𝑗≤𝑛 𝑎𝑚+1 −𝑎𝑚
+
+% ===== #342  (page 116) =====
+number theory With and let for be the least integer which can be expressed uniquely as for . What can be said about this sequence? Do infinitely many pairs occur? Does this sequence eventually have periodic differences? Is the density ? 𝑎1 = 1 𝑎2 = 2 𝑎𝑛+1 𝑛≥2 > 𝑎𝑛 𝑎𝑖+ 𝑎𝑗 𝑖< 𝑗≤𝑛 𝑎, 𝑎+ 2 0
+
+% ===== #345  (page 118) =====
+(the existence of is guaranteed by completeness). Is it true that there are infinitely many  such that ? 𝑃(𝐴) = {∑ 𝑛∈𝐵 𝑛: 𝐵⊆𝐴finite } 𝑇(𝐴) 𝑘 𝑇(𝑛𝑘) > 𝑇(𝑛𝑘+1)
+
+% ===== #346  (page 119) =====
+Let be a set of integers such that is complete for any finite subset and is not complete for any infinite subset . (Here 'complete' means all sufficiently large integers can be written as a sum of distinct members of the sequence.) Is it true that if for some and all  then 𝐴= {1 ≤𝑎1 < 𝑎2 < ⋯} 𝐴\𝐵 𝐵 𝐴\𝐵 𝐵 𝑎𝑛+1/𝑎𝑛≥1 + 𝜖 𝜖> 0 𝑛 lim 𝑛 𝑎𝑛+1 𝑎𝑛 = 1 + √5 2 ?
+
+% ===== #348  (page 120) =====
+For what values of is there a complete sequence of integers such that remains complete after removing any elements, but is not complete after removing any  elements? 0 ≤𝑚< 𝑛 𝐴= {𝑎1 ≤𝑎2 ≤⋯} 𝐴 𝑚 𝐴 𝑛
+
+% ===== #349  (page 121) =====
+For what values of is the sequence complete (that is, all sufficiently large integers are the sum of distinct integers of the form )? 𝑡, 𝛼∈(0, ∞) ⌊𝑡𝛼𝑛⌋ ⌊𝑡𝛼𝑛⌋
+
+% ===== seq94  (page 122) =====
+Let such that is irrational. Is the multiset complete? That is, can all sufficiently large natural numbers  be written as for some finite ? 𝛼, 𝛽∈ℝ>0 𝛼/𝛽 {⌊𝛼⌋, ⌊2𝛼⌋, ⌊4𝛼⌋, …} ∪{⌊𝛽⌋, ⌊2𝛽⌋, ⌊4𝛽⌋, …} 𝑛 𝑛= ∑ 𝑠∈𝑆 ⌊2𝑠𝛼⌋+ ∑ 𝑡∈𝑇 ⌊2𝑡𝛽⌋ 𝑆, 𝑇⊂ℕ
+
+% ===== #357  (page 124) =====
+number theory Let be integers such that all sums of the shape are distinct. Let be the maximal such . How does grow? Is ? 1 ≤𝑎1 < ⋯< 𝑎𝑘≤𝑛 ∑𝑢≤𝑖≤𝑣𝑎𝑖 𝑓(𝑛) 𝑘 𝑓(𝑛) 𝑓(𝑛) = 𝑜(𝑛)
+
+% ===== #359  (page 125-126) =====
+Let be an infinite sequence of integers such that and is the least integer which is not a sum of consecutive earlier s. What can be said about the density of this sequence? 𝑎1 < 𝑎2 < ⋯ 𝑎1 = 𝑛 𝑎𝑖+1 𝑎𝑗 number theory p , , p any ? 𝑘/ 𝑘/ 𝑐> 0
+
+% ===== #361  (page 127) =====
+number theory Let and  be some large integer. What is the size of the largest such that  is not a sum of a subset of ? Does this depend on  in an irregular way? 𝑐> 0 𝑛 𝐴 ⊆{1, … , ⌊𝑐𝑛⌋} 𝑛 𝐴 𝑛
+
+% ===== #364  (page 128) =====
+Are there any triples of consecutive positive integers all of which are powerful (i.e. if then )? VERIFIABLE 𝑝∣𝑛 𝑝2 ∣𝑛
+
+% ===== #365  (page 129) =====
+Do all pairs of consecutive powerful numbers  and come from solutions to Pell equations? In other words, must either  or be a square? Is the number of such bounded by ? 𝑛 𝑛+ 1 𝑛 𝑛+ 1 𝑛≤𝑥 (log 𝑥)𝑂(1)
+
+% ===== seq100  (page 130) =====
+Are there any -full  such that is -full? That is, if then and if then . VERIFIABLE 2 𝑛 𝑛+ 1 3 𝑝∣𝑛 𝑝2 ∣𝑛 𝑝∣𝑛 + 1 𝑝3 ∣𝑛+ 1
+
+% ===== #367  (page 132) =====
+Let be the -full part of  (that is, where is the product of all primes that divide  exactly once). Is it true that, for every fixed , Or perhaps even ? 𝐵2(𝑛) 2 𝑛 𝐵2(𝑛) = 𝑛/𝑛′ 𝑛′ 𝑛 𝑘≥1 ∏ 𝑛≤𝑚<𝑛+𝑘 𝐵2(𝑚) ≪𝑛2+𝑜(1)? ≪𝑘𝑛2
+
+% ===== #368  (page 133) =====
+number theory How large is the largest prime factor of ? 𝑛(𝑛+ 1)
+
+% ===== #371  (page 134) =====
+number theory Let denote the largest prime factor of . Show that the set of  with has density . 𝑃(𝑛) 𝑛 𝑛 𝑃(𝑛) < 𝑃(𝑛 + 1)
+
+% ===== #373  (page 136) =====
+Show that the equation with , has only finitely many solutions. 𝑛! = 𝑎1!𝑎2! ⋯𝑎𝑘!, 𝑛−1 > 𝑎1 ≥𝑎2 ≥⋯≥𝑎𝑘≥2
+
+% ===== #374  (page 138) =====
+number theory For any , let be the minimal (if it exists) such that there are with a square. Let . What is the order of growth of for ? For example, is it true that ? 𝑚∈ℕ 𝐹(𝑚) 𝑘≥2 𝑎1 < ⋯ < 𝑎𝑘= 𝑚 𝑎1! ⋯𝑎𝑘! 𝐷𝑘= {𝑚: 𝐹(𝑚) = 𝑘} |𝐷𝑘∩{1, … , 𝑛}| 3 ≤𝑘≤6 |𝐷6 ∩{1, … , 𝑛}| ≫𝑛
+
+% ===== #375  (page 139) =====
+Is it true that for any , if are all composite then there are distinct primes such that for ? FALSIFIABLE 𝑛, 𝑘≥1 𝑛+ 1, … , 𝑛+ 𝑘 𝑝1, … , 𝑝𝑘 𝑝𝑖∣𝑛+ 𝑖 1 ≤𝑖≤𝑘
+
+% ===== #376  (page 140) =====
+Are there infinitely many  such that is coprime to ? 𝑛 ( 2𝑛 𝑛) 105
+
+% ===== seq108  (page 141) =====
+Is there some absolute constant such that 𝐶> 0 ∑ 𝑝≤𝑛 1𝑝∤( 2𝑛 𝑛) 1 𝑝≤𝐶
+
+% ===== #382  (page 143) =====
+number theory Let be such that the largest prime dividing appears with exponent at least . Is it true that ? Can be arbitrarily large? 𝑢≤𝑣 ∏𝑢≤𝑚≤𝑣𝑚 2 𝑣−𝑢= 𝑣𝑜(1) 𝑣−𝑢
+
+% ===== #383  (page 144) =====
+number theory Is it true that for every  there are infinitely many primes  such that the largest prime divisor of is ? 𝑘 𝑝 ∏ 0≤𝑖≤𝑘 (𝑝2 + 𝑖) 𝑝
+
+% ===== #385  (page 145) =====
+number theory Let where is the least prime divisor of . Is it true that for all sufficiently large ? Does as ? 𝐹(𝑛) = max 𝑚<𝑛 𝑚composite 𝑚+ 𝑝(𝑚), 𝑝(𝑚) 𝑚 𝐹(𝑛) > 𝑛 𝑛 𝐹(𝑛) −𝑛→∞ 𝑛→∞
+
+% ===== #386  (page 147) =====
+Let . Can be the product of consecutive primes infinitely often? For example 2 ≤𝑘≤𝑛−2 ( 𝑛 𝑘) (21 2 ) = 2 ⋅3 ⋅5 ⋅7.
+
+% ===== #387  (page 148) =====
+Is there an absolute constant such that, for all , the binomial coefficient has a divisor in ? 𝑐> 0 1 ≤𝑘< 𝑛 ( 𝑛 𝑘) (𝑐𝑛, 𝑛]
+
+% ===== #388  (page 149-150) =====
+Can one classify all solutions of number theory where and ? Are there only finitely many solutions? ∏ 1≤𝑖≤𝑘1 (𝑚1 + 𝑖) = ∏ 1≤𝑗≤𝑘2 (𝑚2 + 𝑗) 𝑘1, 𝑘2 > 3 𝑚1 + 𝑘1 ≤𝑚2
+
+% ===== #389  (page 151) =====
+number theory Is it true that for every there is a  such that 𝑛≥1 𝑘 𝑛(𝑛+ 1) ⋯(𝑛+ 𝑘−1) ∣(𝑛+ 𝑘) ⋯(𝑛+ 2𝑘−1)?
+
+% ===== #390  (page 152) =====
+Let be the minimal such that with . Is there (and what is it) a constant  such that 𝑓(𝑛) 𝑚 𝑛! = 𝑎1 ⋯𝑎𝑘 𝑛< 𝑎1 < ⋯< 𝑎𝑘= 𝑚 𝑐 𝑓(𝑛) −2𝑛∼𝑐 𝑛 log 𝑛?
+
+% ===== #393  (page 153) =====
+Let denote the minimal such that with . What is the behaviour of ? 𝑓(𝑛) 𝑚≥1 𝑛! = 𝑎1 ⋯𝑎𝑡 𝑎1 < ⋯< 𝑎𝑡= 𝑎1 + 𝑚 𝑓(𝑛)
+
+% ===== #394  (page 154-155) =====
+Let denote the least such that Is it true that for some ? 𝑡𝑘(𝑛) 𝑚 𝑛∣𝑚(𝑚+ 1)(𝑚+ 2) ⋯(𝑚+ 𝑘−1). ∑ 𝑛≤𝑥 𝑡2(𝑛) ≪ 𝑥2 (log 𝑥)𝑐 𝑐> 0 number theory , , ≥ ∑ 𝑛≤𝑥 𝑡𝑘+1(𝑛) = 𝑜(∑ 𝑛≤𝑥 𝑡𝑘(𝑛))?
+
+% ===== #396  (page 156) =====
+Is it true that for every  there exists  such that 𝑘 𝑛 ∏ 0≤𝑖≤𝑘 (𝑛−𝑖) ∣(2𝑛 𝑛)?
+
+% ===== #398  (page 157) =====
+Are the only solutions to when ? FALSIFIABLE 𝑛! = 𝑥2 −1 𝑛= 4, 5, 7
+
+% ===== #400  (page 159) =====
+For any let denote the maximum value of where are integers such that . Can one show that for some constant ? Is it true that there is a constant such that for almost all we have 𝑘≥2 𝑔𝑘(𝑛) (𝑎1 + ⋯+ 𝑎𝑘) −𝑛 𝑎1, … , 𝑎𝑘 𝑎1! ⋯𝑎𝑘! ∣𝑛! ∑ 𝑛≤𝑥 𝑔𝑘(𝑛) ∼𝑐𝑘𝑥log 𝑥 𝑐𝑘 𝑐𝑘 𝑛< 𝑥 𝑔𝑘(𝑛) = 𝑐𝑘log 𝑥+ 𝑜(log 𝑥)?
+
+% ===== #404  (page 160) =====
+For which integers and primes  is there a finite upper bound on those  such that there are with If is the greatest such , how does this function behave? Is there a prime  and an infinite sequence such that if is the highest power of  dividing then ? 𝑎≥1 𝑝 𝑘 𝑎= 𝑎1 < ⋯< 𝑎𝑛 𝑝𝑘∣(𝑎1! + ⋯+ 𝑎𝑛!)? 𝑓(𝑎, 𝑝) 𝑘 𝑝 𝑎1 < 𝑎2 < ⋯ 𝑝𝑚𝑘 𝑝 ∑𝑖≤𝑘𝑎𝑖! 𝑚𝑘→∞
+
+% ===== #406  (page 161) =====
+Is it true that there are only finitely many powers of  which have only the digits  and when written in base ? 2 0 1 3
+
+% ===== #408  (page 162) =====
+Let be the Euler totient function and be the iterated  function, so that and . Let Does have a distribution function? Is almost always constant? What can be said about the largest prime factor of when, say, ? 𝜙(𝑛) 𝜙𝑘(𝑛) 𝜙 𝜙1(𝑛) = 𝜙(𝑛) 𝜙𝑘(𝑛) = 𝜙(𝜙𝑘−1(𝑛)) 𝑓(𝑛) = min{𝑘: 𝜙𝑘(𝑛) = 1}. 𝑓(𝑛)/ log 𝑛 𝑓(𝑛)/ log 𝑛 𝜙𝑘(𝑛) 𝑘= log log 𝑛
+
+% ===== #409  (page 164) =====
+How many iterations of are needed before a prime is reached? Can infinitely many  reach the same prime? What is the density of  which reach any fixed prime? 𝑛↦𝜙(𝑛) + 1 𝑛 𝑛
+
+% ===== #410  (page 165) =====
+Let , the sum of divisors function, and . Is it true that for all 𝜎1(𝑛) = 𝜎(𝑛) 𝜎𝑘(𝑛) = 𝜎(𝜎𝑘−1(𝑛)) 𝑛≥2 lim 𝑘→∞𝜎𝑘(𝑛)1/𝑘= ∞?
+
+% ===== #411  (page 166) =====
+Let and . For which  and  is it true that for all large ? 𝑔1 = 𝑔(𝑛) = 𝑛+ 𝜙(𝑛) 𝑔𝑘(𝑛) = 𝑔(𝑔𝑘−1(𝑛)) 𝑛 𝑟 𝑔𝑘+𝑟(𝑛) = 2𝑔𝑘(𝑛) 𝑘
+
+% ===== #412  (page 167) =====
+Let , the sum of divisors function, and . Is it true that, for every , there exist some such that ? 𝜎1(𝑛) = 𝜎(𝑛) 𝜎𝑘(𝑛) = 𝜎(𝜎𝑘−1(𝑛)) 𝑚, 𝑛≥2 𝑖, 𝑗 𝜎𝑖(𝑚) = 𝜎𝑗(𝑛)
+
+% ===== #413  (page 169) =====
+Let count the number of distinct primes dividing . Are there infinitely many  such that, for all , we have ? Can one show that there exists an such that there are infinitely many  where for all ? 𝜔(𝑛) 𝑛 𝑛 𝑚< 𝑛 𝑚+ 𝜔(𝑚) ≤𝑛 𝜖> 0 𝑛 𝑚 + 𝜖𝜔(𝑚) ≤𝑛 𝑚< 𝑛
+
+% ===== #414  (page 170) =====
+Let (where counts the number of divisors of ) and . Is it true, for any , there exist  and  such that ? ℎ1(𝑛) = ℎ(𝑛) = 𝑛+ 𝜏(𝑛) 𝜏(𝑛) 𝑛 ℎ𝑘(𝑛) = ℎ(ℎ𝑘−1(𝑛)) 𝑚, 𝑛 𝑖 𝑗 ℎ𝑖(𝑚) = ℎ𝑗(𝑛)
+
+% ===== #415  (page 171) =====
+number theory For any  let be the largest  such that any of the possible ordering patterns appears in some sequence of with . Is it true that for some constant ? Is the first pattern which fails to appear always Is it true that the 'natural' ordering which mimics what happens to is the most likely to appear? 𝑛 𝐹(𝑛) 𝑘 𝑘! 𝜙(𝑚+ 1), … , 𝜙(𝑚+ 𝑘) 𝑚+ 𝑘≤𝑛 𝐹(𝑛) = (𝑐+ 𝑜(1)) log log log 𝑛 𝑐 𝜙(𝑚+ 1) > 𝜙(𝑚+ 2) > ⋯> 𝜙(𝑚+ 𝑘)? 𝜙(1), … , 𝜙(𝑘)
+
+% ===== #416  (page 173) =====
+number theory Let count the number of such that is solvable. Does ? Is there an asymptotic formula for ? 𝑉(𝑥) 𝑛≤𝑥 𝜙(𝑚) = 𝑛 𝑉(2𝑥)/𝑉(𝑥) →2 𝑉(𝑥)
+
+% ===== #417  (page 174) =====
+number theory Let and Does exist? Is it ? 𝑉′(𝑥) = #{𝜙(𝑚) : 1 ≤𝑚≤𝑥} 𝑉(𝑥) = #{𝜙(𝑚) ≤𝑥: 1 ≤𝑚}. lim 𝑉(𝑥)/𝑉′(𝑥) > 1
+
+% ===== #420  (page 175-176) =====
+If counts the number of divisors of  then let Is it true that for large ? Is it true that is everywhere dense in ? 𝜏(𝑛) 𝑛 𝐹(𝑓, 𝑛) = 𝜏((𝑛+ ⌊𝑓(𝑛)⌋)!) 𝜏(𝑛!) . lim 𝑛→∞𝐹((log 𝑛)𝐶, 𝑛) = ∞ 𝐶 𝐹(log 𝑛, 𝑛) (1, ∞) number theory g y, , then is everywhere dense? 𝑓( ) ≤ g 𝑓( ) →∞ 𝐹(𝑓, 𝑛)
+
+% ===== #421  (page 177) =====
+number theory Is there a sequence with density  such that all products are distinct? 1 ≤𝑑1 < 𝑑2 < ⋯ 1 ∏𝑢≤𝑖≤𝑣𝑑𝑖
+
+% ===== #422  (page 178) =====
+number theory Let and for Does miss infinitely many integers? What is its behaviour? 𝑓(1) = 𝑓(2) = 1 𝑛> 2 𝑓(𝑛) = 𝑓(𝑛−𝑓(𝑛−1)) + 𝑓(𝑛−𝑓(𝑛−2)). 𝑓(𝑛)
+
+% ===== #423  (page 179) =====
+number theory Let and and for choose to be the least integer which is the sum of at least two consecutive terms of the sequence. What is the asymptotic behaviour of this sequence? 𝑎1 = 1 𝑎2 = 2 𝑘≥3 𝑎𝑘 > 𝑎𝑘−1
+
+% ===== seq138  (page 180) =====
+Let and and continue the sequence by appending to all possible values of with . Is it true that the set of integers which eventually appear has positive density? 𝑎1 = 2 𝑎2 = 3 𝑎1, … , 𝑎𝑛 𝑎𝑖𝑎𝑗−1 𝑖≠𝑗
+
+% ===== #425  (page 182) =====
+Let be the maximum possible size of a subset such that the products are distinct for all . Is there a constant  such that If is such that all products are distinct for then is it true that 𝐹(𝑛) 𝐴⊆{1, … , 𝑁} 𝑎𝑏 𝑎< 𝑏 𝑐 𝐹(𝑛) = 𝜋(𝑛) + (𝑐+ 𝑜(1))𝑛3/4(log 𝑛)−3/2? 𝐴⊆{1, … , 𝑛} 𝑎1 ⋯𝑎𝑟 𝑎1 < ⋯< 𝑎𝑟 |𝐴| ≤𝜋(𝑛) + 𝑂(𝑛 𝑟+1 2𝑟)?
+
+% ===== #428  (page 183-184) =====
+Is there a set such that, for infinitely many , all of are prime for all with and 𝐴⊆ℕ 𝑛 𝑛−𝑎 𝑎∈𝐴 0 < 𝑎< 𝑛 lim inf |𝐴∩[1, 𝑥]| 𝜋(𝑥) > 0?
+
+% ===== #430  (page 184-185) =====
+number theory g g q y , , letting be the greatest integer in such that all of the prime factors of are . Is it true that, for sufficiently large , not all of this sequence can be prime? [ , ) 1 ≥2 𝑎𝑘 [1, 𝑎𝑘−1) 𝑎𝑘 > 𝑛−𝑎𝑘 𝑛
+
+% ===== #431  (page 186) =====
+Are there two infinite sets and such that agrees with the set of prime numbers up to finitely many exceptions? 𝐴 𝐵 𝐴+ 𝐵
+
+% ===== #432  (page 187) =====
+number theory Let be two infinite sets. How dense can be if all elements of are pairwise relatively prime? 𝐴, 𝐵⊆ℕ 𝐴+ 𝐵 𝐴+ 𝐵
+
+% ===== #436  (page 188) =====
+number theory If  is a prime and then let be the minimal  such that are all th power residues modulo . Let Is it true that is finite for all ? Is finite for all odd ? How large are they? 𝑝 𝑘, 𝑚≥2 𝑟(𝑘, 𝑚, 𝑝) 𝑟 𝑟, 𝑟 + 1, … , 𝑟+ 𝑚−1 𝑘 𝑝 Λ(𝑘, 𝑚) = lim sup 𝑝→∞ 𝑟(𝑘, 𝑚, 𝑝). Λ(𝑘, 2) 𝑘 Λ(𝑘, 3) 𝑘
+
+% ===== seq145  (page 190) =====
+How large must be such that the number of integers in with a divisor in is at most ? 𝑦= 𝑦(𝜖, 𝑛) (𝑥, 𝑥+ 𝑦) (𝑛, 2𝑛) 𝜖𝑦
+
+% ===== #451  (page 192) =====
+number theory Estimate , the smallest integer such that has no prime factor in . 𝑛𝑘 > 2𝑘 ∏1≤𝑖≤𝑘(𝑛𝑘−𝑖) (𝑘, 2𝑘)
+
+% ===== #452  (page 193) =====
+number theory Let count the number of distinct prime factors of . What is the size of the largest interval such that for all ? 𝜔(𝑛) 𝑛 𝐼⊆[𝑥, 2𝑥] 𝜔(𝑛) > log log 𝑛 𝑛∈𝐼
+
+% ===== #454  (page 194) =====
+Let where is the th prime. Is it true that 𝑓(𝑛) = min 𝑖<𝑛(𝑝𝑛+𝑖+ 𝑝𝑛−𝑖), 𝑝𝑘 𝑘 lim sup 𝑛 (𝑓(𝑛) −2𝑝𝑛) = ∞?
+
+% ===== #455  (page 195) =====
+number theory Let be a sequence of primes such that Must 𝑞1 < 𝑞2 < ⋯ 𝑞𝑛+1 −𝑞𝑛≥𝑞𝑛−𝑞𝑛−1. lim 𝑛 𝑞𝑛 𝑛2 = ∞?
+
+% ===== #456  (page 196) =====
+number theory Let be the smallest prime and let be the smallest integer such that . Is it true that for almost all ? Does for almost all ? Are there infinitely many primes  such that is the only  for which ? 𝑝𝑛 ≡1 (mod 𝑛) 𝑚𝑛 𝑛∣𝜙(𝑚𝑛) 𝑚𝑛< 𝑝𝑛 𝑛 𝑝𝑛/𝑚𝑛→∞ 𝑛 𝑝 𝑝−1 𝑛 𝑚𝑛= 𝑝
+
+% ===== #458  (page 197) =====
+Let denote the least common multiple of . Is it true that, for all , FALSIFIABLE [1, … , 𝑛] {1, … , 𝑛} 𝑘 ≥1 [1, … , 𝑝𝑘+1 −1] < 𝑝𝑘[1, … , 𝑝𝑘]?
+
+% ===== #460  (page 198) =====
+number theory Let and , and in general define to be the least integer for which for all . Does as ? What about if we restrict the sum to those  such that is divisible by some prime , or the complement of such ? 𝑎0 = 0 𝑎1 = 1 𝑎𝑘 > 𝑎𝑘−1 (𝑛−𝑎𝑘, 𝑛−𝑎𝑖) = 1 0 ≤𝑖< 𝑘 ∑ 0<𝑎𝑖<𝑛 1 𝑎𝑖→∞ 𝑛→∞ 𝑖 𝑛−𝑎𝑗 ≤𝑎𝑗 𝑖
+
+% ===== #461  (page 200) =====
+Let be the -smooth component of  - that is, the product of all primes  (with multiplicity) dividing  such that . Let count the number of distinct possible values for for . Is it true that (uniformly, for all  and )? 𝑠𝑡(𝑛) 𝑡 𝑛 𝑝 𝑛 𝑝< 𝑡 𝑓(𝑛, 𝑡) 𝑠𝑡(𝑚) 𝑚∈[𝑛+ 1, 𝑛+ 𝑡] 𝑓(𝑛, 𝑡) ≫𝑡 𝑡 𝑛
+
+% ===== #462  (page 201) =====
+Let denote the least prime factor of . There is a constant such that Is it true that there exists a constant such that for all large ? 𝑝(𝑛) 𝑛 𝑐> 0 ∑ 𝑛<𝑥 𝑛not prime 𝑝(𝑛) 𝑛 ∼𝑐 𝑥1/2 (log 𝑥)2 . 𝐶> 0 ∑ 𝑥≤𝑛≤𝑥+𝐶𝑥1/2(log 𝑥)2 𝑝(𝑛) 𝑛 ≫1 𝑥
+
+% ===== #463  (page 202) =====
+Is there a function  with as such that, for all large , there is a composite number such that (Here is the least prime factor of .) 𝑓 𝑓(𝑛) →∞ 𝑛→∞ 𝑛 𝑚 𝑛+ 𝑓(𝑛) < 𝑚< 𝑛+ 𝑝(𝑚)? 𝑝(𝑚) 𝑚
+
+% ===== #467  (page 203) =====
+number theory Prove the following for all large : there is a choice of congruence classes for all primes and a decomposition into two non-empty sets such that, for all , there exist some and such that and . 𝑥 𝑎𝑝 𝑝≤𝑥 {𝑝≤𝑥} = 𝐴⊔𝐵 𝑛< 𝑥 𝑝∈𝐴 𝑞∈𝐵 𝑛≡𝑎𝑝(mod 𝑝) 𝑛 ≡𝑎𝑞(mod 𝑞)
+
+% ===== #468  (page 204) =====
+For any  let be the set of sums of the shape where are the divisors of . What is the size of ? If is the minimal  such that then is it true that ? Perhaps just for almost all ? 𝑛 𝐷𝑛 𝑑1, 𝑑1 + 𝑑2, 𝑑1 + 𝑑2 + 𝑑3, … 1 < 𝑑1 < 𝑑2 < ⋯ 𝑛 𝐷𝑛\ ∪𝑚<𝑛𝐷𝑚 𝑓(𝑁) 𝑛 𝑁∈𝐷𝑛 𝑓(𝑁) = 𝑜(𝑁) 𝑁
+
+% ===== #469  (page 205) =====
+Let be the set of all  such that with distinct proper divisors of , but this is not true for any with . Does converge? 𝐴 𝑛 𝑛= 𝑑1 + ⋯+ 𝑑𝑘 𝑑𝑖 𝑛 𝑚∣𝑛 𝑚< 𝑛 ∑ 𝑛∈𝐴 1 𝑛
+
+% ===== #470  (page 207) =====
+p p , , y of its divisors. Are there any odd weird numbers? Are there infinitely many primitive weird numbers, i.e. those such that no proper divisor of  is weird? ( ) ≥ 𝑛
+
+% ===== #472  (page 208) =====
+number theory Given some initial finite sequence of primes extend it so that is the smallest prime of the form for . Is there an initial starting sequence so that the resulting sequence is infinite? 𝑞1 < ⋯< 𝑞𝑚 𝑞𝑛+1 𝑞𝑛+ 𝑞𝑖−1 𝑛≥𝑚
+
+% ===== #475  (page 209) =====
+Let  be a prime. Given any finite set , is there always a rearrangement such that all partial sums are distinct, for all ? DECIDABLE 𝑝 𝐴⊆𝔽𝑝\{0} 𝐴 = {𝑎1, … , 𝑎𝑡} ∑1≤𝑘≤𝑚𝑎𝑘 1 ≤𝑚≤𝑡
+
+% ===== #477  (page 210-211) =====
+p y g y there is exactly one and such that ? 𝑓 ⊂ ∈ℤ 𝑎∈𝐴 𝑏∈{𝑓(𝑘) : 𝑘∈ℤ} 𝑛= 𝑎+ 𝑏
+
+% ===== #478  (page 212) =====
+Let  be a prime and Is it true that 𝑝 𝐴𝑝= {𝑘! (mod 𝑝) : 1 ≤𝑘< 𝑝}. |𝐴𝑝| ∼(1 −1 𝑒)𝑝?
+
+% ===== #479  (page 213) =====
+number theory Is it true that, for all , there are infinitely many  such that ? 𝑘≠1 𝑛 2𝑛≡𝑘(mod 𝑛)
+
+% ===== #483  (page 214-215) =====
+monochromatic solution to . Estimate . In particular, is it true that for some constant ? 𝑓( ) { , , } 𝑎+ 𝑏= 𝑐 𝑓(𝑘) 𝑓(𝑘) < 𝑐𝑘 𝑐> 0
+
+% ===== #486  (page 216) =====
+Let , and for each choose some . Let Must have a logarithmic density, i.e. is it true that exists? 𝐴⊆ℕ 𝑛∈𝐴 𝑋𝑛⊆ℤ/𝑛ℤ 𝐵= {𝑚∈ℕ: 𝑚∉𝑋𝑛 (mod 𝑛) for all 𝑛∈𝐴with 𝑚> 𝑛}. 𝐵 lim 𝑥→∞ 1 log 𝑥∑ 𝑚∈𝐵 𝑚<𝑥 1 𝑚
+
+% ===== #488  (page 217) =====
+number theory Let be a finite set and Is it true that, for every , FALSIFIABLE 𝐴 𝐵= {𝑛≥1 : 𝑎∣𝑛for some 𝑎∈𝐴}. 𝑚> 𝑛≥max(𝐴) |𝐵∩[1, 𝑚]| 𝑚 < 2 |𝐵∩[1, 𝑛]| 𝑛 ?
+
+% ===== #489  (page 219) =====
+number theory If then is it true that exists (and is finite)? 𝐵= {𝑛≥1 : 𝑎∤𝑛for all 𝑎∈𝐴}. 𝐵= {𝑏1 < 𝑏2 < ⋯} lim 1 𝑥∑ 𝑏𝑖<𝑥 (𝑏𝑖+1 −𝑏𝑖)2
+
+% ===== #495  (page 220) =====
+Let . Is it true that where is the distance from  to the nearest integer? 𝛼, 𝛽∈ℝ lim inf 𝑛→∞𝑛‖𝑛𝛼‖‖𝑛𝛽‖ = 0 ‖𝑥‖ 𝑥
+
+% ===== #520  (page 221) =====
+Let  be a Rademacher multiplicative function: a random -valued multiplicative function, where for each prime  we independently choose uniformly at random, and for square-free integers  we extend (and if  is not squarefree). Does there exist some constant such that, almost surely, 𝑓 {−1, 0, 1} 𝑝 𝑓(𝑝) ∈{−1, 1} 𝑛 𝑓(𝑝1 ⋯𝑝𝑟) = 𝑓(𝑝1) ⋯𝑓(𝑝𝑟) 𝑓(𝑛) = 0 𝑛 𝑐> 0 lim sup 𝑁→∞ ∑𝑚≤𝑁𝑓(𝑚) √𝑁log log 𝑁 = 𝑐?
+
+% ===== #530  (page 222) =====
+Let be maximal such that in any finite set of size there exists a Sidon subset  of size (i.e. the only solutions to in  are the trivial ones). Determine the order of . In particular, is it true that ? ℓ(𝑁) 𝐴⊂ℝ 𝑁 𝑆 ℓ(𝑁) 𝑎+ 𝑏= 𝑐+ 𝑑 𝑆 ℓ(𝑁) ℓ(𝑁) ∼𝑁1/2
+
+% ===== #531  (page 224) =====
+Let be the minimal such that if we two-colour there is a set of size such that all subset sums (for ) are monochromatic. Estimate . 𝐹(𝑘) 𝑁 {1, … , 𝑁} 𝐴 𝑘 ∑𝑎∈𝑆𝑎 ∅≠𝑆⊆𝐴 𝐹(𝑘)
+
+% ===== #535  (page 225) =====
+number theory Let , and let denote the size of the largest subset of such that no subset of size  has the same pairwise greatest common divisor between all elements. Estimate . 𝑟≥3 𝑓𝑟(𝑁) {1, … , 𝑁} 𝑟 𝑓𝑟(𝑁)
+
+% ===== #536  (page 226) =====
+number theory Let be the largest size of with the property that there are no distinct such that where denotes the least common multiple. Estimate - in particular, is it true that ? 𝑓(𝑁) 𝐴⊆{1, … , 𝑁} 𝑎, 𝑏, 𝑐∈𝐴 [𝑎, 𝑏] = [𝑏, 𝑐] = [𝑎, 𝑐], [𝑎, 𝑏] 𝑓(𝑁) 𝑓(𝑁) = 𝑜(𝑁)
+
+% ===== #538  (page 228) =====
+number theory Let and suppose that is such that, for any , there are at most solutions to where  is prime and . Give the best possible upper bound for 𝑟≥2 𝐴⊆{1, … , 𝑁} 𝑚 𝑟 𝑚= 𝑝𝑎 𝑝 𝑎∈𝐴 ∑ 𝑛∈𝐴 1 𝑛.
+
+% ===== #539  (page 229) =====
+number theory Let be such that, for any set of size , the set has size at least . Estimate . ℎ(𝑛) 𝐴⊆ℕ 𝑛 { 𝑎 (𝑎, 𝑏) : 𝑎, 𝑏∈𝐴} ℎ(𝑛) ℎ(𝑛)
+
+% ===== #635  (page 230) =====
+number theory Let and be such that whenever with we have . How large can be? Is it true that 𝑡≥1 𝐴⊆{1, … , 𝑁} 𝑎, 𝑏∈𝐴 𝑏−𝑎≥𝑡 𝑏−𝑎∤𝑏 |𝐴| |𝐴| ≤( 1 2 + 𝑜𝑡(1)) 𝑁?
+
+% ===== #647  (page 232) =====
+number theory Let count the number of divisors of . Is there some such that $ 𝜏(𝑛) 𝑛 𝑛> 24 max 𝑚<𝑛(𝑚+ 𝜏(𝑚)) ≤𝑛+ 2?
+
+% ===== #663  (page 233) =====
+number theory Let and denote the least prime which does not divide . Is it true that, if  is fixed and  is sufficiently large, we have 𝑘≥2 𝑞(𝑛, 𝑘) ∏1≤𝑖≤𝑘(𝑛+ 𝑖) 𝑘 𝑛 𝑞(𝑛, 𝑘) < (1 + 𝑜(1)) log 𝑛?
+
+% ===== #672  (page 234) =====
+number theory Can the product of an arithmetic progression of positive integers of length (with ) be a perfect power? VERIFIABLE 𝑛, 𝑛+ 𝑑, … , 𝑛+ (𝑘 −1)𝑑 𝑘≥4 (𝑛, 𝑑) = 1
+
+% ===== #675  (page 236) =====
+number theory We say that has the translation property if, for every , there exists some integer such that, for all , Does the set of the sums of two squares have the translation property? If we partition all primes into , such that each set contains many primes for all large , then can the set of integers only divisible by primes from have the translation property? If is the set of squarefree numbers then how fast does the minimal such grow? Is it true that for some constant ? 𝐴⊂ℕ 𝑛 𝑡𝑛≥1 1 ≤𝑎≤𝑛 𝑎∈𝐴 if and only if 𝑎+ 𝑡𝑛∈𝐴. 𝑃⊔𝑄 ≫𝑥/ log 𝑥 ≤𝑥 𝑥 𝑃 𝐴 𝑡𝑛 𝑡𝑛> exp(𝑛𝑐) 𝑐> 0
+
+% ===== #676  (page 237) =====
+number theory Is every sufficiently large integer of the form for some prime  and integer and ? 𝑎𝑝2 + 𝑏 𝑝 𝑎≥1 0 ≤𝑏< 𝑝
+
+% ===== #677  (page 238) =====
+number theory Let be the least common multiple of . Is it true that for all 𝑀(𝑛, 𝑘) = [𝑛+ 1, … , 𝑛+ 𝑘] {𝑛+ 1, … , 𝑛 + 𝑘} 𝑚≥𝑛+ 𝑘 𝑀(𝑛, 𝑘) ≠𝑀(𝑚, 𝑘)?
+
+% ===== #679  (page 240) =====
+number theory Let and count the number of distinct prime factors of . Are there infinitely many values of  such that for all which are sufficiently large depending on  only? Can one show the stronger version with is false? 𝜖> 0 𝜔(𝑛) 𝑛 𝑛 𝜔(𝑛−𝑘) < (1 + 𝜖) log 𝑘 log log 𝑘 𝑘< 𝑛 𝜖 𝜔(𝑛−𝑘) < log 𝑘 log log 𝑘+ 𝑂(1)
+
+% ===== #680  (page 241) =====
+Is it true that, for all sufficiently large , there exists some  such that where denotes the least prime factor of ? Can one prove this is false if we replace by , for all , where is some constant? 𝑛 𝑘 𝑝(𝑛+ 𝑘) > 𝑘2 + 1, 𝑝(𝑚) 𝑚 𝑘2 + 1 𝑒(1+𝜖)√𝑘+ 𝐶𝜖 𝜖> 0 𝐶𝜖> 0
+
+% ===== #681  (page 243) =====
+Is it true that for all large  there exists  such that is composite and where is the least prime factor of ? 𝑛 𝑘 𝑛+ 𝑘 𝑝(𝑛+ 𝑘) > 𝑘2, 𝑝(𝑚) 𝑚
+
+% ===== #683  (page 244) =====
+Is it true that for every the largest prime divisor of , say , satisfies for some constant ? 1 ≤𝑘≤𝑛 ( 𝑛 𝑘) 𝑃(( 𝑛 𝑘)) 𝑃((𝑛 𝑘)) ≥min(𝑛−𝑘+ 1, 𝑘1+𝑐) 𝑐> 0
+
+% ===== #684  (page 245) =====
+For write where the only primes dividing  are in and the only primes dividing  are in . Let be the smallest  such that . Give bounds for . 0 ≤𝑘≤𝑛 (𝑛 𝑘) = 𝑢𝑣 𝑢 [2, 𝑘] 𝑣 (𝑘, 𝑛] 𝑓(𝑛) 𝑘 𝑢> 𝑛2 𝑓(𝑛)
+
+% ===== #685  (page 247) =====
+Let and  be large depending on . Is it true that for all the number of distinct prime divisors of is Or perhaps even when ? 𝜖> 0 𝑛 𝜖 𝑛𝜖< 𝑘≤𝑛1−𝜖 ( 𝑛 𝑘) (1 + 𝑜(1))𝑘∑ 𝑘<𝑝<𝑛 1 𝑝? 𝑘≥(log 𝑛)𝑐
+
+% ===== #686  (page 248) =====
+number theory Can every integer be written as for some and ? 𝑁≥2 𝑁= ∏1≤𝑖≤𝑘(𝑚+ 𝑖) ∏1≤𝑖≤𝑘(𝑛+ 𝑖) 𝑘≥2 𝑚≥𝑛+ 𝑘
+
+% ===== #687  (page 249) =====
+number theory Let be the maximal  such that there exists a choice of congruence classes for all primes such that every integer in is congruent to at least one of the . Give good estimates for . In particular, can one prove that or even ? - $1000 𝑌(𝑥) 𝑦 𝑎𝑝 𝑝≤𝑥 [1, 𝑦] 𝑎𝑝(mod 𝑝) 𝑌(𝑥) 𝑌(𝑥) = 𝑜(𝑥2) 𝑌(𝑥) ≪𝑥1+𝑜(1)
+
+% ===== #688  (page 250) =====
+number theory Define to be maximal such that there exists some choice of congruence class for all primes such that every integer in satisfies at least one of the congruences . Estimate - in particular is it true that ? 𝜖𝑛 𝑎𝑝 𝑛𝜖𝑛< 𝑝≤𝑛 [1, 𝑛] ≡𝑎𝑝(mod 𝑝) 𝜖𝑛 𝜖𝑛= 𝑜(1)
+
+% ===== #689  (page 251) =====
+number theory Let  be sufficiently large. Is there some choice of congruence class for all primes such that every integer in satisfies at least two of the congruences ? 𝑛 𝑎𝑝 2 ≤𝑝≤𝑛 [1, 𝑛] ≡𝑎𝑝(mod 𝑝)
+
+% ===== #691  (page 253) =====
+number theory p Find a necessary and sufficient condition on for to have density . ⊆ 𝐴 { ≥ ∣ ∈ } 𝐴 𝑀𝐴 1
+
+% ===== #693  (page 254) =====
+Let and  be sufficiently large depending on . Let be the set of those integers in which have a divisor in . Estimate Is this ? 𝑘≥2 𝑛 𝑘 𝐴= {𝑎1 < 𝑎2 < ⋯} [𝑛, 𝑛𝑘] (𝑛, 2𝑛) max 𝑖 𝑎𝑖+1 −𝑎𝑖. ≤(log 𝑛)𝑂(1)
+
+% ===== #695  (page 255) =====
+number theory Let be a sequence of primes such that . Is it true that Does there exist such a sequence with 𝑝1 < 𝑝2 < ⋯ 𝑝𝑖+1 ≡1 (mod 𝑝𝑖) lim 𝑘𝑝1/𝑘 𝑘 = ∞? 𝑝𝑘≤exp(𝑘(log 𝑘)1+𝑜(1))?
+
+% ===== #699  (page 256) =====
+Is it true that for every there exists some prime such that FALSIFIABLE 1 ≤𝑖< 𝑗≤𝑛/2 𝑝≥𝑖 𝑝∣gcd ((𝑛 𝑖), (𝑛 𝑗))?
+
+% ===== #700  (page 258) =====
+Characterise those composite  such that , where is the largest prime dividing . Are there infinitely many composite  such that ? Is it true that, for every composite , for every ? 𝑓(𝑛) = min 1<𝑘≤𝑛/2 gcd (𝑛, (𝑛 𝑘)) . 𝑛 𝑓(𝑛) = 𝑛/𝑃(𝑛) 𝑃(𝑛) 𝑛 𝑛 𝑓(𝑛) > 𝑛1/2 𝑛 𝑓(𝑛) ≪𝐴 𝑛 (log 𝑛)𝐴 𝐴> 0
+
+% ===== #708  (page 259) =====
+number theory Let be minimal such that for any with and any set  of consecutive integers there exists some with such that Is it true that Or perhaps even ? - $100 𝑔(𝑛) 𝐴⊆[2, ∞) ∩ℕ |𝐴| = 𝑛 𝐼 max(𝐴) 𝐵⊆𝐼 |𝐵| = 𝑔(𝑛) ∏ 𝑎∈𝐴 𝑎∣∏ 𝑏∈𝐵 𝑏. 𝑔(𝑛) ≤(2 + 𝑜(1))𝑛? 𝑔(𝑛) ≤2𝑛
+
+% ===== #709  (page 260-261) =====
+Let be minimal such that, for any of size , in any interval  of consecutive integers there exist distinct such that . 𝑓(𝑛) 𝐴= {𝑎1, … , 𝑎𝑛} ⊆[2, ∞) ∩ℕ 𝑛 𝐼 𝑓(𝑛) max(𝐴) 𝑥1, … , 𝑥𝑛∈𝐼 𝑎𝑖∣𝑥𝑖 number theory Obtain good bounds for , or even an asymptotic formula. 𝑓(𝑛)
+
+% ===== #710  (page 262) =====
+number theory Let be minimal such that in there exist distinct integers such that for all . Obtain an asymptotic formula for . - $78 𝑓(𝑛) (𝑛, 𝑛+ 𝑓(𝑛)) 𝑎1, … , 𝑎𝑛 𝑘∣𝑎𝑘 1 ≤𝑘≤𝑛 𝑓(𝑛)
+
+% ===== #711  (page 263) =====
+number theory Let be minimal such that in there exist distinct integers such that for all . Prove that and that - $78 𝑓(𝑛, 𝑚) (𝑚, 𝑚+ 𝑓(𝑛, 𝑚)) 𝑎1, … , 𝑎𝑛 𝑘∣𝑎𝑘 1 ≤𝑘≤𝑛 max 𝑚𝑓(𝑛, 𝑚) ≤𝑛1+𝑜(1) max 𝑚(𝑓(𝑛, 𝑚) −𝑓(𝑛, 𝑛)) →∞.
+
+% ===== #726  (page 264) =====
+number theory As ranges over integers 𝑛→∞ ∑ 𝑝≤𝑛 1𝑛∈(𝑝/2,𝑝) (mod 𝑝) 1 𝑝∼log log 𝑛 2 .
+
+% ===== seq204  (page 265) =====
+Let . Does for infinitely many ? 𝑘≥2 (𝑛+ 𝑘)!2 ∣(2𝑛)! 𝑛
+
+% ===== #730  (page 267) =====
+Are there infinitely many pairs of integers such that and have the same set of prime divisors? 𝑛≠𝑚 ( 2𝑛 𝑛) ( 2𝑚 𝑚)
+
+% ===== #731  (page 268) =====
+Find some reasonable function such that, for almost all integers , the least integer such that satisfies 𝑓(𝑛) 𝑛 𝑚 𝑚∤( 2𝑛 𝑛) 𝑚∼𝑓(𝑛).
+
+% ===== #768  (page 269) =====
+number theory Let be the set of  such that for every prime there exists some with such that . Is it true that there exists some constant such that for all large 𝐴⊂ℕ 𝑛 𝑝∣𝑛 𝑑∣𝑛 𝑑 > 1 𝑑≡1 (mod 𝑝) 𝑐> 0 𝑁 |𝐴∩[1, 𝑁]| 𝑁 = exp(−(𝑐+ 𝑜(1))√log 𝑁log log 𝑁).
+
+% ===== #769  (page 270) =====
+Let be minimal such that if then the -dimensional unit cube can be decomposed into  homothetic -dimensional cubes. Give good bounds for - in particular, is it true that ? 𝑐(𝑛) 𝑘≥𝑐(𝑛) 𝑛 𝑘 𝑛 𝑐(𝑛) 𝑐(𝑛) ≫𝑛𝑛
+
+% ===== #770  (page 272) =====
+number theory Let be minimal such that are mutually coprime. Does, for every prime , the density of integers with exist? Does ? Is it true that if  is the greatest prime such that and then ? ℎ(𝑛) 2𝑛−1, 3𝑛−1, … , ℎ(𝑛)𝑛−1 𝑝 𝛿𝑝 ℎ(𝑛) = 𝑝 lim inf ℎ(𝑛) = ∞ 𝑝 𝑝−1 ∣𝑛 𝑝 > 𝑛𝜖 ℎ(𝑛) = 𝑝
+
+% ===== #773  (page 273) =====
+What is the size of the largest Sidon subset ? Is it ? 𝐴⊆{1, 22, … , 𝑁2} 𝑁1−𝑜(1)
+
+% ===== #774  (page 274) =====
+number theory We call dissociated if for all finite with . Let be an infinite set. We call proportionately dissociated if every finite contains a dissociated set of size . Is every proportionately dissociated set the union of a finite number of dissociated sets? 𝐴⊂ℕ ∑𝑛∈𝑋𝑛≠∑𝑚∈𝑌𝑚 𝑋, 𝑌⊂𝐴 𝑋≠𝑌 𝐴⊂ℕ 𝐴 𝐵⊂𝐴 ≫|𝐵|
+
+% ===== #779  (page 276) =====
+Let and denote the first  primes. Let . Does there always exist some prime  with such that is prime? 𝑛> 1 𝑝1 < ⋯< 𝑝𝑛 𝑛 𝑃= ∏1≤𝑖≤𝑛𝑝𝑖 𝑝 𝑝𝑛< 𝑝< 𝑃 𝑃+ 𝑝
+
+% ===== #782  (page 277) =====
+number theory Do the squares contain arbitrarily long quasi-progressions? That is, does there exist some constant such that, for any , the squares contain a sequence where, for some  and all , Do the squares contain arbitrarily large cubes 𝐶> 0 𝑘 𝑥1, … , 𝑥𝑘 𝑑 1 ≤𝑖< 𝑘 𝑥𝑖+ 𝑑≤𝑥𝑖+1 ≤𝑥𝑖+ 𝑑+ 𝐶. 𝑎+ {∑ 𝑖 𝜖𝑖𝑏𝑖: 𝜖𝑖∈{0, 1}}?
+
+% ===== #786  (page 278) =====
+number theory Let . Is there some set of density such that with can only hold when ? Similarly, can one always find a set with this property of size ? 𝜖> 0 𝐴⊂ℕ > 1 −𝜖 𝑎1 ⋯𝑎𝑟= 𝑏1 ⋯𝑏𝑠 𝑎𝑖, 𝑏𝑗∈𝐴 𝑟= 𝑠 𝐴⊂{1, … , 𝑁} ≥(1 −𝑜(1))𝑁
+
+% ===== #793  (page 280) =====
+number theory Let be the maximum possible size of a subset such that whenever with and . Is there a constant such that 𝐹(𝑛) 𝐴⊆{1, … , 𝑛} 𝑎∤𝑏𝑐 𝑎, 𝑏, 𝑐∈𝐴 𝑎≠𝑏 𝑎≠𝑐 𝐶 𝐹(𝑛) = 𝜋(𝑛) + (𝐶+ 𝑜(1))𝑛2/3(log 𝑛)−2?
+
+% ===== #796  (page 281) =====
+number theory Let and let be the largest possible size of such that every has solutions to with . Is it true that for some constant ? 𝑘≥2 𝑔𝑘(𝑛) 𝐴⊆{1, … , 𝑛} 𝑚 < 𝑘 𝑚= 𝑎1𝑎2 𝑎1 < 𝑎2 ∈𝐴 𝑔3(𝑛) = log log 𝑛 log 𝑛 𝑛+ (𝑐+ 𝑜(1)) 𝑛 log 𝑛 𝑐
+
+% ===== #820  (page 283) =====
+number theory Let be the smallest integer  such that there exist with . Is it true that infinitely often? (That is, infinitely often?) Estimate . Is it true that there exists some constant such that, for all , for infinitely many  and for all large enough ? Does a similar upper bound hold for the smallest  such that ? 𝐻(𝑛) 𝑙 𝑘< 𝑙 (𝑘𝑛−1, 𝑙𝑛−1) = 1 𝐻(𝑛) = 3 (2𝑛−1, 3𝑛−1) = 1 𝐻(𝑛) 𝑐> 0 𝜖> 0 𝐻(𝑛) > exp(𝑛(𝑐−𝜖)/ log log 𝑛) 𝑛 𝐻(𝑛) < exp(𝑛(𝑐+𝜖)/ log log 𝑛) 𝑛 𝑘 (𝑘𝑛−1, 2𝑛−1) = 1
+
+% ===== #821  (page 284) =====
+number theory Let count the number of such that . Is it true that, for every , there exist infinitely many  such that 𝑔(𝑛) 𝑚 𝜙(𝑚) = 𝑛 𝜖> 0 𝑛 𝑔(𝑛) > 𝑛1−𝜖?
+
+% ===== #824  (page 286) =====
+number theory Let count the number of integers such that and , where  is the sum of divisors function. Is it true that ? ℎ(𝑥) 1 ≤𝑎< 𝑏< 𝑥 (𝑎, 𝑏) = 1 𝜎(𝑎) = 𝜎(𝑏) 𝜎 ℎ(𝑥) > 𝑥2−𝑜(1)
+
+% ===== #826  (page 287) =====
+number theory Are there infinitely many  such that, for all , 𝑛 𝑘≥1 𝜏(𝑛+ 𝑘) ≪𝑘?
+
+% ===== #828  (page 288) =====
+number theory Is it true that, for any , there are infinitely many  such that 𝑎∈ℤ 𝑛 𝜙(𝑛) ∣𝑛+ 𝑎?
+
+% ===== #829  (page 289) =====
+number theory Let be the set of cubes. Is it true that 𝐴⊂ℕ 1𝐴∗1𝐴(𝑛) ≪(log 𝑛)𝑂(1)?
+
+% ===== #830  (page 290) =====
+number theory We say that are an amicable pair if . Are there infinitely many amicable pairs? If counts the number of amicable then is it true that 𝑎, 𝑏∈ℕ 𝜎(𝑎) = 𝜎(𝑏) = 𝑎+ 𝑏 𝐴(𝑥) 1 ≤𝑎≤𝑏≤𝑥 𝐴(𝑥) > 𝑥1−𝑜(1)?
+
+% ===== #839  (page 291-292) =====
+Let be a sequence of integers such that no is the sum of consecutive for . Is it true that Or even 1 ≤𝑎1 < 𝑎2 < ⋯ 𝑎𝑖 𝑎𝑗 𝑗< 𝑖 lim sup 𝑎𝑛 𝑛= ∞? number theory lim 1 log 𝑥∑ 𝑎𝑛<𝑥 1 𝑎𝑛 = 0?
+
+% ===== #849  (page 293) =====
+Is it true that, for every integer , there is some integer  such that (with ) has exactly  solutions? 𝑡≥1 𝑎 (𝑛 𝑘) = 𝑎 1 ≤𝑘≤𝑛/2 𝑡
+
+% ===== #850  (page 294) =====
+Can there exist two distinct integers  and  such that have the same prime factors, have the same prime factors, and also have the same prime factors? 𝑥 𝑦 𝑥, 𝑦 𝑥+ 1, 𝑦+ 1 𝑥+ 2, 𝑦+ 2
+
+% ===== #852  (page 295-296) =====
+Let , where is the th prime. Let be maximal such that for some the numbers are all distinct. Estimate . In particular, 𝑑𝑛= 𝑝𝑛+1 −𝑝𝑛 𝑝𝑛 𝑛 ℎ(𝑥) 𝑛< 𝑥 𝑑𝑛, 𝑑𝑛+1, … , 𝑑𝑛+ℎ(𝑥)−1 ℎ(𝑥) for some constant , and ℎ(𝑥) > (log 𝑥)𝑐 𝑐> 0 ℎ(𝑥) = 𝑜(log 𝑥)?
+
+% ===== #853  (page 297) =====
+Let , where is the th prime. Let be the smallest even integer such that has no solutions for . Is it true that ? Or even ? 𝑑𝑛= 𝑝𝑛+1 −𝑝𝑛 𝑝𝑛 𝑛 𝑟(𝑥) 𝑡 𝑑𝑛= 𝑡 𝑛≤𝑥 𝑟(𝑥) →∞ 𝑟(𝑥)/ log 𝑥→∞
+
+% ===== #854  (page 298) =====
+number theory Let denote the th primorial, i.e. the product of the first  primes. If is the sequence of integers coprime to , then estimate the smallest even integer not of the form . Are there many even integers of the form ? 𝑛𝑘 𝑘 𝑘 1 = 𝑎1 < 𝑎2 < ⋯𝑎𝜙(𝑛𝑘) = 𝑛𝑘−1 𝑛𝑘 𝑎𝑖+1 −𝑎𝑖 ≫max 𝑖 (𝑎𝑖+1 −𝑎𝑖) 𝑎𝑗+1 −𝑎𝑗
+
+% ===== #855  (page 299) =====
+If counts the number of primes in then is it true that (for large  and ) 𝜋(𝑥) [1, 𝑥] 𝑥 𝑦 𝜋(𝑥+ 𝑦) ≤𝜋(𝑥) + 𝜋(𝑦)?
+
+% ===== #856  (page 301) =====
+number theory Let and be the maximum value of , where ranges over all subsets of which contain no subset of size  with the same pairwise least common multiple. Estimate . 𝑘≥3 𝑓𝑘(𝑁) ∑𝑛∈𝐴 1 𝑛 𝐴 {1, … , 𝑁} 𝑘 𝑓𝑘(𝑁)
+
+% ===== #859  (page 302-303) =====
+Let and let be the density of the set of integers for which  can be represented as the sum of distinct divisors of . Do there exist constants such that 𝑡≥1 𝑑𝑡 𝑛∈ℕ 𝑡 𝑛 𝑐1, 𝑐2 > 0 as ? 𝑑𝑡∼(log 𝑡)𝑐2 𝑡→∞
+
+% ===== #860  (page 304) =====
+Let be such that, for any , in the interval there exist distinct integers for such that , where denotes the th prime. Estimate . ℎ(𝑛) 𝑚≥1 (𝑚, 𝑚+ ℎ(𝑛)) 𝑎𝑖 1 ≤𝑖≤𝜋(𝑛) 𝑝𝑖∣𝑎𝑖 𝑝𝑖 𝑖 ℎ(𝑛)
+
+% ===== #864  (page 305) =====
+Let be a set such that there exists at most one  with more than one solution to (with ). Estimate the maximal possible size of - in particular, is it true that 𝐴⊆{1, … 𝑁} 𝑛 𝑛= 𝑎+ 𝑏 𝑎≤𝑏∈𝐴 |𝐴| |𝐴| ≤(1 + 𝑜(1)) 2 √3 𝑁1/2?
+
+% ===== #865  (page 306) =====
+There exists a constant such that, for all large , if has size at least then there are distinct such that . 𝐶> 0 𝑁 𝐴⊆{1, … , 𝑁} 5 8 𝑁+ 𝐶 𝑎, 𝑏, 𝑐∈𝐴 𝑎+ 𝑏, 𝑎+ 𝑐, 𝑏+ 𝑐∈𝐴
+
+% ===== #866  (page 307) =====
+Let and be minimal such that if has then there exist integers such that all pairwise sums are in (but the themselves need not be in ). Estimate . 𝑘≥3 𝑔𝑘(𝑁) 𝐴⊆{1, … , 2𝑁} |𝐴| ≥𝑁+ 𝑔𝑘(𝑁) 𝑏1, … , 𝑏𝑘 ( 𝑘 2) 𝐴 𝑏𝑖 𝐴 𝑔𝑘(𝑁)
+
+% ===== #870  (page 309) =====
+Let and be an additive basis of order . Does there exist a constant such that if for all large  then must contain a minimal basis of order ? (Here counts the number of representations of  as the sum of at most elements from .) 𝑘≥3 𝐴 𝑘 𝑐= 𝑐(𝑘) > 0 𝑟(𝑛) ≥𝑐log 𝑛 𝑛 𝐴 𝑘 𝑟(𝑛) 𝑛 𝑘 𝐴
+
+% ===== #872  (page 310) =====
+Consider the two-player game in which players alternately choose integers from to be included in some set (the same set for both players) such that no for . The game ends when no legal move is possible. One player wants the game to last as long as possible, the other wants the game to end quickly. How long can the game be guaranteed to last for? At least moves? (For and  sufficiently large.) At least moves? {2, 3, … , 𝑛} 𝐴 𝑎 ∣𝑏 𝑎≠𝑏∈𝐴 𝜖𝑛 𝜖> 0 𝑛 (1 −𝜖) 𝑛 2
+
+% ===== #878  (page 311-313) =====
+Let and let count the number of  such that where the left-hand side is the least common multiple. Is it true that, for every , there exists some  such that 𝐴= {𝑎1 < 𝑎2 < ⋯} ⊆ℕ 𝐹(𝐴, 𝑋, 𝑘) 𝑖 [𝑎𝑖, 𝑎𝑖+1, … , 𝑎𝑖+𝑘−1] < 𝑋, 𝜖> 0 𝑘 𝐹(𝐴, 𝑋, 𝑘) < 𝑋𝜖? number theory If is the factorisation of  into distinct primes then let where is chosen such that . Furthermore, let where the maximum is taken over all distinct such that for and all prime factors of each are prime factors of . Is it true that, for almost all , and Is it true that Is it true that (for all , or perhaps just for all large ) Find an asymptotic formula for the number of such that . Find an asymptotic formula for Is it true that 𝑛= ∏1≤𝑖≤𝑡𝑝𝑘𝑖 𝑖 𝑛 𝑓(𝑛) = ∑𝑝ℓ𝑖 𝑖, ℓ𝑖 𝑛∈[𝑝ℓ𝑖 𝑖, 𝑝ℓ𝑖+1 𝑖 ) 𝐹(𝑛) = max ∑ 𝑖 𝑎𝑖 𝑎1, … , 𝑎𝑘≤𝑛 (𝑎𝑖, 𝑎𝑗) = 1 𝑖 ≠𝑗 𝑎𝑖 𝑛 𝑛 𝑓(𝑛) = 𝑜(𝑛log log 𝑛) 𝐹(𝑛) ≫𝑛log log 𝑛? max 𝑛≤𝑥𝑓(𝑛) ∼ 𝑥log 𝑥 log log 𝑥? 𝑥 𝑥 max 𝑛≤𝑥𝑓(𝑛) = max 𝑛≤𝑥𝐹(𝑛)? 𝑛< 𝑥 𝑓(𝑛) = 𝐹(𝑛) 𝐻(𝑥) = ∑ 𝑛<𝑥 𝑓(𝑛) 𝑛 . 𝐻(𝑥) ≪𝑥log log log log 𝑥?
+
+% ===== #879  (page 315) =====
+number theory Call a set admissible if for all . Let and Is it true that Is it true that, for every , if  is sufficiently large then the admissible set which maximises contains at least one integer with at least  prime factors? 𝑆⊆{1, … , 𝑛} (𝑎, 𝑏) = 1 𝑎≠𝑏∈𝑆 𝐺(𝑛) = max 𝑆⊆{1,…,𝑛} ∑ 𝑎∈𝑆 𝑎 𝐻(𝑛) = ∑ 𝑝<𝑛 𝑝+ 𝑛𝜋(𝑛1/2). 𝐺(𝑛) > 𝐻(𝑛) −𝑛1+𝑜(1)? 𝑘≥2 𝑛 𝐺(𝑛) 𝑘
+
+% ===== #881  (page 316) =====
+Let be an additive basis of order  which is minimal, in the sense that if is any infinite set then is not a basis of order . Must there exist an infinite such that is a basis of order ? 𝐴⊂ℕ 𝑘 𝐵⊂𝐴 𝐴\𝐵 𝑘 𝐵⊂𝐴 𝐴\𝐵 𝑘+ 1
+
+% ===== #883  (page 317-318) =====
+For let be the graph with vertex set , where two integers are joined by an edge if they are coprime. Is it true that if then contains all odd cycles of length ? Is it true that, for every , if  is sufficiently large and 𝐴⊆{1, … , 𝑛} 𝐺(𝐴) 𝐴 |𝐴| > ⌊𝑛 2 ⌋+ ⌊𝑛 3 ⌋−⌊𝑛 6 ⌋ 𝐺(𝐴) ≤𝑛 3 + 1 ℓ≥1 𝑛 then must contain a complete triparite graph on vertices? |𝐴| > ⌊2 ⌋+ ⌊3 ⌋−⌊6 ⌋ 𝐺(𝐴) (1, ℓ, ℓ) 2ℓ+ 1
+
+% ===== #885  (page 319) =====
+For integer we define the factor difference set of  by Is it true that, for every , there exist integers such that 𝑛≥1 𝑛 𝐷(𝑛) = {|𝑎−𝑏| : 𝑛= 𝑎𝑏}. 𝑘≥1 𝑁1 < ⋯< 𝑁𝑘 |∩𝑖𝐷(𝑁𝑖)| ≥𝑘?
+
+% ===== #886  (page 320) =====
+Let . Is it true that, for all large , the number of divisors of  in is ? 𝜖> 0 𝑛 𝑛 (𝑛1/2, 𝑛1/2 + 𝑛1/2−𝜖) 𝑂𝜖(1)
+
+% ===== #887  (page 321) =====
+Is there an absolute constant such that, for every , if  is sufficiently large then has at most divisors in . 𝐾 𝐶> 0 𝑛 𝑛 𝐾 (𝑛1/2, 𝑛1/2 + 𝐶𝑛1/4)
+
+% ===== #889  (page 322) =====
+number theory For and let count the prime factors of which do not divide for . Equivalently, counts the number of prime factors of which are . Is it true that as ? 𝑘≥0 𝑛≥1 𝑣(𝑛, 𝑘) 𝑛+ 𝑘 𝑛 + 𝑖 0 ≤𝑖< 𝑘 𝑣(𝑛, 𝑘) 𝑛+ 𝑘 > 𝑘 𝑣0(𝑛) = max 𝑘≥0 𝑣(𝑛, 𝑘) →∞ 𝑛→∞
+
+% ===== #890  (page 323-324) =====
+If counts the number of distinct prime factors of  which are , then is it true that, for every , Is it true that 𝜔𝑘(𝑛) 𝑛 > 𝑘 𝑘≥1 lim inf 𝑛→∞ ∑ 0≤𝑖<𝑘 𝜔𝑘(𝑛+ 𝑖) ≤𝑘? where  counts the number of distinct prime factors without restriction? lim sup 𝑛→∞( ∑ 0≤𝑖<𝑘 𝜔(𝑛+ 𝑖)) log log 𝑛 log 𝑛 = 1, 𝜔
+
+% ===== #891  (page 325) =====
+number theory Let be the primes and . Is it true that, for all sufficiently large , there must exist an integer in with many prime factors? 2 = 𝑝1 < 𝑝2 < ⋯ 𝑘≥2 𝑛 [𝑛, 𝑛+ 𝑝1 ⋯𝑝𝑘) > 𝑘
+
+% ===== #892  (page 326) =====
+Is there a necessary and sufficient condition for a sequence of integers that ensures there exists a primitive sequence (i.e. no element divides another) with for all ? In particular, is this always possible if there are no non-trivial solutions to ? Similarly, find necessary and sufficient conditions on a sequence that ensure there exists a primitive set such that for every . 𝑏1 < 𝑏2 < ⋯ 𝑎1 < 𝑎2 < ⋯ 𝑎𝑛≪𝑏𝑛 𝑛 (𝑏𝑖, 𝑏𝑗) = 𝑏𝑘 𝑛1 < 𝑛2 < ⋯ 𝐴 |𝐴∩[1, 2𝑛𝑖]| ≫2𝑛𝑖 𝑖
+
+% ===== seq250  (page 327) =====
+If counts the divisors of  then let 𝜏(𝑛) 𝑛 𝑓(𝑛) = ∑ 1≤𝑘≤𝑛 𝜏(2𝑘−1).
+
+% ===== #912  (page 329) =====
+If is the factorisation into distinct primes then let count the number of distinct exponents . Prove that there exists some such that as . 𝑛! = ∏ 𝑖 𝑝𝑘𝑖 𝑖 ℎ(𝑛) 𝑘𝑖 𝑐> 0 ℎ(𝑛) ∼𝑐( 𝑛 log 𝑛) 𝑛→∞
+
+% ===== #913  (page 330) =====
+number theory Are there infinitely many  such that if is the factorisation into distinct primes then all exponents are distinct? 𝑛 𝑛(𝑛+ 1) = ∏ 𝑖 𝑝𝑘𝑖 𝑖 𝑘𝑖
+
+% ===== #928  (page 331) =====
+number theory Let and let denote the largest prime divisor of . Does the density of integers  such that and exist? 𝛼, 𝛽∈(0, 1) 𝑃(𝑛) 𝑛 𝑛 𝑃(𝑛) < 𝑛𝛼 𝑃(𝑛+ 1) < (𝑛+ 1)𝛽
+
+% ===== #929  (page 333) =====
+number theory g p y of  where are all divisible by primes . Estimate - in particular, is it true that ? ≥ ( ) 𝑛 𝑛+ 1, 𝑛+ 2, … , 𝑛+ 𝑘 ≤𝑥 𝑆(𝑘) 𝑆(𝑘) ≥𝑘1−𝑜(1)
+
+% ===== #930  (page 334) =====
+number theory Is it true that, for every , there is a  such that if are disjoint intervals of consecutive integers, all of length at least , then is not a perfect power? 𝑟 𝑘 𝐼1, … , 𝐼𝑟 𝑘 ∏ 1≤𝑖≤𝑟 ∏ 𝑚∈𝐼𝑖 𝑚
+
+% ===== #931  (page 335) =====
+number theory Let . Are there only finitely many such that have the same prime factors? 𝑘1 ≥𝑘2 ≥3 𝑛2 ≥𝑛1 + 𝑘1 ∏ 1≤𝑖≤𝑘1 (𝑛1 + 𝑖) and ∏ 1≤𝑗≤𝑘2 (𝑛2 + 𝑗)
+
+% ===== #932  (page 336) =====
+number theory Let denote the th prime. For infinitely many  there are at least two integers all of whose prime factors are . 𝑝𝑘 𝑘 𝑟 𝑝𝑟< 𝑛 < 𝑝𝑟+1 < 𝑝𝑟+1 −𝑝𝑟
+
+% ===== #933  (page 337) =====
+number theory If , where , then is it true that 𝑛(𝑛+ 1) = 2𝑘3𝑙𝑚 (𝑚, 6) = 1 lim sup 𝑛→∞ 2𝑘3𝑙 𝑛log 𝑛= ∞?
+
+% ===== #935  (page 339) =====
+For any integer let be the powerful part of , so that Is it true that, for every and , if  is sufficiently large then If then is infinite? If then is 𝑛= ∏𝑝𝑘𝑝 𝑄2(𝑛) 𝑛 𝑄2(𝑛) = ∏ 𝑝 𝑘𝑝≥2 𝑝𝑘𝑝. 𝜖> 0 ℓ≥1 𝑛 𝑄2(𝑛(𝑛+ 1) ⋯(𝑛+ ℓ)) < 𝑛2+𝜖? ℓ≥2 lim sup 𝑛→∞ 𝑄2(𝑛(𝑛+ 1) ⋯(𝑛+ ℓ)) 𝑛2 ℓ≥2 lim 𝑛→∞ 𝑄2(𝑛(𝑛+ 1) ⋯(𝑛+ ℓ)) 𝑛ℓ+1 = 0?
+
+% ===== #938  (page 340-342) =====
+Are and 2𝑛± 1 𝑛! ± 1 Let be the sequence of powerful numbers (if then ). Are there only finitely many three-term progressions of consecutive terms ? 𝐴= {𝑛1 < 𝑛2 < ⋯} 𝑝∣𝑛 𝑝2 ∣𝑛 𝑛𝑘, 𝑛𝑘+1, 𝑛𝑘+2
+
+% ===== #939  (page 343) =====
+Let . An -powerful number  is one such that if then . If then can the sum of coprime -powerful numbers ever be itself -powerful? Are there at most finitely many such solutions? Are there infinitely many triples of coprime -powerful numbers such that ? 𝑟≥2 𝑟 𝑛 𝑝∣𝑛 𝑝𝑟∣𝑛 𝑟≥4 𝑟−2 𝑟 𝑟 3 𝑎, 𝑏, 𝑐 𝑎+ 𝑏 = 𝑐
+
+% ===== #940  (page 344) =====
+Let . A number  is -powerful if for every prime  which divides  we have . Are there infinitely many integers which are not the sum of at most  many -powerful numbers? Does the set of integers which are the sum of at most  -powerful numbers have density ? 𝑟≥3 𝑛 𝑟 𝑝 𝑛 𝑝𝑟∣𝑛 𝑟 𝑟 𝑟𝑟 0
+
+% ===== #942  (page 345-346) =====
+Let count the number of powerful (if then ) integers in . Estimate . In particular is there some constant such that ℎ(𝑛) 𝑝∣𝑚 𝑝2 ∣𝑚 [𝑛2, (𝑛+ 1)2) ℎ(𝑛) 𝑐> 0 ℎ(𝑛) < (log 𝑛)𝑐+𝑜(1) , y y , ℎ(𝑛) > (log 𝑛)𝑐−𝑜(1)?
+
+% ===== #943  (page 347) =====
+Let be the set of powerful numbers (if then ). Is it true that for every ? 𝐴 𝑝∣𝑛 𝑝2 ∣𝑛 1𝐴∗1𝐴(𝑛) = 𝑛𝑜(1) 𝑛
+
+% ===== #945  (page 348) =====
+Let be the maximal  such that there exist with all distinct (where counts the divisors of ). Estimate . In particular, is it true that In other words, is there a constant such that, for all large , every interval contains two integers with the same number of divisors? 𝐹(𝑥) 𝑘 𝑛+ 1, … , 𝑛+ 𝑘≤𝑥 𝜏(𝑛 + 1), … , 𝜏(𝑛+ 𝑘) 𝜏(𝑚) 𝑚 𝐹(𝑥) 𝐹(𝑥) ≤(log 𝑥)𝑂(1)? 𝐶> 0 𝑥 [𝑥, 𝑥 + (log 𝑥)𝐶]
+
+% ===== #948  (page 349) =====
+Is there a function and a  such that in any -colouring of the integers there exists a sequence such that for infinitely many  and the set does not contain all colours? 𝑓(𝑛) 𝑘 𝑘 𝑎1 < ⋯ 𝑎𝑛< 𝑓(𝑛) 𝑛 {∑ 𝑖∈𝑆 𝑎𝑖: finite 𝑆}
+
+% ===== #950  (page 351) =====
+Let Is it true that and Is it true that for all ? 𝑓(𝑛) = ∑ 𝑝<𝑛 1 𝑛−𝑝. lim inf 𝑓(𝑛) = 1 lim sup 𝑓(𝑛) = ∞? 𝑓(𝑛) = 𝑜(log log 𝑛) 𝑛
+
+% ===== #951  (page 352) =====
+number theory Let be a sequence of real numbers such that for every distinct pair of non-negative finitely supported integer tuples . Is it true that 1 < 𝑎1 < ⋯ ∣∣∣∣∣∣ ∏ 𝑖 𝑎𝑘𝑖 𝑖−∏ 𝑗 𝑎ℓ𝑗 𝑗 ∣∣∣∣∣∣ ≥1 𝑘𝑖, ℓ𝑗≥0 #{𝑎𝑖≤𝑥} ≤𝜋(𝑥)?
+
+% ===== #952  (page 354) =====
+number theory Is there an infinite sequence of distinct Gaussian primes such that 𝑥1, 𝑥2, … |𝑥𝑛+1 −𝑥𝑛| ≪1?
+
+% ===== #954  (page 355) =====
+number theory Let be the sequence of integers defined by and , and is the smallest integer  for which the number of solutions to (with and ) is . Is the number of solutions to equal to ? 0 = 𝑎0 < 𝑎1 < 𝑎2 < ⋯ 𝑎0 = 0 𝑎1 = 1 𝑎𝑘+1 𝑛 𝑎𝑖+ 𝑎𝑗≤𝑛 0 ≤𝑖≤𝑗≤𝑘 𝑗≥1 < 𝑛 𝑎𝑖+ 𝑎𝑗≤𝑥 𝑥+ 𝑂(𝑥1/4+𝑜(1))
+
+% ===== #955  (page 356) =====
+number theory Let be the sum of proper divisors function. If has density  then must also have density . 𝑠(𝑛) = 𝜎(𝑛) −𝑛= ∑ 𝑑∣𝑛 𝑑<𝑛 𝑑 𝐴⊂ℕ 0 𝑠−1(𝐴) 0
+
+% ===== #961  (page 357) =====
+number theory Let be the minimal  such that every set of  consecutive integers contains an integer divisible by a prime . Estimate . 𝑓(𝑘) 𝑛 𝑛 > 𝑘 > 𝑘 𝑓(𝑘)
+
+% ===== #962  (page 359) =====
+number theory Let be the maximal  such that there exists such that each of the integers are divisible by at least one prime . Estimate - in particular, is it true that 𝑘(𝑛) 𝑘 𝑚≤𝑛 𝑚+ 1, … , 𝑚+ 𝑘 > 𝑘 𝑘(𝑛) log 𝑘(𝑛) ≤(log 𝑛)1/2+𝑜(1)?
+
+% ===== #963  (page 360) =====
+number theory Let be the maximal  such that in any set of size  there is a subset of size which is dissociated that is, the sums are distinct for all . Estimate - in particular, is it true that 𝑓(𝑛) 𝑘 𝐴⊂ℝ 𝑛 𝐵⊆𝐴 |𝐵| ≥𝑘 ∑𝑏∈𝑆𝑏 𝑆⊆𝐵 𝑓(𝑛) 𝑓(𝑛) ≥⌊log2 𝑛⌋?
+
+% ===== #968  (page 361) =====
+number theory Let , where is the th prime. Does the set of  such that have positive density? 𝑢𝑛= 𝑝𝑛/𝑛 𝑝𝑛 𝑛 𝑛 𝑢𝑛< 𝑢𝑛+1
+
+% ===== seq276  (page 362) =====
+Let count the number of squarefree integers in . Determine the order of magnitude in the error term in the asymptotic 𝑄(𝑥) [1, 𝑥] 𝑄(𝑥) = 6 𝜋2 𝑥+ 𝐸(𝑥).
+
+% ===== #970  (page 364) =====
+number theory Let be Jacobsthal's function, defined to as the minimal such that, if  has at most prime factors, then in any set of consecutive integers there exists an integer coprime to . Determine the order of magnitude of . In particular, is it true that ℎ(𝑘) 𝑚 𝑛 𝑘 𝑚 𝑛 ℎ(𝑘) ℎ(𝑘) ≪𝑘2?
+
+% ===== #971  (page 365) =====
+number theory Let be the least prime congruent to . Does there exist a constant such that, for all large , for many values of ? 𝑝(𝑎, 𝑑) 𝑎(mod 𝑑) 𝑐 > 0 𝑑 𝑝(𝑎, 𝑑) > (1 + 𝑐)𝜙(𝑑) log 𝑑 ≫𝜙(𝑑) 𝑎
+
+% ===== #972  (page 366) =====
+number theory Let be irrational. Are there infinitely many primes  such that is also prime? 𝛼> 1 𝑝 ⌊𝑝𝛼⌋
+
+% ===== #975  (page 367) =====
+Let be an irreducible non-constant polynomial such that for all large . Does there exist a constant such that where  is the divisor function? 𝑓∈ℤ[𝑥] 𝑓(𝑛) ≥1 𝑛 ∈ℕ 𝑐= 𝑐(𝑓) > 0 ∑ 𝑛≤𝑋 𝜏(𝑓(𝑛)) ∼𝑐𝑋log 𝑋, 𝜏
+
+% ===== #976  (page 369) =====
+number theory Let be an irreducible polynomial of degree . Let be maximal such that there exists with is divisible by a prime . Equivalently, is the greatest prime divisor of Estimate . In particular, is it true that for some constant ? Or even ? 𝑓∈ℤ[𝑥] 𝑑≥2 𝐹𝑓(𝑛) 1 ≤𝑚≤𝑛 𝑓(𝑚) ≥𝐹𝑓(𝑛) 𝐹𝑓(𝑛) ∏ 1≤𝑚≤𝑛 𝑓(𝑚). 𝐹𝑓(𝑛) 𝐹𝑓(𝑛) ≫𝑛1+𝑐 𝑐> 0 ≫𝑛𝑑
+
+% ===== #978  (page 370) =====
+number theory Let be an irreducible polynomial of degree (and suppose that for any ) such that the leading coefficient of  is positive. Does the set of integers for which is -power-free have positive density? If , and for all primes  there exists  such that , then are there infinitely many  for which is -power-free? In particular, does represent infinitely many squarefree numbers? 𝑓∈ℤ[𝑥] 𝑘> 2 𝑘≠2𝑙 𝑙≥1 𝑓 𝑛≥1 𝑓(𝑛) (𝑘−1) 𝑘> 3 𝑝 𝑛 𝑝𝑘−2 ∤𝑓(𝑛) 𝑛 𝑓(𝑛) (𝑘−2) 𝑛4 + 2
+
+% ===== #979  (page 371-372) =====
+Let , and let count the number of solutions to 𝑘≥2 𝑓𝑘(𝑛) number theory where the are prime numbers. Is it true that ? 𝑛= 𝑝1 + ⋯+ 𝑝𝑘, 𝑝𝑖 lim sup 𝑓𝑘(𝑛) = ∞
+
+% ===== #983  (page 373) =====
+number theory g y of size there exist primes such that many are only divisible by primes from . Is it true that as ? In general, estimate , particularly when . ≥ ( ) < ≤ 𝑓( , ) ⊆{1, … , 𝑛} |𝐴| = 𝑘 𝑝1, … , 𝑝𝑟 > 𝑟 𝑎∈𝐴 {𝑝1, … , 𝑝𝑟} 2𝜋(𝑛1/2) −𝑓(𝜋(𝑛) + 1, 𝑛) →∞ 𝑛→∞ 𝑓(𝑘, 𝑛) 𝜋(𝑛) + 1 < 𝑘= 𝑜(𝑛)
+
+% ===== #985  (page 374) =====
+number theory Is it true that, for every prime , there is a prime which is a primitive root modulo ? 𝑝 𝑞< 𝑝 𝑝
+
+% ===== #1003  (page 375) =====
+number theory Are there infinitely many solutions to , where  is the Euler totient function? 𝜙(𝑛) = 𝜙(𝑛+ 1) 𝜙
+
+% ===== #1004  (page 376) =====
+number theory Let . If  is sufficiently large then does there exist such that the values of are all distinct for , where  is the Euler totient function? 𝑐> 0 𝑥 𝑛≤𝑥 𝜙(𝑛+ 𝑘) 1 ≤𝑘≤(log 𝑥)𝑐 𝜙
+
+% ===== #1005  (page 377) =====
+number theory Let be the Farey fractions of order . Let be the largest integer such that if then and are similarly ordered - in other words, Estimate - in particular, is there a constant such that for all large ? 𝑎1 𝑏1 , 𝑎2 𝑏2 , … 𝑛≥4 𝑓(𝑛) 1 ≤𝑘< 𝑙≤𝑘+ 𝑓(𝑛) 𝑎𝑘 𝑏𝑘 𝑎𝑙 𝑏𝑙 (𝑎𝑘−𝑎𝑙)(𝑏𝑘−𝑏𝑙) ≥0. 𝑓(𝑛) 𝑐> 0 𝑓(𝑛) = (𝑐+ 𝑜(1))𝑛 𝑛
+
+% ===== #1052  (page 379) =====
+number theory A unitary divisor of  is such that . A number is a unitary perfect number if it is the sum of its unitary divisors (aside from  itself). Are there only finite many unitary perfect numbers? - $10 𝑛 𝑑∣𝑛 (𝑑, 𝑛/𝑑) = 1 𝑛≥1 𝑛
+
+% ===== #1053  (page 380) =====
+number theory Call a number -perfect if , where is the sum of the divisors of . Must ? 𝑘 𝜎(𝑛) = 𝑘𝑛 𝜎(𝑛) 𝑛 𝑘 = 𝑜(log log 𝑛)
+
+% ===== #1054  (page 381) =====
+Let be the minimal integer such that  is the sum of the  smallest divisors of for some . Is it true that ? Or is this true only for almost all , and ? 𝑓(𝑛) 𝑚 𝑛 𝑘 𝑚 𝑘≥1 𝑓(𝑛) = 𝑜(𝑛) 𝑛 lim sup 𝑓(𝑛)/𝑛 = ∞
+
+% ===== #1055  (page 382) =====
+A prime  is in class  if the only prime divisors of are  or . In general, a prime is in class  if every prime factor of is in some class , with equality for at least one prime factor. Are there infinitely many primes in each class? If is the least prime in class , then how does behave? 𝑝 1 𝑝+ 1 2 3 𝑝 𝑟 𝑝+ 1 ≤𝑟−1 𝑝𝑟 𝑟 𝑝1/𝑟 𝑟
+
+% ===== #1056  (page 383) =====
+number theory Let . Does there exist a prime  and consecutive intervals such that for all ? 𝑘≥2 𝑝 𝐼1, … , 𝐼𝑘 ∏ 𝑛∈𝐼𝑖 𝑛≡1 (mod 𝑝) 1 ≤𝑖≤𝑘
+
+% ===== #1057  (page 385) =====
+number theory Let count the number of Carmichael numbers in the interval . Is it true that ? 𝐶(𝑥) [1, 𝑥] 𝐶(𝑥) = 𝑥1−𝑜(1)
+
+% ===== #1059  (page 386) =====
+Are there infinitely many primes  such that is composite for each  such that ? 𝑝 𝑝−𝑘! 𝑘 1 ≤𝑘! < 𝑝
+
+% ===== #1060  (page 387) =====
+number theory Let count the number of solutions to , where is the sum of divisors of . Is it true that ? Perhaps even ? 𝑓(𝑛) 𝑘𝜎(𝑘) = 𝑛 𝜎(𝑘) 𝑘 𝑓(𝑛) ≤𝑛𝑜( 1 log log 𝑛) ≤(log 𝑛)𝑂(1)
+
+% ===== #1061  (page 388) =====
+number theory How many solutions are there to with , where  is the sum of divisors function? Is it for some constant ? 𝜎(𝑎) + 𝜎(𝑏) = 𝜎(𝑎+ 𝑏) 𝑎+ 𝑏≤𝑥 𝜎 ∼𝑐𝑥 𝑐 > 0
+
+% ===== #1062  (page 389) =====
+number theory Let be the size of the largest subset such that there are no three distinct elements such that and . How large can be? Is irrational? 𝑓(𝑛) 𝐴⊆{1, … , 𝑛} 𝑎, 𝑏, 𝑐∈𝐴 𝑎∣𝑏 𝑎∣𝑐 𝑓(𝑛) lim 𝑓(𝑛)/𝑛
+
+% ===== #1063  (page 390) =====
+number theory Let and define to be the least value of  such that divides for all but one . Estimate . 𝑘≥2 𝑛𝑘≥2𝑘 𝑛 𝑛−𝑖 ( 𝑛 𝑘) 0 ≤𝑖< 𝑘 𝑛𝑘
+
+% ===== #1065  (page 391) =====
+number theory Are there infinitely many primes  such that for some prime  and ? Or ? 𝑝 𝑝= 2𝑘𝑞+ 1 𝑞 𝑘≥0 𝑝= 2𝑘3𝑙𝑞+ 1
+
+% ===== #1072  (page 392) =====
+number theory For any prime , let be the least integer such that . Is it true that there are infinitely many  for which ? Is it true that for almost all ? 𝑝 𝑓(𝑝) 𝑓(𝑝)! + 1 ≡0 (mod 𝑝) 𝑝 𝑓(𝑝) = 𝑝−1 𝑓(𝑝)/𝑝→0 𝑝
+
+% ===== #1073  (page 393) =====
+number theory Let count the number of composite such that for some . Is it true that ? 𝐴(𝑥) 𝑢< 𝑥 𝑛! + 1 ≡0 (mod 𝑢) 𝑛 𝐴(𝑥) ≤𝑥𝑜(1)
+
+% ===== #1074  (page 395) =====
+number theory p . Does exist? What is it? Similarly, if is the set of all primes  such that there exists an with such that , then does exist? What is it? ≥ 𝑝 ̸ ( ) 𝑚! + 1 ≡0 (mod 𝑝) lim |𝑆∩[1, 𝑥]| 𝑥 𝑃 𝑝 𝑚 𝑝≢ 1 (mod 𝑚) 𝑚! + 1 ≡0 (mod 𝑝) lim |𝑃∩[1, 𝑥]| 𝜋(𝑥)
+
+% ===== #1093  (page 396) =====
+For we define the deficiency of as follows. If is divisible by a prime then the deficiency is undefined. Otherwise, the deficiency is the number of such that is -smooth, that is, divisible only by primes . Are there infinitely many binomial coefficients with deficiency ? Are there only finitely many with deficiency ? 𝑛≥2𝑘 ( 𝑛 𝑘) ( 𝑛 𝑘) 𝑝 ≤𝑘 0 ≤𝑖 < 𝑘 𝑛−𝑖 𝑘 ≤𝑘 1 > 1
+
+% ===== #1094  (page 398) =====
+For all the least prime factor of is , with only finitely many exceptions. 𝑛≥2𝑘 ( 𝑛 𝑘) ≤max(𝑛/𝑘, 𝑘)
+
+% ===== #1095  (page 400) =====
+Let be the smallest  such that all prime factors of are . Estimate . 𝑔(𝑘) > 𝑘+ 1 𝑛 ( 𝑛 𝑘) > 𝑘 𝑔(𝑘)
+
+% ===== #1097  (page 401) =====
+Let be a set of  integers. How many distinct  can occur as the common difference of a three-term arithmetic progression in ? In particular, are there always many such ? 𝐴 𝑛 𝑑 𝐴 𝑂(𝑛3/2) 𝑑
+
+% ===== #1100  (page 403) =====
+If are the divisors of , then let count the number of for which . Is it true that for almost all ? Is it true that for all ? Let where counts the number of distinct prime divisors of , and  is restricted to squarefree integers. Determine the growth of . 1 = 𝑑1 < ⋯< 𝑑𝜏(𝑛) = 𝑛 𝑛 𝜏⟂(𝑛) 𝑖 (𝑑𝑖, 𝑑𝑖+1) = 1 𝜏⟂(𝑛)/𝜔(𝑛) →∞ 𝑛 𝜏⟂(𝑛) < exp((log 𝑛)𝑜(1)) 𝑛 𝑔(𝑘) = max 𝜔(𝑛)=𝑘𝜏⟂(𝑛), 𝜔(𝑛) 𝑛 𝑛 𝑔(𝑘)
+
+% ===== #1101  (page 404) =====
+number theory If is a sequence of integers such that for all and then let be the sequence of integers which are not divisible by any of the . For any  define by We call such a sequence good if, for all , if  is sufficiently large then Is there a good sequence such that ? Is there a good sequence such that ? 𝑢= {𝑢1 < 𝑢2 < ⋯} (𝑢𝑖, 𝑢𝑗) = 1 𝑖≠𝑗 ∑1 𝑢𝑖< ∞ {𝑎1 < 𝑎2 < ⋯} 𝑢𝑖 𝑥 𝑡𝑥 𝑢1 ⋯𝑢𝑡𝑥≤𝑥< 𝑢1 ⋯𝑢𝑡𝑥𝑢𝑡𝑥+1. 𝑢𝑖 𝜖> 0 𝑥 max 𝑎𝑘<𝑥(𝑎𝑘+1 −𝑎𝑘) < (1 + 𝜖)𝑡𝑥∏ 𝑖 (1 −1 𝑢𝑖 ) −1 . 𝑢𝑛< 𝑛𝑂(1) 𝑢𝑛 ≤𝑒𝑜(𝑛)
+
+% ===== #1103  (page 405) =====
+number theory Let be an infinite sequence of integers such that every is squarefree. How fast must grow? 𝐴 𝑛∈𝐴+ 𝐴 𝐴
+
+% ===== #1106  (page 407) =====
+#1106: [Ob1] number theory Let denote the partition function of  and let count the number of distinct prime factors of Does with ? Is for all sufficiently large ? 𝑝(𝑛) 𝑛 𝐹(𝑛) ∏ 1≤𝑘≤𝑛 𝑝(𝑘). 𝐹(𝑛) →∞ 𝑛 𝐹(𝑛) > 𝑛 𝑛
+
+% ===== #1107  (page 408) =====
+#1107: [Ob1] Let . A number  is -powerful if for every prime  which divides  we have . Is every large integer the sum of at most many -powerful numbers? 𝑟≥2 𝑛 𝑟 𝑝 𝑛 𝑝𝑟∣𝑛 𝑟+ 1 𝑟
+
+% ===== #1108  (page 409) =====
+#1108: [Ob1] Let If , then does contain only finitely many th powers? Does it contain only finitely many powerful numbers? 𝐴= {∑ 𝑛∈𝑆 𝑛! : 𝑆⊂ℕfinite} . 𝑘≥2 𝐴 𝑘
+
+% ===== seq314  (page 410) =====
+Let be the size of the largest subset such that every is squarefree. Estimate . In particular, is it true that , or even 𝑓(𝑁) 𝐴⊆{1, … , 𝑁} 𝑛∈𝐴+ 𝐴 𝑓(𝑁) 𝑓(𝑁) ≤𝑁𝑜(1) 𝑓(𝑁)
+
+% ===== #1110  (page 412) =====
+number theory Let be two coprime integers. We call  representable if it is the sum of integers of the form , none of which divide each other. If then what can be said about the density of non-representable numbers? Are there infinitely many coprime non-representable numbers? 𝑝> 𝑞≥2 𝑛 𝑝𝑘𝑞𝑙 {𝑝, 𝑞} ≠{2, 3}
+
+% ===== #1113  (page 413) =====
+A positive odd integer such that none of are prime for is called a Sierpinski number. We say that a set of primes is a covering set for if every is divisible by some . Are there Sierpinski numbers with no finite covering set of primes? 𝑚 2𝑘𝑚+ 1 𝑘≥0 𝑃 𝑚 2𝑘𝑚 + 1 𝑝∈𝑃
+
+% ===== #1122  (page 415) =====
+number theory Let be an additive function (i.e. whenever ). Let If then must for some ? 𝑓: ℕ→ℝ 𝑓(𝑎𝑏) = 𝑓(𝑎) + 𝑓(𝑏) (𝑎, 𝑏) = 1 𝐴= {𝑛≥1 : 𝑓(𝑛+ 1) < 𝑓(𝑛)}. |𝐴∩[1, 𝑋]| = 𝑜(𝑋) 𝑓(𝑛) = 𝑐log 𝑛 𝑐∈ℝ
+
+% ===== #1135  (page 416) =====
+Define by if  is even and if  is odd. Given any integer does there exist such that ? - $500 𝑓: ℕ→ℕ 𝑓(𝑛) = 𝑛/2 𝑛 𝑓(𝑛) = 3𝑛+1 2 𝑛 𝑚≥1 𝑘≥1 𝑓(𝑘)(𝑚) = 1
+
+% ===== #1137  (page 417-418) =====
+Let , where denotes the th prime. Is it true that 𝑑𝑛= 𝑝𝑛+1 −𝑝𝑛 𝑝𝑛 𝑛 as ? max𝑛<𝑥𝑑𝑛𝑑𝑛−1 (max𝑛<𝑥𝑑𝑛)2 →0 𝑥→∞
+
+% ===== #1138  (page 418-419) =====
+Let and . If , where denotes the th prime, then is it true that DISPROVED (LEAN) 𝑥/2 < 𝑦< 𝑥 𝐶> 1 𝑑= max𝑝𝑛<𝑥(𝑝𝑛+1 −𝑝𝑛) 𝑝𝑛 𝑛 𝜋(𝑦+ 𝐶𝑑) −𝜋(𝑦) ∼ 𝐶𝑑 log 𝑦?
+
+% ===== #1139  (page 420) =====
+Let be the sequence of integers with at most  prime factors. Is it true that 1 ≤𝑢1 < 𝑢2 < ⋯ 2 lim sup 𝑢𝑘+1 −𝑢𝑘 log 𝑘 = ∞?
+
+% ===== #1142  (page 421) =====
+Are there infinitely many  (or any ) such that is prime for all ? 𝑛 𝑛> 105 𝑛−2𝑘 1 < 2𝑘 < 𝑛
+
+% ===== #1143  (page 422) =====
+Let be primes and let . Let be such that every interval of  positive integers contains at least multiples of at least one of the . Estimate , particularly in the range for constant . 𝑝1 < ⋯< 𝑝𝑢 𝑘≥1 𝐹𝑘(𝑝1, … , 𝑝𝑢) 𝑘 𝐹𝑘(𝑝1, … , 𝑝𝑢) 𝑝𝑖 𝐹𝑘(𝑝1, … , 𝑝𝑢) 𝑘= 𝛼𝑝𝑢 𝛼> 2
+
+% ===== #1144  (page 423) =====
+Let  be a random completely multiplicative function, where for each prime  we independently choose uniformly at random. Is it true that with probability ? 𝑓 𝑝 𝑓(𝑝) ∈{−1, 1} lim sup 𝑁→∞ ∑𝑚≤𝑁𝑓(𝑚) √𝑁 = ∞ 1
+
+% ===== #1146  (page 425) =====
+number theory We say that is an essential component if for every with where is the Schnirelmann density. Is an essential component? 𝐴⊂ℕ 𝑑𝑠(𝐴+ 𝐵) > 𝑑𝑠(𝐵) 𝐵⊂ℕ 0 < 𝑑𝑠(𝐵) < 1 𝑑𝑠 𝐵= {2𝑚3𝑛: 𝑚, 𝑛≥0}
+
+% ===== #1181  (page 426) =====
+number theory Let denote the least prime which does not divide . Is it true that there exists some such that, for all large , 𝑞(𝑛, 𝑘) ∏1≤𝑖≤𝑘(𝑛+ 𝑖) 𝑐> 0 𝑛 𝑞(𝑛, log 𝑛) < (1 −𝑐)(log 𝑛)2?
+
+% ===== #1184  (page 427) =====
+Let count the number of such that (where is the largest prime divisor of ). Is it true that, if is such that , then where  is the Dickman function? 𝑓(𝑛, 𝑘) 1 ≤𝑖≤𝑘 𝑃(𝑛+ 𝑖) > 𝑘 𝑃(𝑚) 𝑚 𝛼> 1 𝑛= 𝑘𝛼+𝑜(1) 𝑓(𝑛, 𝑘) = (1 −𝜌(𝛼) + 𝑜(1))𝑘, 𝜌
+
+% ===== #1188  (page 428) =====
+Call a set of distinct integers with associated congruence classes a distinct covering system if every integer satisfies at least one of these congruences. A minimal distinct covering system is one such that no proper subset forms a covering system. Let count the number of minimal distinct covering systems with all moduli in . Estimate . 1 < 𝑛1 < ⋯< 𝑛𝑘 𝑎𝑖(mod 𝑛𝑖) 𝐹(𝑥) [1, 𝑥] 𝐹(𝑥)
+
+% ===== #1189  (page 430) =====
+Call a set of distinct integers a covering set if there is a choice of for such that every integer satisfies at least one of these congruences. A set is an irreducible covering set if no proper subset is a covering set. How many irreducible covering sets of size  are there? What is the minimum and maximum that can be? Determine or estimate , where the maximum ranges over all irreducible covering sets of size . Are there infinitely many  such that the divisors of  (which are ) form an irreducible covering set? 1 < 𝑛1 < ⋯< 𝑛𝑘 𝑎𝑖(mod 𝑛𝑖) 1 ≤𝑖≤𝑘 𝑘 𝑛𝑘 max ∑1 𝑛𝑖 𝑘 𝑛 𝑛 > 1
+
+% ===== #1200  (page 431) =====
+There exists a constant such that for all large  there is a collection of primes with together with a system of congruences such that every integer satisfies at least one of these congruences. 𝐶 𝑥 𝑝1 < … < 𝑝𝑘< 𝑥 ∑1 𝑝𝑖< 𝐶 𝑎𝑖(mod 𝑝𝑖) 𝑛< 𝑥
+
+% ===== seq331  (page 432) =====
+Is it true that for every there exists a  such that the density of  for which is at least (where is the greatest prime divisor of )? 𝜖, 𝜂> 0 𝑘 𝑛 𝑃(𝑛(𝑛+ 1) ⋯(𝑛+ 𝑘)) > 𝑛1−𝜖 1 −𝜂 𝑃(𝑚) 𝑚
+
+% ===== seq332  (page 433) =====
+If counts the number of distinct prime divisors of  then let 𝜔(𝑛) 𝑛 𝐹(𝑛) = max 𝑘 𝜔(𝑛+ 𝑘) log log 𝑘 log 𝑘 .
+
+% ===== #1204  (page 434-435) =====
+We call a sequence of integers admissible if it is missing at least one congruence class modulo every prime . Let . Estimate - in 0 ≤𝑎1 < ⋯< 𝑎𝑘 𝑝 𝐴(𝑘) = min 𝑎𝑘 𝐴(𝑘) number theory Estimate 𝐴(𝑘) ∼𝑘log 𝑘? 𝐵(𝑘) = min 𝑎1 + ⋯+ 𝑎𝑘 𝑘 .
+
+% ===== #1206  (page 436) =====
+Does contain a Sidon set of size ? Is there an infinite set of positive density such that is a Sidon set? {1, 23, … , 𝑁3} ≫𝑁 𝐴⊂ℕ {𝑎3 : 𝑎∈𝐴}
+
+% ===== #1209  (page 437) =====
+number theory Let be a sequence of integers which tends to infinity sufficiently fast. If there is an  such that all are primes then must there exist infinitely many such ? What if we ask for to be squarefree instead of prime? Are there  such that is always a prime (or always squarefree, or infinitely often a prime, or infinitely often squarefree)? 𝐴= {𝑎1 < 𝑎2 < ⋯} 𝑛 𝑛+ 𝑎𝑘 𝑛 𝑛+ 𝑎𝑘 𝑛 𝑛+ 22𝑘
+
+% ===== #1210  (page 439) =====
+number theory Let be a set of integers such that for all distinct . Is it true that 𝐴⊆[1, 𝑛) (𝑎, 𝑏) = 1 𝑎, 𝑏∈𝐴 ∑ 𝑎∈𝐴 1 𝑛−𝑎≤∑ 𝑝<𝑛 1 𝑝+ 𝑂(1)?
+
+% ===== #1212  (page 440) =====
+Let be the graph with vertex set those pairs with , in which we join two vertices if the differ in only one coordinate, and there by . Is there a path going to infinity on , say , such that for all both and at least one of  or  is composite? 𝐺 (𝑥, 𝑦) ∈ℕ2 gcd(𝑥, 𝑦) = 1 ±1 𝐺 𝑃 (𝑥, 𝑦) ∈𝑃 min(𝑥, 𝑦) > 1 𝑥 𝑦
+
