@@ -1,0 +1,11 @@
+top 10 targets:
+   97.0   #647  Compute m + tau(m) for all m up to large N, track the runnin
+   94.0   #287  Enumerate all Egyptian fraction representations of 1 with di
+   94.0   #458  Compute lcm(1..p_{k+1}-1) and p_k*lcm(1..p_k) for all primes
+   94.0   #677  Write code to compute lcm(n+1,...,n+k) for all n,m up to ~10
+   91.0   #985  For each prime p up to 10^7, find the smallest prime q that 
+   88.0   #242  For each n from 3 to ~10^6, run a search for valid (x,y,z) t
+   88.0   #291  Compute gcd(a_n, L_n) for n up to several thousand using exa
+   88.0   #375  For each composite gap n+1,...,n+k, enumerate small prime fa
+   88.0   #385  Compute F(n) for all n up to 10^7: for each composite m < n,
+   88.0   #389  For each n, search over k=1,2,...,K checking divisibility of
