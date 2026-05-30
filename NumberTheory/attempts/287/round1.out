@@ -1,0 +1,5 @@
+[stderr]
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\287\snippet.py", line 7
+    if remaining == 0:
+    ^^
+IndentationError: expected an indented block after function definition on line 6

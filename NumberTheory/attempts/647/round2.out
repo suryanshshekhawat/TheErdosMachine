@@ -1,0 +1,5 @@
+[stderr]
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\647\snippet.py", line 20
+    current_max = f[n]
+    ^^^^^^^^^^^
+IndentationError: expected an indented block after 'if' statement on line 19

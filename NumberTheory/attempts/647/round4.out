@@ -1,0 +1,47 @@
+N searched: 200000
+Count of n>24 satisfying condition: 0
+No such n found in [25, 200000].
+
+Gap = running_max[n]-(n+2) for n=25..55:
+  n=25 rm=32 gap=5
+  n=26 rm=32 gap=4
+  n=27 rm=32 gap=3
+  n=28 rm=32 gap=2
+  n=29 rm=34 gap=3
+  n=30 rm=34 gap=2
+  n=31 rm=38 gap=5
+  n=32 rm=38 gap=4
+  n=33 rm=38 gap=3
+  n=34 rm=38 gap=2
+  n=35 rm=38 gap=1
+  n=36 rm=39 gap=1
+  n=37 rm=45 gap=6
+  n=38 rm=45 gap=5
+  n=39 rm=45 gap=4
+  n=40 rm=45 gap=3
+  n=41 rm=48 gap=5
+  n=42 rm=48 gap=4
+  n=43 rm=50 gap=5
+  n=44 rm=50 gap=4
+  n=45 rm=50 gap=3
+  n=46 rm=51 gap=3
+  n=47 rm=51 gap=2
+  n=48 rm=51 gap=1
+  n=49 rm=58 gap=7
+  n=50 rm=58 gap=6
+  n=51 rm=58 gap=5
+  n=52 rm=58 gap=4
+  n=53 rm=58 gap=3
+  n=54 rm=58 gap=2
+  n=55 rm=62 gap=5
+
+Gap at selected large n:
+  n=100 rm=108 gap=6
+  n=1000 rm=1014 gap=12
+  n=5000 rm=5024 gap=22
+  n=10000 rm=10032 gap=30
+  n=50000 rm=50052 gap=50
+  n=100000 rm=100056 gap=54
+  n=199999 rm=200052 gap=51
+
+Minimum gap: 1 at n=35 (running_max=38, n+2=37)

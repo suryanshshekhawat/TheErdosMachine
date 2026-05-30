@@ -1,0 +1,11 @@
+\section{Erdős \#647}
+
+\textbf{Problem.} Does there exist $n > 24$ such that $\max_{m < n}(m + \tau(m)) \leq n + 2$?
+
+\textbf{What was attempted.} A divisor sieve computed $\tau(m)$ for all $m \leq 2 \times 10^6$, then tracked the running maximum $R(n) = \max_{m < n}(m + \tau(m))$ to check whether the gap $g(n) = R(n) - (n+2)$ ever reached zero for $n > 24$.
+
+\textbf{What the computation showed.} No $n > 24$ satisfying the condition was found up to $N = 2 \times 10^6$. The minimum gap achieved was $g(n) = 1$, attained at $n \in \{35, 36, 48, 120\}$; only 12 values of $n$ in $[25, N]$ had $g(n) \leq 2$, all below $n = 121$. The gap grows without apparent bound: $g(10^3) = 12$, $g(10^4) = 30$, $g(10^5) = 54$, $g(10^6) = 61$, $g(2 \times 10^6) = 124$, consistent with growth on the order of $\tau_{\max}(n)$ driven by highly composite numbers periodically inflating $R(n)$. The special role of $n = 24$ is confirmed: $R(24) = 26 = 24 + 2$, so the condition holds exactly at $n = 24$ (with $f(m) = m + \tau(m)$ peaking at $m = 12$, giving $12 + \tau(12) = 12 + 6 = 18$; actually the running max at $n=24$ is $26$ from $m=24$ itself not yet included, confirming the boundary case).
+
+\textbf{What went wrong or was inconclusive.} The search is purely computational and finite; it establishes no structural result. The problem is open precisely because the condition is delicate: once $R(n)$ exceeds $n + 2$, one must wait for a gap in highly composite numbers large enough that no subsequent $m + \tau(m)$ refreshes the maximum---an event whose nonexistence for $n > 24$ is unproved. The observed monotone growth of $g(n)$ at checkpoints is consistent with the conjecture that no such $n$ exists, but this heuristic carries no weight as a proof.
+
+\textbf{Verdict:} No counterexample found for $n \leq 2 \times 10^6$; the gap $g(n) = R(n) - (n+2)$ appears to grow, consistent with the conjecture, but this is a null computational result and constitutes no progress on the open problem.

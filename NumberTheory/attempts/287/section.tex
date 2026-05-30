@@ -1,0 +1,15 @@
+\section{Erdős \#287}
+
+\textbf{Problem.} For any $k \geq 2$ and distinct integers $1 < n_1 < \cdots < n_k$ with $\sum_{i=1}^k \frac{1}{n_i} = 1$, must $\max_i(n_{i+1}-n_i) \geq 3$?
+
+\textbf{What was attempted.} A depth-first enumeration of all Egyptian fraction representations of $1$ as sums of distinct unit fractions with denominators in $\{2,\dots,D\}$ and at most $k_{\max}$ terms, pruning branches where the remaining slots cannot fill the remaining sum. For each representation the denominators were sorted and consecutive gaps were inspected.
+
+\textbf{What the computation showed.} With parameters $D = 80$, $k_{\max} = 8$, the search completed and found $3369$ representations. No representation had $\max_i(n_{i+1}-n_i) < 3$. The minimum observed maximum-gap was exactly $3$, achieved by $(n_1,n_2,n_3) = (2,3,6)$, since $\frac{1}{2}+\frac{1}{3}+\frac{1}{6}=1$ with gaps $[1,3]$. Attempts to extend to $D=150$, $k_{\max}=10$ timed out at $90$ seconds.
+
+\textbf{What went wrong or was inconclusive.} The search is far from exhaustive. Representations with large denominators or many terms are entirely unexamined. In particular, as $k$ grows it becomes easy to construct dense arithmetic-like sequences whose consecutive gaps could in principle all be $1$ or $2$; the present computation says nothing about such cases. Crucially, finding no counterexample in a finite bounded search is the generic expected outcome for any true conjecture \emph{and} for many false ones whose counterexamples lie beyond the search horizon. The result
+\begin{equation*}
+    \text{no counterexample found for } D \leq 80,\; k \leq 8
+\end{equation*}
+is consistent with the conjecture but constitutes no progress toward a proof or disproof.
+
+\textbf{Verdict:} Inconclusive---no counterexample found within tight computational bounds, but the search covers a negligible fraction of the problem's domain and provides no theoretical insight.
