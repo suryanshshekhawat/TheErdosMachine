@@ -1,0 +1,36 @@
+Searching for collisions (equal LCM for non-overlapping windows)...
+Format: (n, m, k, lcm_value) where m >= n+k
+
+k=1: No collision found up to n=200
+k=2: No collision found up to n=200
+k=3: No collision found up to n=200
+k=4: No collision found up to n=500
+k=5: No collision found up to n=500
+k=6: No collision found up to n=1000
+k=7: No collision found up to n=1000
+
+No collisions found in searched range.
+
+Note: k=1 trivially has no collision (lcm of single element is unique)
+
+Sample LCM values for k=2:
+  n=0: lcm(1,2)=2
+  n=1: lcm(2,3)=6
+  n=2: lcm(3,4)=12
+  n=3: lcm(4,5)=20
+  n=4: lcm(5,6)=30
+  n=5: lcm(6,7)=42
+  n=6: lcm(7,8)=56
+  n=7: lcm(8,9)=72
+  n=8: lcm(9,10)=90
+  n=9: lcm(10,11)=110
+  n=10: lcm(11,12)=132
+  n=11: lcm(12,13)=156
+  n=12: lcm(13,14)=182
+  n=13: lcm(14,15)=210
+  n=14: lcm(15,16)=240
+  n=15: lcm(16,17)=272
+  n=16: lcm(17,18)=306
+  n=17: lcm(18,19)=342
+  n=18: lcm(19,20)=380
+  n=19: lcm(20,21)=420

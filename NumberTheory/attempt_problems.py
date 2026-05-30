@@ -31,14 +31,17 @@ BLOCK = re.compile(
 EXPLORE_RULES = (
     "You are exploring an OPEN Erdős problem with a small Python sandbox: standard "
     "library + numpy + sympy ONLY. No network, no file I/O, no os/subprocess/system "
-    "access. Each turn return ONLY minified JSON, keys exactly: "
-    "{\"plan\":str,\"code\":str,\"done\":bool,\"promising\":bool,\"note\":str}. "
-    "`code` is a COMPLETE self-contained program that PRINTS its findings clearly; "
-    "keep its runtime well under the per-run timeout (search modest ranges first). "
-    "Goal: concrete computational evidence -- counterexample search, small-case "
-    "verification, pattern-finding. Do NOT claim to prove or solve the problem. If a "
-    "run looks like a counterexample, set promising=true and INDEPENDENTLY re-verify "
-    "it next round before concluding. Set done=true when more computation won't help."
+    "access. Respond EACH turn in exactly this format:\n"
+    "1. ONE fenced Python block ```python ... ``` with a COMPLETE self-contained "
+    "program that PRINTS its findings (omit the block entirely if no code this turn).\n"
+    "2. Then a final line: a minified JSON object with keys exactly "
+    "{\"plan\":str,\"done\":bool,\"promising\":bool,\"note\":str}. Do NOT put code in "
+    "the JSON.\n"
+    "Keep each program's runtime well under the per-run timeout (search modest ranges "
+    "first). Goal: concrete computational evidence -- counterexample search, small-case "
+    "verification, pattern-finding. Do NOT claim to prove or solve the problem. If a run "
+    "looks like a counterexample, set promising=true and INDEPENDENTLY re-verify it next "
+    "round before concluding. Set done=true when more computation won't help."
 )
 
 REPORT_RULES = (
@@ -76,14 +79,21 @@ def load_csv(path):
                 pass
     return rows
 
-def jget(text):
-    text = re.sub(r"^```\w*|```$", "", text.strip()).strip()
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        m = re.search(r"\{.*\}", text, re.S)
-        return json.loads(m.group(0)) if m else {"code": "", "done": True,
-                                                  "note": "unparseable", "promising": False}
+def extract_code(text):
+    m = re.search(r"```(?:python|py)?\s*\n(.*?)```", text, re.S)
+    return m.group(1).strip() if m else ""
+
+def extract_flags(text):
+    tail = text.rsplit("```", 1)[-1] if "```" in text else text   # after the code
+    for c in reversed(re.findall(r"\{[^{}]*\}", tail, re.S)):
+        try:
+            return json.loads(c)
+        except json.JSONDecodeError:
+            pass
+    low = text.lower()                                            # keyword fallback
+    return {"plan": "", "note": "(flags unparsed)",
+            "done": '"done": true' in low or '"done":true' in low,
+            "promising": '"promising": true' in low or '"promising":true' in low}
 
 def call(client, model, messages, max_tokens=1500):
     r = client.messages.create(model=model, max_tokens=max_tokens, messages=messages)
@@ -120,12 +130,12 @@ def attempt(client, rec, num, models, rounds, workdir, timeout, execute):
     transcript, promising = [], False
     for k in range(1, rounds + 1):
         try:
-            reply = call(client, explore_model, msgs)
+            reply = call(client, explore_model, msgs, max_tokens=4000)
         except Exception as e:
             transcript.append({"round": k, "error": f"model error: {e}"}); break
         msgs.append({"role": "assistant", "content": reply})
-        j = jget(reply)
-        code = (j.get("code") or "").strip()
+        code = extract_code(reply)
+        j = extract_flags(reply)
         promising = promising or bool(j.get("promising"))
         rec_round = {"round": k, "plan": j.get("plan", ""), "code": code,
                      "note": j.get("note", ""), "promising": bool(j.get("promising"))}

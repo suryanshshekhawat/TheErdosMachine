@@ -1,0 +1,18 @@
+\section{Erd\H{o}s \#291}
+
+\textbf{Problem.} Define $L_n = \mathrm{lcm}(1,\dots,n)$ and $a_n$ by
+$\sum_{k=1}^{n} \frac{1}{k} = \frac{a_n}{L_n}$;
+is it true that $\gcd(a_n, L_n) = 1$ and $\gcd(a_n, L_n) > 1$ each occur for infinitely many $n$?
+
+\textbf{What was attempted.} Exact integer arithmetic was used to compute $\gcd(a_n, L_n)$ for all $1 \le n \le 5000$, iterating via
+\[
+  L_n = \mathrm{lcm}(L_{n-1}, n), \qquad
+  a_n = a_{n-1} \cdot \frac{L_n}{L_{n-1}} + \frac{L_n}{n},
+\]
+and checking the gcd at each step. A follow-up pass examined run-structure and relationships to prime powers.
+
+\textbf{What the computation showed.} Of $n \in \{1,\dots,5000\}$, the case $\gcd = 1$ occurred $1100$ times ($22\%$) and $\gcd > 1$ occurred $3900$ times ($78\%$). Both cases appear throughout the range. The $\gcd > 1$ cases are dominated by small prime factors ($11, 3, 5, 7, \dots$). The $\gcd = 1$ runs cluster conspicuously near prime powers: runs begin at $n = 9 = 3^2$, $27 = 3^3$, $49 = 7^2$, $289 = 17^2$, $361 = 19^2$, $841 = 29^2$, $1369 = 37^2$, $2401 = 7^4$, $3125 = 5^5$, $3721 = 61^2$, suggesting a structural relationship between $\gcd(a_n, L_n)$ and the $p$-adic valuation of $H_n$.
+
+\textbf{What went wrong or remained inconclusive.} The observed pattern is suggestive but entirely unproved. No structural argument was established linking the observed prime-power clustering to a proof of infinitude for either case. The computation establishes only that both cases occur frequently up to $N = 5000$. Finite enumeration cannot distinguish ``infinitely often'' from ``eventually always one sign''; the problem asks for a proof of infinitude, and no step toward such a proof was taken. The heuristic that $\gcd = 1$ runs are anchored to prime powers $p^k$ lacks theoretical justification and may be spurious or incomplete (several run starts, e.g.\ $n = 968$ and $n = 3488$, are \emph{not} prime powers).
+
+\textbf{Verdict:} No counterexample to either claim was found up to $N = 5000$, and both cases occur abundantly in that range, but this is the expected baseline outcome and constitutes no progress on the open problem.

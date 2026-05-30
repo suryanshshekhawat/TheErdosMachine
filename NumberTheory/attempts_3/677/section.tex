@@ -1,0 +1,11 @@
+\section{Erd\H{o}s \#677}
+
+\textbf{Problem.} Let $M(n,k) = \mathrm{lcm}(n+1, n+2, \ldots, n+k)$. Is it true that for all $m \geq n+k$ one has $M(n,k) \neq M(m,k)$?
+
+\textbf{What was attempted.} A computational search was run for $k = 1, \ldots, 9$ and $n$ up to $N = 200{,}000$, recording every pair $(n, m)$ with $n < m$ and $M(n,k) = M(m,k)$, and checking whether the non-overlap condition $m \geq n + k$ was ever satisfied.
+
+\textbf{What the computation showed.} No counterexample was found in the searched range. Collisions (pairs with equal LCM) do exist but are extremely rare: for each $k$ at most $O(10)$ equal-LCM pairs appeared among $200{,}001$ windows, and in every case the gap $m - n$ was far smaller than the required threshold $k$. For example, for $k = 6$ the largest observed gap was $m - n = 2$, against the required $m - n \geq 6$; for all other $k \leq 9$ the largest observed gap was $m - n = 1$. Additionally, for $k = 2$ injectivity of $M(\cdot, 2)$ was confirmed analytically, since $\mathrm{lcm}(n+1, n+2) = (n+1)(n+2)$ is strictly increasing, but for $k \geq 3$ the function $n \mapsto M(n,k)$ is non-monotone (the LCM can decrease as the window slides), so collisions satisfying the gap condition are not a priori ruled out.
+
+\textbf{What went wrong or is inconclusive.} The search is purely finite and provides no structural insight. The observed equal-LCM pairs all arise from very small gaps ($m - n \leq 2 \ll k$) and may simply reflect a local arithmetic coincidence rather than any pattern approaching the conjecture's threshold. No analysis of LCM growth rates, $p$-adic valuations, or asymptotic behaviour was carried out that would explain \emph{why} the gap $m - n$ never reaches $k$. The bound $N = 200{,}000$ is modest relative to the problem: counterexamples to Erd\H{o}s conjectures frequently appear only at very large scales, and the rarity of even small-gap collisions makes the search statistically inconclusive.
+
+\textbf{Verdict:} No counterexample was found up to $N = 200{,}000$, which is consistent with the conjecture but constitutes no progress toward a proof or disproof; the problem remains entirely open.

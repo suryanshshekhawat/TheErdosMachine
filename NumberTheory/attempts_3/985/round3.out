@@ -1,0 +1,18 @@
+Building sieve up to 1000000...
+Checking 78497 primes up to 1000000...
+  Progress: 10000/78497, failures so far: 0
+  Progress: 20000/78497, failures so far: 0
+  Progress: 30000/78497, failures so far: 0
+  Progress: 40000/78497, failures so far: 0
+  Progress: 50000/78497, failures so far: 0
+  Progress: 60000/78497, failures so far: 0
+  Progress: 70000/78497, failures so far: 0
+
+Total primes checked: 78497
+Failures: []
+Largest absolute q found: q=149 at p=190321
+Cases where ratio q/p > 0.3: 3
+Top 20 worst ratios:
+  p=3, q=2, ratio=0.6667
+  p=7, q=3, ratio=0.4286
+  p=5, q=2, ratio=0.4000

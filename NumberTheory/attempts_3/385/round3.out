@@ -1,0 +1,41 @@
+Computing sieve up to 500000...
+Scanning composites and computing m + p(m)...
+
+Sample (n, F(n), F(n)-n):
+  n=        10, F(n)=        12, F(n)-n=     2
+  n=        50, F(n)=        56, F(n)-n=     6
+  n=       100, F(n)=       102, F(n)-n=     2
+  n=       500, F(n)=       510, F(n)-n=    10
+  n=      1000, F(n)=      1012, F(n)-n=    12
+  n=      5000, F(n)=      5016, F(n)-n=    16
+  n=     10000, F(n)=     10088, F(n)-n=    88
+  n=     50000, F(n)=     50148, F(n)-n=   148
+  n=    100000, F(n)=    100230, F(n)-n=   230
+  n=    500000, F(n)=    500286, F(n)-n=   286
+
+Overall minimum F(n)-n = 0 at n = 6
+F(6) = 6
+
+Min F(n)-n in successive windows (trend):
+  Up to n=   25000: min F(n)-n in window = 0
+  Up to n=   50000: min F(n)-n in window = 1
+  Up to n=   75000: min F(n)-n in window = 1
+  Up to n=  100000: min F(n)-n in window = 33
+  Up to n=  125000: min F(n)-n in window = 19
+  Up to n=  150000: min F(n)-n in window = 57
+  Up to n=  175000: min F(n)-n in window = 31
+  Up to n=  200000: min F(n)-n in window = 59
+  Up to n=  225000: min F(n)-n in window = 65
+  Up to n=  250000: min F(n)-n in window = 49
+  Up to n=  275000: min F(n)-n in window = 0
+  Up to n=  300000: min F(n)-n in window = 77
+  Up to n=  325000: min F(n)-n in window = 131
+  Up to n=  350000: min F(n)-n in window = 127
+  Up to n=  375000: min F(n)-n in window = 105
+  Up to n=  400000: min F(n)-n in window = 113
+  Up to n=  425000: min F(n)-n in window = 119
+  Up to n=  450000: min F(n)-n in window = 159
+  Up to n=  475000: min F(n)-n in window = 181
+  Up to n=  500000: min F(n)-n in window = 147
+
+*** POSSIBLE COUNTEREXAMPLE: F(n) <= n somewhere! ***

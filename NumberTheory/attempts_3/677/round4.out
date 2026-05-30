@@ -1,0 +1,55 @@
+=== Uniqueness of LCM values per k ===
+  k=2: 50001 windows, 50001 unique LCM values, 0 duplicates
+  k=3: 50001 windows, 50000 unique LCM values, 1 duplicates
+  k=4: 50001 windows, 50000 unique LCM values, 1 duplicates
+  k=5: 50001 windows, 49997 unique LCM values, 4 duplicates
+  k=6: 50001 windows, 49998 unique LCM values, 3 duplicates
+  k=7: 50001 windows, 49994 unique LCM values, 7 duplicates
+  k=8: 50001 windows, 49995 unique LCM values, 6 duplicates
+  k=9: 50001 windows, 49991 unique LCM values, 10 duplicates
+
+=== Analysis of equal-LCM pairs for small k ===
+
+  k=3: 1 equal-LCM pairs up to n=200000
+  Max gap: 1 (need >= 3 for collision)
+  Top pairs by gap:
+    n=2, m=3, gap=1, lcm=60
+
+  k=4: 1 equal-LCM pairs up to n=200000
+  Max gap: 1 (need >= 4 for collision)
+  Top pairs by gap:
+    n=1, m=2, gap=1, lcm=60
+
+  k=5: 4 equal-LCM pairs up to n=200000
+  Max gap: 1 (need >= 5 for collision)
+  Top pairs by gap:
+    n=0, m=1, gap=1, lcm=60
+    n=4, m=5, gap=1, lcm=2520
+    n=9, m=10, gap=1, lcm=60060
+    n=14, m=15, gap=1, lcm=232560
+
+  k=6: 3 equal-LCM pairs up to n=200000
+  Max gap: 2 (need >= 6 for collision)
+  Top pairs by gap:
+    n=13, m=15, gap=2, lcm=1627920
+    n=3, m=4, gap=1, lcm=2520
+    n=5, m=6, gap=1, lcm=27720
+
+  k=7: 7 equal-LCM pairs up to n=200000
+  Max gap: 1 (need >= 7 for collision)
+  Top pairs by gap:
+    n=2, m=3, gap=1, lcm=2520
+    n=4, m=5, gap=1, lcm=27720
+    n=6, m=7, gap=1, lcm=360360
+    n=13, m=14, gap=1, lcm=1627920
+    n=20, m=21, gap=1, lcm=124324200
+
+=== LCM growth rate analysis for k=4 ===
+n, lcm, log(lcm)/log(n):
+
+[stderr]
+Traceback (most recent call last):
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\677\snippet.py", line 60, in <module>
+    print(f"  n={n}, lcm={v}, log ratio={math.log(v)/math.log(n):.3f}")
+                                         ~~~~~~~~~~~^~~~~~~~~~~~
+ZeroDivisionError: float division by zero

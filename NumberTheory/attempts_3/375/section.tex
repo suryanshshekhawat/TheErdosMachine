@@ -1,0 +1,11 @@
+\section{Erdős \#375}
+
+\textbf{Problem.} For any $n,k\geq 1$, if $n+1,\ldots,n+k$ are all composite, must there exist distinct primes $p_1,\ldots,p_k$ with $p_i\mid n+i$ for each $i$?
+
+\textbf{What was attempted.} For every maximal composite run of length $k$ beginning at $n+1$, we built the bipartite graph whose left nodes are positions $i\in\{1,\ldots,k\}$ and whose right nodes are prime factors of $n+i$, then checked existence of a system of distinct representatives (SDR) via an augmenting-path matching algorithm. The search was carried out up to $N=2\times10^6$, covering 148\,932 composite gaps with maximum gap length $k=131$.
+
+\textbf{What the computation showed.} Zero failures were detected. Every composite gap in the tested range admitted a valid SDR. The largest gaps verified included runs of length up to $k=131$ (e.g.\ $n=1{,}357{,}201$), and 1\,676 gaps with $k\geq 50$ were all confirmed.
+
+\textbf{What went wrong or is inconclusive.} The computation is a finite exhaustive check, not a proof. No counterexample was found up to $N=2\times10^6$, but this is entirely consistent with the conjecture being true \emph{or} with the first counterexample lying beyond the search range. The problem is open precisely because no theoretical argument is known to force the SDR to exist in general; the numerical evidence contributes nothing beyond confirming previously computable cases. Additionally, early rounds failed due to a missing \texttt{sympy} dependency, wasting two iterations before the code was rewritten using only the standard library.
+
+\textbf{Verdict:} No counterexample found up to $N=2\times10^6$; result is entirely consistent with the conjecture and constitutes no theoretical progress on the open problem.

@@ -1,0 +1,215 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\title{Erdős Problems: Computational Attempt Log}\author{}\date{\today}
+\begin{document}\maketitle
+
+\section{Erdős \#647}
+
+\textbf{Problem.} Does there exist $n > 24$ such that $\max_{m < n}(m + \tau(m)) \leq n + 2$, where $\tau(m)$ is the number of divisors of $m$?
+
+\textbf{What was attempted.} A sieve was used to compute $\tau(m)$ for all $m \leq 10^6$, tracking the running maximum $R(n) = \max_{m < n}(m + \tau(m))$ and checking whether $R(n) \leq n + 2$ for any $n > 24$.
+
+\textbf{What the computation showed.} No such $n$ was found up to $10^6$. The excess $R(n) - (n+2)$ was strictly positive throughout, with a global minimum of $1$, achieved only at $n \in \{35, 36, 48, 120\}$---all small values. After $n = 120$, the minimum excess observed was $2$, and the excess generally grew with $n$, reaching values of $30$--$40$ near $n = 10^4$ and fluctuating but remaining comfortably positive through $n = 10^6$. The behaviour is driven by highly composite numbers periodically pushing $R(n)$ upward by large jumps.
+
+\textbf{What went wrong or was inconclusive.} Nothing broke computationally, but the result is entirely uninformative with respect to the open problem. The excess $R(n) - (n+2)$ shows no downward trend; if anything it drifts upward. However, $\tau(m)$ can grow as $m^{o(1)}$, so there is no elementary reason to rule out a very large $n$ where a gap between consecutive highly composite numbers allows $R(n)$ to fall within $n+2$. The search to $10^6$ is many orders of magnitude too small to engage with any known analytic estimates, and no theoretical insight was produced.
+
+\textbf{Verdict:} No counterexample was found for $n \leq 10^6$, consistent with the conjecture having no solution; this constitutes no progress on the open problem.
+
+\clearpage
+
+\section{Erdős \#287}
+
+\textbf{Problem.} For any $k \geq 2$ and distinct integers $1 < n_1 < \cdots < n_k$ with
+$\sum_{i=1}^{k} \frac{1}{n_i} = 1$, must we have $\max_i(n_{i+1} - n_i) \geq 3$?
+
+\textbf{What was attempted.} We enumerated all representations of $1$ as a sum of distinct
+unit fractions with denominators in $\{2, \ldots, N\}$ for $N \leq 30$, computed the
+maximum consecutive gap $\max_i(n_{i+1}-n_i)$ for each representation, and searched for
+any with maximum gap at most $2$ (a counterexample).
+
+\textbf{What the computation showed.} After fixing two bugs---a \texttt{TypeError} from
+incorrect list concatenation in round~1, and a pruning error that incorrectly returned
+zero results in round~3---the corrected search (round~4) found 19 valid representations
+for $N=20$ and confirmed all have maximum gap $\geq 3$. For example,
+$(2,3,6)$ gives gaps $(1,3)$ with maximum gap $3$, saturating the bound.
+No representation with all consecutive gaps $\leq 2$ was found within the search range.
+
+\textbf{What went wrong or is inconclusive.} The search is limited to denominators up to
+$N=30$ due to exponential blowup; the run at $N=40$ timed out after 60 seconds.
+There is no reason the conjecture should fail only for small denominators, but the
+search is far from exhaustive: representations using large denominators, or those
+requiring many terms, are entirely unchecked. Finding no counterexample for small $N$
+confirms the code works and is consistent with the conjecture, but constitutes no
+mathematical progress. The conjecture remains open.
+
+\textbf{Verdict:} No counterexample found for denominators up to $N=30$; result is
+consistent with the conjecture but entirely inconclusive as a contribution toward
+resolving it.
+
+\clearpage
+
+\section{Erdős \#458}
+
+\textbf{Problem.} Is it true that for all $k \geq 1$, $[1,\ldots,p_{k+1}-1] < p_k \cdot [1,\ldots,p_k]$, where $[\cdot]$ denotes the least common multiple?
+
+\textbf{What was attempted.} The inequality was checked computationally for all $k$ with $p_k \leq 10^7$ (roughly $664{,}578$ consecutive prime pairs) by working in log-space to avoid arithmetic overflow. Specifically, using the identity
+\[
+\log \mathrm{lcm}(1,\ldots,n) = \sum_{p^a \leq n} \log p,
+\]
+the inequality was rewritten as
+\[
+\log[1,\ldots,p_{k+1}-1] \;<\; \log p_k + \log[1,\ldots,p_k],
+\]
+and both sides were accumulated incrementally via a prime-power sieve.
+
+\textbf{What the computation showed.} No counterexample was found. The minimum margin $\log p_k - \log\!\bigl([1,\ldots,p_{k+1}-1]/[1,\ldots,p_k]\bigr)$ was $\approx 0.1542$, attained uniquely at $k=4$ ($p_k=7$, $p_{k+1}=11$), explained exactly by the prime powers $8=2^3$ and $9=3^2$ in the gap: the lcm ratio is $2\cdot 3=6$ versus $p_k=7$. The next closest cases are $k=2$ (margin $\approx 0.405$) and $k=9$ (margin $\approx 0.427$). Beyond these small cases, margins grow and no structurally dangerous cluster was identified within the search range.
+
+\textbf{What went wrong or is inconclusive.} Nothing went wrong technically, but the result is purely a finite verification. The problem is open precisely because no proof is known for all $k$; finding no counterexample up to $p_k \approx 10^7$ is entirely consistent with the conjecture being either true or false for some large $k$ governed by an anomalously large prime gap. The observation that the minimum margin occurs at $k=4$ and margins appear to grow on average is heuristically encouraging but constitutes no progress toward a proof: the conjecture depends on the distribution of prime powers within prime gaps, a topic far beyond the reach of finite search.
+
+\textbf{Verdict:} No counterexample found for $p_k \leq 10^7$; result is consistent with the conjecture but provides no theoretical progress on this open problem.
+
+\clearpage
+
+\section{Erd\H{o}s \#677}
+
+\textbf{Problem.} Let $M(n,k) = \mathrm{lcm}(n+1, n+2, \ldots, n+k)$. Is it true that for all $m \geq n+k$ one has $M(n,k) \neq M(m,k)$?
+
+\textbf{What was attempted.} A computational search was run for $k = 1, \ldots, 9$ and $n$ up to $N = 200{,}000$, recording every pair $(n, m)$ with $n < m$ and $M(n,k) = M(m,k)$, and checking whether the non-overlap condition $m \geq n + k$ was ever satisfied.
+
+\textbf{What the computation showed.} No counterexample was found in the searched range. Collisions (pairs with equal LCM) do exist but are extremely rare: for each $k$ at most $O(10)$ equal-LCM pairs appeared among $200{,}001$ windows, and in every case the gap $m - n$ was far smaller than the required threshold $k$. For example, for $k = 6$ the largest observed gap was $m - n = 2$, against the required $m - n \geq 6$; for all other $k \leq 9$ the largest observed gap was $m - n = 1$. Additionally, for $k = 2$ injectivity of $M(\cdot, 2)$ was confirmed analytically, since $\mathrm{lcm}(n+1, n+2) = (n+1)(n+2)$ is strictly increasing, but for $k \geq 3$ the function $n \mapsto M(n,k)$ is non-monotone (the LCM can decrease as the window slides), so collisions satisfying the gap condition are not a priori ruled out.
+
+\textbf{What went wrong or is inconclusive.} The search is purely finite and provides no structural insight. The observed equal-LCM pairs all arise from very small gaps ($m - n \leq 2 \ll k$) and may simply reflect a local arithmetic coincidence rather than any pattern approaching the conjecture's threshold. No analysis of LCM growth rates, $p$-adic valuations, or asymptotic behaviour was carried out that would explain \emph{why} the gap $m - n$ never reaches $k$. The bound $N = 200{,}000$ is modest relative to the problem: counterexamples to Erd\H{o}s conjectures frequently appear only at very large scales, and the rarity of even small-gap collisions makes the search statistically inconclusive.
+
+\textbf{Verdict:} No counterexample was found up to $N = 200{,}000$, which is consistent with the conjecture but constitutes no progress toward a proof or disproof; the problem remains entirely open.
+
+\clearpage
+
+\section{Erdős \#985}
+
+\textbf{Problem.} Is it true that for every prime $p$, there exists a prime $q < p$ that is a primitive root modulo $p$?
+
+\textbf{What was attempted.} For each odd prime $p$, the smallest prime $q < p$ that generates $(\mathbb{Z}/p\mathbb{Z})^*$ was located by testing primality and the standard primitive-root criterion: $a$ is a primitive root mod $p$ iff $a^{(p-1)/r} \not\equiv 1 \pmod{p}$ for every prime factor $r$ of $p-1$. The search covered all primes up to $N = 10^7$ (664\,578 primes checked).
+
+\textbf{What the computation showed.} No counterexample was found. The smallest prime primitive root grew very slowly in absolute terms: the largest recorded value was $q = 211$ at $p = 4\,022\,911$, and the ratio $q/p$ decreased monotonically, reaching below $10^{-4}$ for large $p$. The distribution of smallest prime primitive roots up to $p = 10^6$ was heavily concentrated on small primes (2 accounted for roughly $39\%$ of cases, and the top five primes $\{2,3,5,7,11\}$ together covered about $92\%$).
+
+\textbf{What went wrong / what is inconclusive.} The computation is purely a finite verification. The conjecture is expected to follow from Artin's conjecture on primitive roots (itself conditional on GRH) together with standard sieve estimates, but neither is proven unconditionally. Finding no counterexample below $10^7$ is exactly the outcome one would expect whether the conjecture is true or false-but-with-first-counterexample-far-beyond-this-range; it provides no new theoretical insight, no bound on the size of the smallest prime primitive root, and no structural argument. The run also encountered a missing \texttt{sympy} dependency in round 1, delaying the search by one round, though this was cleanly resolved with a standard-library reimplementation.
+
+\textbf{Verdict:} No counterexample found up to $p < 10^7$, consistent with the conjecture but constituting no progress on the open problem.
+
+\clearpage
+
+\section{Erd\H{o}s \#242}
+
+\textbf{Problem.} The Erd\H{o}s--Straus conjecture: for every integer $n > 2$ there exist
+distinct positive integers $1 \le x < y < z$ such that
+\[
+  \frac{4}{n} = \frac{1}{x} + \frac{1}{y} + \frac{1}{z}.
+\]
+
+\textbf{What was attempted.} Four rounds of computation were run, each attempting to
+verify the conjecture by exhaustive search over $n$ in some initial segment of the
+integers.  The first approach looped over all admissible $(x,y)$ pairs with $z$ determined
+algebraically; it timed out before finishing $n = 3$ to $10^{6}$.  Subsequent rounds
+attempted to speed up the inner loop via parametric identities and a divisor-enumeration
+trick (exploiting the fact that, after fixing $x$, finding $y$ reduces to finding a
+divisor of a certain residual quantity).  A failed attempt to use \texttt{numpy} was
+also made.
+
+\textbf{What the computation showed.} The fastest successful run verified all $n$ from
+$3$ to $10{,}002$ in roughly $48$ seconds (Round~3) before hitting a time limit.
+Another run reached $n \approx 2{,}073$.  In every case a valid triple $(x,y,z)$ was
+found, and no counterexample was encountered.  Representative verified triples include
+$(1,4,12)$ for $n=3$ and $(8,121,14520)$ for $n=30$.
+
+\textbf{What went wrong or is inconclusive.} No run came close to the
+state-of-the-art verification threshold (currently beyond $10^{14}$).  The search
+reached at most $n \approx 10^{4}$, a range already covered by
+trivial hand-computation decades ago.  None of the ``fast'' parametric strategies
+proved sufficient to push the search to $n = 10^{6}$ within the time budget; each
+attempt either timed out or hit a runtime error.  Most importantly, finding triples
+for all tested $n$ is the \emph{expected baseline outcome}: the conjecture is verified
+for $n$ up to very large bounds in the literature, and no counterexample is known.
+A clean run to $10^{4}$ with no failures is entirely consistent with the conjecture
+remaining wide open; it constitutes no new mathematical information whatsoever.
+The conjecture is open because a \emph{proof} (or a counterexample) is lacking, not
+because verification data for small $n$ is lacking.
+
+\textbf{Verdict:} No counterexample found up to $n \approx 10^{4}$, fully consistent with
+the conjecture and with the existing literature; this is not progress on the open problem.
+
+\clearpage
+
+\section{Erd\H{o}s \#291}
+
+\textbf{Problem.} Define $L_n = \mathrm{lcm}(1,\dots,n)$ and $a_n$ by
+$\sum_{k=1}^{n} \frac{1}{k} = \frac{a_n}{L_n}$;
+is it true that $\gcd(a_n, L_n) = 1$ and $\gcd(a_n, L_n) > 1$ each occur for infinitely many $n$?
+
+\textbf{What was attempted.} Exact integer arithmetic was used to compute $\gcd(a_n, L_n)$ for all $1 \le n \le 5000$, iterating via
+\[
+  L_n = \mathrm{lcm}(L_{n-1}, n), \qquad
+  a_n = a_{n-1} \cdot \frac{L_n}{L_{n-1}} + \frac{L_n}{n},
+\]
+and checking the gcd at each step. A follow-up pass examined run-structure and relationships to prime powers.
+
+\textbf{What the computation showed.} Of $n \in \{1,\dots,5000\}$, the case $\gcd = 1$ occurred $1100$ times ($22\%$) and $\gcd > 1$ occurred $3900$ times ($78\%$). Both cases appear throughout the range. The $\gcd > 1$ cases are dominated by small prime factors ($11, 3, 5, 7, \dots$). The $\gcd = 1$ runs cluster conspicuously near prime powers: runs begin at $n = 9 = 3^2$, $27 = 3^3$, $49 = 7^2$, $289 = 17^2$, $361 = 19^2$, $841 = 29^2$, $1369 = 37^2$, $2401 = 7^4$, $3125 = 5^5$, $3721 = 61^2$, suggesting a structural relationship between $\gcd(a_n, L_n)$ and the $p$-adic valuation of $H_n$.
+
+\textbf{What went wrong or remained inconclusive.} The observed pattern is suggestive but entirely unproved. No structural argument was established linking the observed prime-power clustering to a proof of infinitude for either case. The computation establishes only that both cases occur frequently up to $N = 5000$. Finite enumeration cannot distinguish ``infinitely often'' from ``eventually always one sign''; the problem asks for a proof of infinitude, and no step toward such a proof was taken. The heuristic that $\gcd = 1$ runs are anchored to prime powers $p^k$ lacks theoretical justification and may be spurious or incomplete (several run starts, e.g.\ $n = 968$ and $n = 3488$, are \emph{not} prime powers).
+
+\textbf{Verdict:} No counterexample to either claim was found up to $N = 5000$, and both cases occur abundantly in that range, but this is the expected baseline outcome and constitutes no progress on the open problem.
+
+\clearpage
+
+\section{Erdős \#375}
+
+\textbf{Problem.} For any $n,k\geq 1$, if $n+1,\ldots,n+k$ are all composite, must there exist distinct primes $p_1,\ldots,p_k$ with $p_i\mid n+i$ for each $i$?
+
+\textbf{What was attempted.} For every maximal composite run of length $k$ beginning at $n+1$, we built the bipartite graph whose left nodes are positions $i\in\{1,\ldots,k\}$ and whose right nodes are prime factors of $n+i$, then checked existence of a system of distinct representatives (SDR) via an augmenting-path matching algorithm. The search was carried out up to $N=2\times10^6$, covering 148\,932 composite gaps with maximum gap length $k=131$.
+
+\textbf{What the computation showed.} Zero failures were detected. Every composite gap in the tested range admitted a valid SDR. The largest gaps verified included runs of length up to $k=131$ (e.g.\ $n=1{,}357{,}201$), and 1\,676 gaps with $k\geq 50$ were all confirmed.
+
+\textbf{What went wrong or is inconclusive.} The computation is a finite exhaustive check, not a proof. No counterexample was found up to $N=2\times10^6$, but this is entirely consistent with the conjecture being true \emph{or} with the first counterexample lying beyond the search range. The problem is open precisely because no theoretical argument is known to force the SDR to exist in general; the numerical evidence contributes nothing beyond confirming previously computable cases. Additionally, early rounds failed due to a missing \texttt{sympy} dependency, wasting two iterations before the code was rewritten using only the standard library.
+
+\textbf{Verdict:} No counterexample found up to $N=2\times10^6$; result is entirely consistent with the conjecture and constitutes no theoretical progress on the open problem.
+
+\clearpage
+
+\section{Erd\H{o}s \#385}
+
+\textbf{Problem.} Let $F(n) = \max_{\substack{m < n,\, m \text{ composite}}} (m + p(m))$, where $p(m)$ is the least prime divisor of $m$. Is $F(n) > n$ for all sufficiently large $n$, and does $F(n) - n \to \infty$?
+
+\textbf{What was attempted.} A linear sieve computed the least prime factor $p(m)$ for all $m \leq 5 \times 10^5$. The running maximum of $m + p(m)$ over composites $m < n$ was tracked to form $F(n)$, and the gap $F(n) - n$ was recorded for all $n$ in that range, with window-wise minima examined for a growth trend.
+
+\textbf{What the computation showed.} For small $n$ (roughly $n \leq 60$), ties $F(n) = n$ occur repeatedly, e.g.\ $F(6) = 6$, $F(8) = 8$, $F(12) = 12$. Beyond $n \approx 100$, no instance of $F(n) \leq n$ was observed up to $5 \times 10^5$. At sampled points the gap grows slowly:
+\begin{align*}
+F(10^3) - 10^3 &= 12, & F(10^4) - 10^4 &= 88,\\
+F(10^5) - 10^5 &= 230, & F(5\times 10^5) - 5\times 10^5 &= 286.
+\end{align*}
+Window-wise minima of $F(n)-n$ are erratic (dropping to $0$ or $1$ in early windows, then generally increasing but not monotonely), which complicates any clean growth claim.
+
+\textbf{What went wrong / why this is inconclusive.} The apparent positivity of $F(n)-n$ for $n \gtrsim 100$ and the rough upward drift of the gap are consistent with both conjectures, but nothing more. The range $n \leq 5 \times 10^5$ is far too small to distinguish slow logarithmic growth from eventual stagnation or reversal. No analytic bound was obtained; the sieve gives no information about whether $F(n) - n$ is eventually bounded or truly diverges. The window-wise minima are noisy enough that an apparent trend could easily be an artifact of the scale. A potential implementation concern also arose: the definition requires the maximum over composites $m < n$ (strict), and the code confirmed that $F(n) = n$ is possible for small $n$ (e.g.\ $n=6$, where the only composite below $6$ is $4$ and $4+2=6$), so the ``sufficiently large'' qualifier in the problem is essential and already accounted for.
+
+\textbf{Verdict:} No counterexample found up to $5 \times 10^5$, and $F(n)-n$ appears to grow, but this is entirely consistent with the conjecture and constitutes no progress on the open problem; the range is too small and no analytic argument was produced.
+
+\clearpage
+
+\section{Erdős \#389}
+
+\textbf{Problem.} Is it true that for every $n \geq 1$ there exists $k \geq 1$ such that
+$n(n+1)\cdots(n+k-1) \mid (n+k)(n+k+1)\cdots(n+2k-1)$?
+
+\textbf{What was attempted.} For each $n$ from $1$ to $200$, a brute-force search was run to find the smallest $k$ (up to a cutoff) for which the divisibility holds. The ratio was identified as
+\[
+\frac{\prod_{i=0}^{k-1}(n+k+i)}{\prod_{i=0}^{k-1}(n+i)} = \frac{\binom{n+2k-1}{k}}{\binom{n+k-1}{k}},
+\]
+and the case $k = n$ was tested as a candidate witness.
+
+\textbf{What the computation showed.} For $n = 1$ through $5$, valid $k$ values were found (e.g., $n=4, k=207$; $n=5, k=206$), but these required a cutoff far exceeding the initial bound of $300$. The candidate $k = n$ fails for all $n \geq 2$. For $n = 6$, no valid $k$ was found up to $k = 2000$; for $n = 7$ a solution $k = 984$ appeared, but $n = 8, 9, 10$ again failed within the same range. The search also aborted early due to a Python syntax error (\texttt{2k} instead of \texttt{2*k}) in round~1, corrupting the initial sweep entirely.
+
+\textbf{What went wrong.} The computation is inconclusive on multiple grounds: (i) the initial syntax error invalidated the first pass; (ii) the search cutoff was far too small---solutions may exist for $n = 6, 8, 9, 10$ at $k \gg 2000$, as the trend for small $n$ already shows $k$ growing erratically into the hundreds; (iii) no asymptotic or number-theoretic analysis was completed to explain why solutions are sparse or to bound the required $k$. The observation that no $k \leq 2000$ works for $n = 6$ is not evidence against the conjecture; it is merely evidence that the required $k$ is large.
+
+\textbf{Verdict:} No counterexample found within the (severely limited) search range, consistent with the conjecture but constituting no progress on it.
+
+\end{document}

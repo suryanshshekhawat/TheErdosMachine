@@ -1,0 +1,10 @@
+Searching Egyptian fraction representations of 1 (denominators 2..25)...
+Total representations found: 0
+
+Distribution of max consecutive gaps:
+
+Minimum max-gap found: None
+
+No counterexamples found (all representations have max_gap >= 3).
+
+Top 5 representations with smallest max-gap:

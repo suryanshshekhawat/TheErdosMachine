@@ -1,0 +1,8 @@
+Building sieve up to 100000...
+Checking 9591 primes up to 100000...
+
+Total primes checked: 9591
+Failures: []
+Cases where smallest prime prim root q > p/2: 1
+Worst cases (top 20 by ratio):
+  p=3, q=2, ratio=0.6667

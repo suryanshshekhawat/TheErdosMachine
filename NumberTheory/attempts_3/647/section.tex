@@ -1,0 +1,11 @@
+\section{Erdős \#647}
+
+\textbf{Problem.} Does there exist $n > 24$ such that $\max_{m < n}(m + \tau(m)) \leq n + 2$, where $\tau(m)$ is the number of divisors of $m$?
+
+\textbf{What was attempted.} A sieve was used to compute $\tau(m)$ for all $m \leq 10^6$, tracking the running maximum $R(n) = \max_{m < n}(m + \tau(m))$ and checking whether $R(n) \leq n + 2$ for any $n > 24$.
+
+\textbf{What the computation showed.} No such $n$ was found up to $10^6$. The excess $R(n) - (n+2)$ was strictly positive throughout, with a global minimum of $1$, achieved only at $n \in \{35, 36, 48, 120\}$---all small values. After $n = 120$, the minimum excess observed was $2$, and the excess generally grew with $n$, reaching values of $30$--$40$ near $n = 10^4$ and fluctuating but remaining comfortably positive through $n = 10^6$. The behaviour is driven by highly composite numbers periodically pushing $R(n)$ upward by large jumps.
+
+\textbf{What went wrong or was inconclusive.} Nothing broke computationally, but the result is entirely uninformative with respect to the open problem. The excess $R(n) - (n+2)$ shows no downward trend; if anything it drifts upward. However, $\tau(m)$ can grow as $m^{o(1)}$, so there is no elementary reason to rule out a very large $n$ where a gap between consecutive highly composite numbers allows $R(n)$ to fall within $n+2$. The search to $10^6$ is many orders of magnitude too small to engage with any known analytic estimates, and no theoretical insight was produced.
+
+\textbf{Verdict:} No counterexample was found for $n \leq 10^6$, consistent with the conjecture having no solution; this constitutes no progress on the open problem.

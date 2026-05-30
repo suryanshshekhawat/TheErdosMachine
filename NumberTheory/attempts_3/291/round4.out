@@ -1,0 +1,75 @@
+Checking if run starts are prime powers:
+  n=1: prime_factors=set(), is_prime_power=False, None^0=N/A
+  n=9: prime_factors={3}, is_prime_power=True, 3^2=9
+  n=27: prime_factors={3}, is_prime_power=True, 3^3=27
+  n=49: prime_factors={7}, is_prime_power=True, 7^2=49
+  n=125: prime_factors={5}, is_prime_power=True, 5^3=125
+  n=243: prime_factors={3}, is_prime_power=True, 3^5=243
+  n=289: prime_factors={17}, is_prime_power=True, 17^2=289
+  n=361: prime_factors={19}, is_prime_power=True, 19^2=361
+  n=841: prime_factors={29}, is_prime_power=True, 29^2=841
+  n=968: prime_factors={2, 11}, is_prime_power=False, 2^3=8
+  n=1164: prime_factors={97, 2, 3}, is_prime_power=False, 97^1=97
+  n=1331: prime_factors={11}, is_prime_power=True, 11^3=1331
+  n=1369: prime_factors={37}, is_prime_power=True, 37^2=1369
+  n=2401: prime_factors={7}, is_prime_power=True, 7^4=2401
+  n=3125: prime_factors={5}, is_prime_power=True, 5^5=3125
+  n=3488: prime_factors={2, 109}, is_prime_power=False, 2^5=32
+  n=3721: prime_factors={61}, is_prime_power=True, 61^2=3721
+
+Prime powers up to 5000 (first 30): [2, 3, 4, 5, 7, 8, 9, 11, 13, 16, 17, 19, 23, 25, 27, 29, 31, 32, 37, 41, 43, 47, 49, 53, 59, 61, 64, 67, 71, 73]
+
+GCD at prime powers:
+  n=2 (2^k): gcd=1
+  n=3 (3^k): gcd=1
+  n=4 (2^k): gcd=1
+  n=5 (5^k): gcd=1
+  n=7 (7^k): gcd=3
+  n=8 (2^k): gcd=3
+  n=9 (3^k): gcd=1
+  n=11 (11^k): gcd=1
+  n=13 (13^k): gcd=1
+  n=16 (2^k): gcd=1
+  n=17 (17^k): gcd=1
+  n=19 (19^k): gcd=3
+  n=23 (23^k): gcd=45
+  n=25 (5^k): gcd=3
+  n=27 (3^k): gcd=1
+  n=29 (29^k): gcd=1
+  n=31 (31^k): gcd=1
+  n=32 (2^k): gcd=1
+  n=37 (37^k): gcd=11
+  n=41 (41^k): gcd=11
+  n=43 (43^k): gcd=77
+  n=47 (47^k): gcd=7
+  n=49 (7^k): gcd=1
+  n=53 (53^k): gcd=1
+  n=59 (59^k): gcd=3
+  n=61 (61^k): gcd=3
+  n=64 (2^k): gcd=9
+  n=67 (67^k): gcd=27
+  n=71 (71^k): gcd=9
+  n=73 (73^k): gcd=3
+  n=79 (79^k): gcd=33
+  n=81 (3^k): gcd=11
+  n=83 (83^k): gcd=11
+  n=89 (89^k): gcd=1
+  n=97 (97^k): gcd=1
+  n=101 (101^k): gcd=25
+  n=103 (103^k): gcd=25
+  n=107 (107^k): gcd=5
+  n=109 (109^k): gcd=5
+  n=113 (113^k): gcd=55
+
+
+For each prime p, ranges where p | gcd(a_n, L_n):
+  p=3: [(6, 8), (18, 26), (54, 80), (162, 242), (486, 728), (1458, 2186), (4374, 5000)]
+  p=5: [(20, 24), (100, 124), (500, 624), (2500, 3124)]
+  p=7: [(42, 48), (294, 342), (2058, 2400)]
+  p=11: [(33, 43), (77, 87), (110, 120), (363, 483), (847, 967), (1210, 1330), (3993, 5000)]
+  p=13: [(156, 168), (2028, 2196)]
+  p=17: [(272, 288), (4624, 4912)]
+  p=19: [(342, 360)]
+  p=23: [(506, 528)]
+  p=29: [(377, 405), (435, 463), (812, 840)]
+  p=31: [(930, 960)]

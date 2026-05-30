@@ -1,0 +1,66 @@
+Checked n=1 to 200 with max_k=300
+Failed (no k found): [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
+
+First 30 results (n: k):
+  n=1: k=1
+  n=2: k=5
+  n=3: k=4
+  n=4: k=207
+  n=5: k=206
+
+Max k needed: 207
+Min k needed: 1
+
+Checking if k=n always works:
+  n=1, k=1: works=True, ratio=2
+  n=2, k=2: works=False, ratio=N/A
+  n=3, k=3: works=False, ratio=N/A
+  n=4, k=4: works=False, ratio=N/A
+  n=5, k=5: works=False, ratio=N/A
+  n=6, k=6: works=False, ratio=N/A
+  n=7, k=7: works=False, ratio=N/A
+  n=8, k=8: works=False, ratio=N/A
+  n=9, k=9: works=False, ratio=N/A
+  n=10, k=10: works=False, ratio=N/A
+  n=11, k=11: works=False, ratio=N/A
+  n=12, k=12: works=False, ratio=N/A
+  n=13, k=13: works=False, ratio=N/A
+  n=14, k=14: works=False, ratio=N/A
+  n=15, k=15: works=False, ratio=N/A
+  n=16, k=16: works=False, ratio=N/A
+  n=17, k=17: works=False, ratio=N/A
+  n=18, k=18: works=False, ratio=N/A
+  n=19, k=19: works=False, ratio=N/A
+  n=20, k=20: works=False, ratio=N/A
+  n=21, k=21: works=False, ratio=N/A
+  n=22, k=22: works=False, ratio=N/A
+  n=23, k=23: works=False, ratio=N/A
+  n=24, k=24: works=False, ratio=N/A
+  n=25, k=25: works=False, ratio=N/A
+  n=26, k=26: works=False, ratio=N/A
+  n=27, k=27: works=False, ratio=N/A
+  n=28, k=28: works=False, ratio=N/A
+  n=29, k=29: works=False, ratio=N/A
+  n=30, k=30: works=False, ratio=N/A
+
+For k=n: ratio = product(2n..3n-1)/product(n..2n-1)
+This equals C(3n-1,n)/C(2n-1,n) * something... let's just see values
+  n=1: ratio=2.0000
+  n=2: ratio=3.3333
+  n=3: ratio=5.6000
+  n=4: ratio=9.4286
+  n=5: ratio=15.8889
+  n=6: ratio=26.7879
+  n=7: ratio=45.1748
+  n=8: ratio=76.1949
+  n=9: ratio=128.5294
+  n=10: ratio=216.8266
+  n=11: ratio=365.8027
+  n=12: ratio=617.1625
+  n=13: ratio=1041.2765
+  n=14: ratio=1756.8863
+  n=15: ratio=2964.3540
+  n=16: ratio=5001.7689
+  n=17: ratio=8439.6239
+  n=18: ratio=14240.5735
+  n=19: ratio=24029.0174

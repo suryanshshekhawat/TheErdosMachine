@@ -1,0 +1,92 @@
+Total n computed: 5000
+Cases with gcd=1: 1100
+Cases with gcd>1: 3900
+
+First 30 cases with gcd > 1:
+  n=6, gcd=3
+  n=7, gcd=3
+  n=8, gcd=3
+  n=18, gcd=3
+  n=19, gcd=3
+  n=20, gcd=15
+  n=21, gcd=45
+  n=22, gcd=45
+  n=23, gcd=45
+  n=24, gcd=15
+  n=25, gcd=3
+  n=26, gcd=3
+  n=33, gcd=11
+  n=34, gcd=11
+  n=35, gcd=11
+  n=36, gcd=11
+  n=37, gcd=11
+  n=38, gcd=11
+  n=39, gcd=11
+  n=40, gcd=11
+  n=41, gcd=11
+  n=42, gcd=77
+  n=43, gcd=77
+  n=44, gcd=7
+  n=45, gcd=7
+  n=46, gcd=7
+  n=47, gcd=7
+  n=48, gcd=7
+  n=54, gcd=3
+  n=55, gcd=3
+
+First 30 cases with gcd = 1:
+  n=1, gcd=1
+  n=2, gcd=1
+  n=3, gcd=1
+  n=4, gcd=1
+  n=5, gcd=1
+  n=9, gcd=1
+  n=10, gcd=1
+  n=11, gcd=1
+  n=12, gcd=1
+  n=13, gcd=1
+  n=14, gcd=1
+  n=15, gcd=1
+  n=16, gcd=1
+  n=17, gcd=1
+  n=27, gcd=1
+  n=28, gcd=1
+  n=29, gcd=1
+  n=30, gcd=1
+  n=31, gcd=1
+  n=32, gcd=1
+  n=49, gcd=1
+  n=50, gcd=1
+  n=51, gcd=1
+  n=52, gcd=1
+  n=53, gcd=1
+  n=88, gcd=1
+  n=89, gcd=1
+  n=90, gcd=1
+  n=91, gcd=1
+  n=92, gcd=1
+
+Fraction with gcd=1: 0.2200
+Fraction with gcd>1: 0.7800
+
+GCD value distribution (top 20):
+  gcd=11: 559 times
+  gcd=3: 332 times
+  gcd=5: 271 times
+  gcd=33: 244 times
+  gcd=25: 198 times
+  gcd=9: 186 times
+  gcd=7: 183 times
+  gcd=561: 155 times
+  gcd=61149: 100 times
+  gcd=97: 97 times
+  gcd=137: 72 times
+  gcd=2211: 67 times
+  gcd=1525: 61 times
+  gcd=61: 61 times
+  gcd=121: 60 times
+  gcd=6431: 59 times
+  gcd=319: 58 times
+  gcd=545: 56 times
+  gcd=273: 55 times
+  gcd=28885: 53 times

@@ -1,0 +1,3 @@
+Limit=200000, total_gaps=17982, max_gap_k=85
+Failures: 0
+No counterexamples found. Conjecture holds in this range.

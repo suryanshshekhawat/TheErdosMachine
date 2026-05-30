@@ -1,0 +1,5 @@
+[stderr]
+Traceback (most recent call last):
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\385\snippet.py", line 1, in <module>
+    import sympy
+ModuleNotFoundError: No module named 'sympy'

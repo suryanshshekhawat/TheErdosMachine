@@ -1,5 +1,0 @@
-[stderr]
-  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\287\snippet.py", line 8
-    remaining, min_val, current = stack.pop()
-    ^^^^^^^^^
-IndentationError: expected an indented block after 'while' statement on line 7

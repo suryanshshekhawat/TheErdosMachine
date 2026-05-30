@@ -1,0 +1,37 @@
+n=4, k=207: divisible=True
+n=5, k=206: divisible=True
+
+Searching larger k for n=6,7,8,9,10:
+  n=6: NOT FOUND up to k=2000
+  n=7: k=984
+  n=8: NOT FOUND up to k=2000
+  n=9: NOT FOUND up to k=2000
+  n=10: NOT FOUND up to k=2000
+
+Ratio formula: product(n+k..n+2k-1)/product(n..n+k-1) = C(n+2k-1,k)/C(n+k-1,k)
+Verifying:
+  n=1,k=1: direct=2.0000, formula=2.0000, match=True
+  n=1,k=2: direct=6.0000, formula=6.0000, match=True
+  n=1,k=3: direct=20.0000, formula=20.0000, match=True
+  n=1,k=4: direct=70.0000, formula=70.0000, match=True
+  n=1,k=5: direct=252.0000, formula=252.0000, match=True
+  n=2,k=1: direct=1.5000, formula=1.5000, match=True
+  n=2,k=2: direct=3.3333, formula=3.3333, match=True
+  n=2,k=3: direct=8.7500, formula=8.7500, match=True
+  n=2,k=4: direct=25.2000, formula=25.2000, match=True
+  n=2,k=5: direct=77.0000, formula=77.0000, match=True
+  n=3,k=1: direct=1.3333, formula=1.3333, match=True
+  n=3,k=2: direct=2.5000, formula=2.5000, match=True
+  n=3,k=3: direct=5.6000, formula=5.6000, match=True
+  n=3,k=4: direct=14.0000, formula=14.0000, match=True
+  n=3,k=5: direct=37.7143, formula=37.7143, match=True
+  n=4,k=1: direct=1.2500, formula=1.2500, match=True
+  n=4,k=2: direct=2.1000, formula=2.1000, match=True
+  n=4,k=3: direct=4.2000, formula=4.2000, match=True
+  n=4,k=4: direct=9.4286, formula=9.4286, match=True
+  n=4,k=5: direct=22.9821, formula=22.9821, match=True
+  n=5,k=1: direct=1.2000, formula=1.2000, match=True
+  n=5,k=2: direct=1.8667, formula=1.8667, match=True
+  n=5,k=3: direct=3.4286, formula=3.4286, match=True
+  n=5,k=4: direct=7.0714, formula=7.0714, match=True
+  n=5,k=5: direct=15.8889, formula=15.8889, match=True

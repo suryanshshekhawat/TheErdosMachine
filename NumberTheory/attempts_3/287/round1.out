@@ -1,0 +1,16 @@
+Searching for Egyptian fraction representations of 1...
+Looking for cases where ALL consecutive gaps are <= 2
+(i.e., max gap < 3, which would be a counterexample)
+
+
+[stderr]
+Traceback (most recent call last):
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\287\snippet.py", line 45, in <module>
+    results = find_egyptian_fraction_representations(Fraction(1), 2, max_d, 20)
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\287\snippet.py", line 29, in find_egyptian_fraction_representations
+    backtrack(target, min_denom, max_denom)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\287\snippet.py", line 27, in backtrack
+    backtrack(remaining - f, d + 1, current + [d])
+                                    ~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'list'

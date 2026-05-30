@@ -1,0 +1,5 @@
+[stderr]
+  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\389\snippet.py", line 15
+    p2 = product_range(n+k, n+2k-1)
+                              ^
+SyntaxError: invalid decimal literal

@@ -1,0 +1,49 @@
+=== Monotonicity analysis ===
+
+For k=2: lcm(n+1,n+2) = (n+1)(n+2) since consecutive integers are coprime
+This is strictly increasing in n, so NO collision possible for k=2.
+
+Checking if LCM is strictly increasing for k=3,4,5,6,7,8:
+  k=2: STRICTLY INCREASING up to n=5000 (no collision possible in this range)
+  k=3: NOT strictly increasing! Examples: [(2, 3, 60, 60), (4, 5, 210, 168), (6, 7, 504, 360)]
+  k=4: NOT strictly increasing! Examples: [(1, 2, 60, 60), (4, 5, 840, 504), (7, 8, 3960, 1980)]
+  k=5: NOT strictly increasing! Examples: [(0, 1, 60, 60), (4, 5, 2520, 2520), (6, 7, 27720, 3960)]
+  k=6: NOT strictly increasing! Examples: [(3, 4, 2520, 2520), (5, 6, 27720, 27720), (8, 9, 180180, 60060)]
+  k=7: NOT strictly increasing! Examples: [(2, 3, 2520, 2520), (4, 5, 27720, 27720), (6, 7, 360360, 360360)]
+  k=8: NOT strictly increasing! Examples: [(1, 2, 2520, 2520), (3, 4, 27720, 27720), (5, 6, 360360, 360360)]
+
+=== LCM ratio lcm(n+1,...,n+k) / lcm(n,...,n+k-1) for k=4 ===
+  n=1: lcm(1..4)=12, lcm(2..5)=60, ratio=5.0000
+  n=2: lcm(2..5)=60, lcm(3..6)=60, ratio=1.0000
+  n=3: lcm(3..6)=60, lcm(4..7)=420, ratio=7.0000
+  n=4: lcm(4..7)=420, lcm(5..8)=840, ratio=2.0000
+  n=5: lcm(5..8)=840, lcm(6..9)=504, ratio=0.6000
+  n=6: lcm(6..9)=504, lcm(7..10)=2520, ratio=5.0000
+  n=7: lcm(7..10)=2520, lcm(8..11)=3960, ratio=1.5714
+  n=8: lcm(8..11)=3960, lcm(9..12)=1980, ratio=0.5000
+  n=9: lcm(9..12)=1980, lcm(10..13)=8580, ratio=4.3333
+  n=10: lcm(10..13)=8580, lcm(11..14)=12012, ratio=1.4000
+  n=11: lcm(11..14)=12012, lcm(12..15)=5460, ratio=0.4545
+  n=12: lcm(12..15)=5460, lcm(13..16)=21840, ratio=4.0000
+  n=13: lcm(13..16)=21840, lcm(14..17)=28560, ratio=1.3077
+  n=14: lcm(14..17)=28560, lcm(15..18)=12240, ratio=0.4286
+  n=15: lcm(15..18)=12240, lcm(16..19)=46512, ratio=3.8000
+  n=16: lcm(16..19)=46512, lcm(17..20)=58140, ratio=1.2500
+  n=17: lcm(17..20)=58140, lcm(18..21)=23940, ratio=0.4118
+  n=18: lcm(18..21)=23940, lcm(19..22)=87780, ratio=3.6667
+  n=19: lcm(19..22)=87780, lcm(20..23)=106260, ratio=1.2105
+  n=20: lcm(20..23)=106260, lcm(21..24)=42504, ratio=0.4000
+  n=21: lcm(21..24)=42504, lcm(22..25)=151800, ratio=3.5714
+  n=22: lcm(22..25)=151800, lcm(23..26)=179400, ratio=1.1818
+  n=23: lcm(23..26)=179400, lcm(24..27)=70200, ratio=0.3913
+  n=24: lcm(24..27)=70200, lcm(25..28)=245700, ratio=3.5000
+  n=25: lcm(25..28)=245700, lcm(26..29)=285012, ratio=1.1600
+  n=26: lcm(26..29)=285012, lcm(27..30)=109620, ratio=0.3846
+  n=27: lcm(27..30)=109620, lcm(28..31)=377580, ratio=3.4444
+  n=28: lcm(28..31)=377580, lcm(29..32)=431520, ratio=1.1429
+  n=29: lcm(29..32)=431520, lcm(30..33)=163680, ratio=0.3793
+
+=== Extended search for k=3,4,5 up to n=10000 ===
+  k=3: No collision up to n=10000
+  k=4: No collision up to n=10000
+  k=5: No collision up to n=10000

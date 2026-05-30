@@ -1,0 +1,55 @@
+=== Exact integer verification for small k ===
+k=1: lcm(1..2)=2 < 2*lcm(1..2)=4, ratio=0.500000
+k=2: lcm(1..4)=12 < 3*lcm(1..3)=18, ratio=0.666667
+k=3: lcm(1..6)=60 < 5*lcm(1..5)=300, ratio=0.200000
+k=4: lcm(1..10)=2520 < 7*lcm(1..7)=2940, ratio=0.857143
+k=5: lcm(1..12)=27720 < 11*lcm(1..11)=304920, ratio=0.090909
+k=6: lcm(1..16)=720720 < 13*lcm(1..13)=4684680, ratio=0.153846
+k=7: lcm(1..18)=12252240 < 17*lcm(1..17)=208288080, ratio=0.058824
+k=8: lcm(1..22)=232792560 < 19*lcm(1..19)=4423058640, ratio=0.052632
+k=9: lcm(1..28)=80313433200 < 23*lcm(1..23)=123147264240, ratio=0.652174
+k=10: lcm(1..30)=2329089562800 < 29*lcm(1..29)=67543597321200, ratio=0.034483
+k=11: lcm(1..36)=144403552893600 < 31*lcm(1..31)=2238255069850800, ratio=0.064516
+
+=== Deep analysis of k=4 case (p_k=7, p_{k+1}=11) ===
+Prime powers in (7, 10]: 8=2^3, 9=3^2
+lcm contribution of 8: factor of 2 (since 4=2^2 already in lcm(1..7))
+lcm contribution of 9: factor of 3 (since 3=3^1 already in lcm(1..7))
+Total ratio = 2*3 = 6
+p_k = 7
+Margin in log: log(7) - log(6) = 0.154151
+
+=== Analysis: prime powers in gaps and their product ===
+Using 664579 primes up to 10M
+Checked 664578 pairs
+Violations: 0
+Minimum margin: 0.15415068 at k=4, p_k=7, p_{k+1}=11, gap=4
+
+All cases with margin < 0.5:
+  margin=0.154151, k=4, p_k=7, p_{k+1}=11, gap=4, prime_powers=[8, 9]
+  margin=0.405465, k=2, p_k=3, p_{k+1}=5, gap=2, prime_powers=[4]
+  margin=0.427444, k=9, p_k=23, p_{k+1}=29, gap=6, prime_powers=[25, 27]
+
+=== Margin trend for large primes ===
+Sample of (p_k, margin) for large primes:
+  p_k= 1299721, margin=14.0777
+  p_k= 1370461, margin=14.1307
+  p_k= 1441051, margin=14.1809
+  p_k= 1511563, margin=14.2287
+  p_k= 1583591, margin=14.2752
+  p_k= 1655141, margin=14.3194
+  p_k= 1726951, margin=14.3619
+  p_k= 1798987, margin=14.4027
+  p_k= 1870669, margin=14.4418
+  p_k= 1942751, margin=14.4796
+  p_k= 2015179, margin=14.5162
+  p_k= 2088139, margin=14.5518
+  p_k= 2160563, margin=14.5859
+  p_k= 2234143, margin=14.6194
+  p_k= 2307233, margin=14.6516
+  p_k= 2381149, margin=14.6831
+  p_k= 2454619, margin=14.7135
+  p_k= 2528419, margin=14.7431
+  p_k= 2601869, margin=14.7717
+  p_k= 2675921, margin=14.7998
+Min in sample: p_k=1299721, margin=14.077660

@@ -1,0 +1,38 @@
+\section{Erd\H{o}s \#242}
+
+\textbf{Problem.} The Erd\H{o}s--Straus conjecture: for every integer $n > 2$ there exist
+distinct positive integers $1 \le x < y < z$ such that
+\[
+  \frac{4}{n} = \frac{1}{x} + \frac{1}{y} + \frac{1}{z}.
+\]
+
+\textbf{What was attempted.} Four rounds of computation were run, each attempting to
+verify the conjecture by exhaustive search over $n$ in some initial segment of the
+integers.  The first approach looped over all admissible $(x,y)$ pairs with $z$ determined
+algebraically; it timed out before finishing $n = 3$ to $10^{6}$.  Subsequent rounds
+attempted to speed up the inner loop via parametric identities and a divisor-enumeration
+trick (exploiting the fact that, after fixing $x$, finding $y$ reduces to finding a
+divisor of a certain residual quantity).  A failed attempt to use \texttt{numpy} was
+also made.
+
+\textbf{What the computation showed.} The fastest successful run verified all $n$ from
+$3$ to $10{,}002$ in roughly $48$ seconds (Round~3) before hitting a time limit.
+Another run reached $n \approx 2{,}073$.  In every case a valid triple $(x,y,z)$ was
+found, and no counterexample was encountered.  Representative verified triples include
+$(1,4,12)$ for $n=3$ and $(8,121,14520)$ for $n=30$.
+
+\textbf{What went wrong or is inconclusive.} No run came close to the
+state-of-the-art verification threshold (currently beyond $10^{14}$).  The search
+reached at most $n \approx 10^{4}$, a range already covered by
+trivial hand-computation decades ago.  None of the ``fast'' parametric strategies
+proved sufficient to push the search to $n = 10^{6}$ within the time budget; each
+attempt either timed out or hit a runtime error.  Most importantly, finding triples
+for all tested $n$ is the \emph{expected baseline outcome}: the conjecture is verified
+for $n$ up to very large bounds in the literature, and no counterexample is known.
+A clean run to $10^{4}$ with no failures is entirely consistent with the conjecture
+remaining wide open; it constitutes no new mathematical information whatsoever.
+The conjecture is open because a \emph{proof} (or a counterexample) is lacking, not
+because verification data for small $n$ is lacking.
+
+\textbf{Verdict:} No counterexample found up to $n \approx 10^{4}$, fully consistent with
+the conjecture and with the existing literature; this is not progress on the open problem.

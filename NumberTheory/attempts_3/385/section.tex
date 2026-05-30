@@ -1,0 +1,16 @@
+\section{Erd\H{o}s \#385}
+
+\textbf{Problem.} Let $F(n) = \max_{\substack{m < n,\, m \text{ composite}}} (m + p(m))$, where $p(m)$ is the least prime divisor of $m$. Is $F(n) > n$ for all sufficiently large $n$, and does $F(n) - n \to \infty$?
+
+\textbf{What was attempted.} A linear sieve computed the least prime factor $p(m)$ for all $m \leq 5 \times 10^5$. The running maximum of $m + p(m)$ over composites $m < n$ was tracked to form $F(n)$, and the gap $F(n) - n$ was recorded for all $n$ in that range, with window-wise minima examined for a growth trend.
+
+\textbf{What the computation showed.} For small $n$ (roughly $n \leq 60$), ties $F(n) = n$ occur repeatedly, e.g.\ $F(6) = 6$, $F(8) = 8$, $F(12) = 12$. Beyond $n \approx 100$, no instance of $F(n) \leq n$ was observed up to $5 \times 10^5$. At sampled points the gap grows slowly:
+\begin{align*}
+F(10^3) - 10^3 &= 12, & F(10^4) - 10^4 &= 88,\\
+F(10^5) - 10^5 &= 230, & F(5\times 10^5) - 5\times 10^5 &= 286.
+\end{align*}
+Window-wise minima of $F(n)-n$ are erratic (dropping to $0$ or $1$ in early windows, then generally increasing but not monotonely), which complicates any clean growth claim.
+
+\textbf{What went wrong / why this is inconclusive.} The apparent positivity of $F(n)-n$ for $n \gtrsim 100$ and the rough upward drift of the gap are consistent with both conjectures, but nothing more. The range $n \leq 5 \times 10^5$ is far too small to distinguish slow logarithmic growth from eventual stagnation or reversal. No analytic bound was obtained; the sieve gives no information about whether $F(n) - n$ is eventually bounded or truly diverges. The window-wise minima are noisy enough that an apparent trend could easily be an artifact of the scale. A potential implementation concern also arose: the definition requires the maximum over composites $m < n$ (strict), and the code confirmed that $F(n) = n$ is possible for small $n$ (e.g.\ $n=6$, where the only composite below $6$ is $4$ and $4+2=6$), so the ``sufficiently large'' qualifier in the problem is essential and already accounted for.
+
+\textbf{Verdict:} No counterexample found up to $5 \times 10^5$, and $F(n)-n$ appears to grow, but this is entirely consistent with the conjecture and constitutes no progress on the open problem; the range is too small and no analytic argument was produced.

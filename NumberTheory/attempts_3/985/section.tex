@@ -1,0 +1,11 @@
+\section{Erdős \#985}
+
+\textbf{Problem.} Is it true that for every prime $p$, there exists a prime $q < p$ that is a primitive root modulo $p$?
+
+\textbf{What was attempted.} For each odd prime $p$, the smallest prime $q < p$ that generates $(\mathbb{Z}/p\mathbb{Z})^*$ was located by testing primality and the standard primitive-root criterion: $a$ is a primitive root mod $p$ iff $a^{(p-1)/r} \not\equiv 1 \pmod{p}$ for every prime factor $r$ of $p-1$. The search covered all primes up to $N = 10^7$ (664\,578 primes checked).
+
+\textbf{What the computation showed.} No counterexample was found. The smallest prime primitive root grew very slowly in absolute terms: the largest recorded value was $q = 211$ at $p = 4\,022\,911$, and the ratio $q/p$ decreased monotonically, reaching below $10^{-4}$ for large $p$. The distribution of smallest prime primitive roots up to $p = 10^6$ was heavily concentrated on small primes (2 accounted for roughly $39\%$ of cases, and the top five primes $\{2,3,5,7,11\}$ together covered about $92\%$).
+
+\textbf{What went wrong / what is inconclusive.} The computation is purely a finite verification. The conjecture is expected to follow from Artin's conjecture on primitive roots (itself conditional on GRH) together with standard sieve estimates, but neither is proven unconditionally. Finding no counterexample below $10^7$ is exactly the outcome one would expect whether the conjecture is true or false-but-with-first-counterexample-far-beyond-this-range; it provides no new theoretical insight, no bound on the size of the smallest prime primitive root, and no structural argument. The run also encountered a missing \texttt{sympy} dependency in round 1, delaying the search by one round, though this was cleanly resolved with a standard-library reimplementation.
+
+\textbf{Verdict:} No counterexample found up to $p < 10^7$, consistent with the conjecture but constituting no progress on the open problem.

@@ -1,0 +1,57 @@
+Runs of consecutive gcd=1 cases (start, end, length):
+  n=1..5, length=5
+  n=9..17, length=9
+  n=27..32, length=6
+  n=49..53, length=5
+  n=88..99, length=12
+  n=125..155, length=31
+  n=243..271, length=29
+  n=289..293, length=5
+  n=361..362, length=2
+  n=484..485, length=2
+  n=841..846, length=6
+  n=968..1066, length=99
+  n=1164..1165, length=2
+  n=1331..1331, length=1
+  n=1369..1457, length=89
+  n=2401..2499, length=99
+  n=3125..3378, length=254
+  n=3488..3659, length=172
+  n=3721..3992, length=272
+
+Checking relation to prime squares:
+  Run [1..5] len=5: prev prime sq = 2^2=4, diff=-3
+  Run [9..17] len=9: prev prime sq = 3^2=9, diff=0
+  Run [27..32] len=6: prev prime sq = 5^2=25, diff=2
+  Run [49..53] len=5: prev prime sq = 7^2=49, diff=0
+  Run [88..99] len=12: prev prime sq = 7^2=49, diff=39
+  Run [125..155] len=31: prev prime sq = 11^2=121, diff=4
+  Run [243..271] len=29: prev prime sq = 13^2=169, diff=74
+  Run [289..293] len=5: prev prime sq = 17^2=289, diff=0
+  Run [361..362] len=2: prev prime sq = 19^2=361, diff=0
+  Run [484..485] len=2: prev prime sq = 19^2=361, diff=123
+  Run [841..846] len=6: prev prime sq = 29^2=841, diff=0
+  Run [968..1066] len=99: prev prime sq = 31^2=961, diff=7
+  Run [1164..1165] len=2: prev prime sq = 31^2=961, diff=203
+  Run [1331..1331] len=1: prev prime sq = 31^2=961, diff=370
+  Run [1369..1457] len=89: prev prime sq = 37^2=1369, diff=0
+  Run [2401..2499] len=99: prev prime sq = 47^2=2209, diff=192
+  Run [3125..3378] len=254: prev prime sq = 53^2=2809, diff=316
+  Run [3488..3659] len=172: prev prime sq = 59^2=3481, diff=7
+  Run [3721..3992] len=272: prev prime sq = 61^2=3721, diff=0
+
+GCD just before each gcd=1 run:
+  Run [9..17]: gcd[8]=3, gcd[18]=3
+  Run [27..32]: gcd[26]=3, gcd[33]=11
+  Run [49..53]: gcd[48]=7, gcd[54]=3
+  Run [88..99]: gcd[87]=11, gcd[100]=25
+  Run [125..155]: gcd[124]=25, gcd[156]=13
+  Run [243..271]: gcd[242]=3, gcd[272]=17
+  Run [289..293]: gcd[288]=17, gcd[294]=49
+  Run [361..362]: gcd[360]=19, gcd[363]=11
+  Run [484..485]: gcd[483]=11, gcd[486]=3
+  Run [841..846]: gcd[840]=29, gcd[847]=121
+  Run [968..1066]: gcd[967]=121, gcd[1067]=97
+  Run [1164..1165]: gcd[1163]=97, gcd[1166]=53
+  Run [1331..1331]: gcd[1330]=121, gcd[1332]=37
+  Run [1369..1457]: gcd[1368]=37, gcd[1458]=3

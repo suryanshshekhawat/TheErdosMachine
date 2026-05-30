@@ -1,5 +1,0 @@
-[stderr]
-Traceback (most recent call last):
-  File "C:\Users\shekh\OneDrive - The University of Sydney (Students)\Desktop\TheErdosProject\TheErdosMachine\NumberTheory\attempts\458\snippet.py", line 1, in <module>
-    from sympy import primerange, nextprime
-ModuleNotFoundError: No module named 'sympy'

@@ -1,0 +1,62 @@
+Building sieve up to 10000000...
+Checking 664578 primes up to 10000000...
+  Progress: 100000/664578, failures: 0, max_q so far: 149 at p=190321
+  Progress: 200000/664578, failures: 0, max_q so far: 151 at p=2080597
+  Progress: 300000/664578, failures: 0, max_q so far: 211 at p=4022911
+  Progress: 400000/664578, failures: 0, max_q so far: 211 at p=4022911
+  Progress: 500000/664578, failures: 0, max_q so far: 211 at p=4022911
+  Progress: 600000/664578, failures: 0, max_q so far: 211 at p=4022911
+
+Total primes checked: 664578
+Failures: []
+Largest smallest-prime-prim-root: q=211 at p=4022911
+
+Record-setters for largest q (in order found):
+  p=3, q=2, ratio=0.666667
+  p=7, q=3, ratio=0.428571
+  p=23, q=5, ratio=0.217391
+  p=41, q=7, ratio=0.170732
+  p=109, q=11, ratio=0.100917
+  p=191, q=19, ratio=0.099476
+  p=271, q=43, ratio=0.158672
+  p=2791, q=53, ratio=0.018990
+  p=11971, q=79, ratio=0.006599
+  p=31771, q=107, ratio=0.003368
+  p=190321, q=149, ratio=0.000783
+  p=2080597, q=151, ratio=0.000073
+  p=3545281, q=163, ratio=0.000046
+  p=4022911, q=211, ratio=0.000052
+
+Distribution of smallest prime primitive root (up to p=1M):
+  q=2: 29341 primes
+  q=3: 17814 primes
+  q=5: 10882 primes
+  q=7: 6841 primes
+  q=11: 4484 primes
+  q=13: 2961 primes
+  q=17: 1910 primes
+  q=19: 1281 primes
+  q=23: 922 primes
+  q=29: 603 primes
+  q=31: 445 primes
+  q=37: 300 primes
+  q=41: 205 primes
+  q=43: 157 primes
+  q=47: 100 primes
+  q=53: 79 primes
+  q=59: 51 primes
+  q=61: 45 primes
+  q=67: 20 primes
+  q=71: 15 primes
+  q=73: 13 primes
+  q=79: 9 primes
+  q=83: 5 primes
+  q=89: 1 primes
+  q=97: 4 primes
+  q=101: 1 primes
+  q=103: 1 primes
+  q=107: 2 primes
+  q=109: 2 primes
+  q=127: 1 primes
+  q=139: 1 primes
+  q=149: 1 primes

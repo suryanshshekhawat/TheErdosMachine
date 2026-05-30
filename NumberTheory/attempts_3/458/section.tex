@@ -1,0 +1,19 @@
+\section{Erdős \#458}
+
+\textbf{Problem.} Is it true that for all $k \geq 1$, $[1,\ldots,p_{k+1}-1] < p_k \cdot [1,\ldots,p_k]$, where $[\cdot]$ denotes the least common multiple?
+
+\textbf{What was attempted.} The inequality was checked computationally for all $k$ with $p_k \leq 10^7$ (roughly $664{,}578$ consecutive prime pairs) by working in log-space to avoid arithmetic overflow. Specifically, using the identity
+\[
+\log \mathrm{lcm}(1,\ldots,n) = \sum_{p^a \leq n} \log p,
+\]
+the inequality was rewritten as
+\[
+\log[1,\ldots,p_{k+1}-1] \;<\; \log p_k + \log[1,\ldots,p_k],
+\]
+and both sides were accumulated incrementally via a prime-power sieve.
+
+\textbf{What the computation showed.} No counterexample was found. The minimum margin $\log p_k - \log\!\bigl([1,\ldots,p_{k+1}-1]/[1,\ldots,p_k]\bigr)$ was $\approx 0.1542$, attained uniquely at $k=4$ ($p_k=7$, $p_{k+1}=11$), explained exactly by the prime powers $8=2^3$ and $9=3^2$ in the gap: the lcm ratio is $2\cdot 3=6$ versus $p_k=7$. The next closest cases are $k=2$ (margin $\approx 0.405$) and $k=9$ (margin $\approx 0.427$). Beyond these small cases, margins grow and no structurally dangerous cluster was identified within the search range.
+
+\textbf{What went wrong or is inconclusive.} Nothing went wrong technically, but the result is purely a finite verification. The problem is open precisely because no proof is known for all $k$; finding no counterexample up to $p_k \approx 10^7$ is entirely consistent with the conjecture being either true or false for some large $k$ governed by an anomalously large prime gap. The observation that the minimum margin occurs at $k=4$ and margins appear to grow on average is heuristically encouraging but constitutes no progress toward a proof: the conjecture depends on the distribution of prime powers within prime gaps, a topic far beyond the reach of finite search.
+
+\textbf{Verdict:} No counterexample found for $p_k \leq 10^7$; result is consistent with the conjecture but provides no theoretical progress on this open problem.

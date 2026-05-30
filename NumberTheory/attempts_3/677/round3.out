@@ -1,0 +1,13 @@
+=== Extended search k=3..8 up to n=100000 ===
+  k=3: No collision up to n=100000
+  k=4: No collision up to n=100000
+  k=5: No collision up to n=100000
+  k=6: No collision up to n=100000
+  k=7: No collision up to n=100000
+  k=8: No collision up to n=100000
+
+=== Near misses for k=4 (equal LCM, m < n+k) ===
+Total equal-LCM pairs (any m>n) for k=4 up to n=50000: 1
+Examples (sorted by gap):
+  n=1, m=2, gap=1, need gap>=4, lcm=60
+  Max gap achieved: 1 (need k=4)
